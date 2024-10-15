@@ -424,10 +424,10 @@ KEY_MARKET_RESTROOM_FRONTDOOR_NAME = "Llave del baño del mercado";
 KEY_MARKET_RESTROOM_FRONTDOOR_DESC = "Llave del baño público en Market District. Bastante mal.";
 
 KEY_MARKET_MANOR_2_FRONTDOOR_NAME = "Llave de la mansión de Lord Marwyn";
-KEY_MARKET_MANOR_2_FRONTDOOR_DESC = "Llave de la puerta de entrada de una mansión en Market District. El nombre "Lord Marwyn" está inscrito en la cabeza.";
+KEY_MARKET_MANOR_2_FRONTDOOR_DESC = "Llave de la puerta de entrada de una mansión en Market District. El nombre <Lord Marwyn> está inscrito en la cabeza.";
 
 KEY_MARKET_MANOR_3_FRONTDOOR_NAME = "Llave frontal de la mansión de Lord Kar";
-KEY_MARKET_MANOR_3_FRONTDOOR_DESC = "Llave de la puerta de entrada de una mansión en Market District. El nombre "Lord Kar" está inscrito en la cabeza.";
+KEY_MARKET_MANOR_3_FRONTDOOR_DESC = "Llave de la puerta de entrada de una mansión en Market District. El nombre <Lord Kar> está inscrito en la cabeza.";
 
 KEY_UNDERPORT_ENTRANCE_NAME = "Llave de la puerta de entrada al subpuerto";
 KEY_UNDERPORT_ENTRANCE_DESC = "Llave de la puerta de entrada al puerto subterráneo en Market District.";
