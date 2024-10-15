@@ -346,3 +346,32 @@ KEY_BREAK = "Romper";
 KEY_MENU = "Menú";
 INTRO_NEWBLOOD = "New Blood Interactive\npresenta";
 INTRO_DEVELOPERS = "Un juego de\nDillon Rogers y David Szymanski";
+
+//First Menu Screen
+Text_TMP_New_Game = "Juego Nuevo";
+Text_TMP_Load_Game = "Cargar";
+Text_TMP_Settings = "Ajustes";
+Text_TMP_Quit_Game = "Salir";
+
+//Underport Menu Screen
+Label_new_game = = "Juego Nuevo";
+Label_load = "Cargar";
+Label_settings = "Ajustes";
+Label_quit = "Salir";
+
+
+Header_Text_Status = "Estado";
+Header_Text_Documents = "Documentos";
+Header_Text_Maps = "Mapas";
+Header_Text_Keys = "Llaves";
+
+//Loading Screen
+LoadingText_Loading = "<size=90%>Cargando...";
+
+
+Status_Label_Health = "Estado";
+Status_Text_Condition = "Estado";
+Status_Label_Mind = "Inteligencia";
+Status_Text_Fine = "Bien";
+Status_Label_Effects = "Efectos";
+Status_Label_Conditions = "Estados";

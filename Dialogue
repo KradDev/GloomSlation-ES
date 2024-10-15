@@ -351,34 +351,34 @@ VO_WOODSMAN_CON_UNDERPORT_WATCHDOG_2 = "Probablemente también tenga algo escond
 // Fishdog
 
 AI_FISHDOG_ID				= "Fishdog";
-SFX_FISHDOG_BARK_1			= "*Bark*";
-SFX_FISHDOG_BARK_2			= "*Bark*";
-SFX_FISHDOG_BARK_3			= "*Bark*";
-SFX_FISHDOG_EAT_1			= "*Chew*";
-SFX_FISHDOG_EAT_2			= "*Chew*";
-SFX_FISHDOG_EAT_3			= "*Chew*";
-SFX_FISHDOG_GROWL			= "*Growl*";
-SFX_FISHDOG_HOWL			= "*Howl*";
+SFX_FISHDOG_BARK_1			= "*Ladrar*";
+SFX_FISHDOG_BARK_2			= "*Ladrar*";
+SFX_FISHDOG_BARK_3			= "*Ladrar*";
+SFX_FISHDOG_EAT_1			= "*Masticar*";
+SFX_FISHDOG_EAT_2			= "*Masticar*";
+SFX_FISHDOG_EAT_3			= "*Masticar*";
+SFX_FISHDOG_GROWL			= "*Gruñido*";
+SFX_FISHDOG_HOWL			= "*Aullido*";
 SFX_FISHDOG_SNIFF_1			= "*Sniff*";
 SFX_FISHDOG_SNIFF_2			= "*Sniff*";
 SFX_FISHDOG_SNIFF_3			= "*Sniff*";
-SFX_FISHDOG_BITE_ACTIVE		= "*Bite*";
-SFX_FISHDOG_PAIN			= "*Whine*";
-SFX_FISHDOG_DEATH_LOUD		= "*Whimper*";
+SFX_FISHDOG_BITE_ACTIVE		= "*Morder*";
+SFX_FISHDOG_PAIN			= "*Gimoteo*";
+SFX_FISHDOG_DEATH_LOUD		= "*Gemido*";
 
 //-------------------------------------------------------------
 // Goatman
 
 AI_GOATMAN_ID				= "Goatman";
-SFX_GOATMAN_ALERT_ONE		= "*Muttering*";
-SFX_GOATMAN_ALERT_TWO		= "*Unintelligible*";
-SFX_GOATMAN_ALERT_THREE		= "*Roar*";
+SFX_GOATMAN_ALERT_ONE		= "*Murmullo*";
+SFX_GOATMAN_ALERT_TWO		= "*Ininteligible*";
+SFX_GOATMAN_ALERT_THREE		= "*Rugido*";
 SFX_GOATMAN_SNARL			= "*Snarl*";
 SFX_GOATMAN_GRUNT_1			= "*Grunt*";
 SFX_GOATMAN_GRUNT_2			= "*Grunt*";
 SFX_GOATMAN_PAIN			= "*Flinch*";
-SFX_GOATMAN_ROAR			= "*Roar*";
-SFX_GOATMAN_ROAR_FAR		= "*Distant Roar*";
+SFX_GOATMAN_ROAR			= "*Rugido*";
+SFX_GOATMAN_ROAR_FAR		= "*Rugido distante*";
 SFX_GOATMAN_DEATH			= "*Croak*";
 
 //-------------------------------------------------------------

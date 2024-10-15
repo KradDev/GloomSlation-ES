@@ -3,7 +3,7 @@ NONE							= "None";
 
 // Item Slots
 SLOT_MELEE						= "Melee";
-SLOT_OFFHAND					= "Offhand";
+SLOT_OFFHAND					= "Segunda mano";
 SLOT_HEAD						= "Cabeza";
 SLOT_EYE						= "Ojo";
 SLOT_RING						= "Anillo";
@@ -23,488 +23,472 @@ SHOP_SOLDOUT					= "¡Agotado!";
 // Item Actions
 ITEM_EQUIP						= "Equipar";
 ITEM_UNEQUIP					= "Desequipar";
-ITEM_DRAW						= "Dibujar";
+ITEM_DRAW						= "Aplicar";
 ITEM_USE						= "Usar";
 ITEM_EXAMINE					= "Examinar";
 ITEM_HOLD						= "Sostener";
 ITEM_UNLOAD						= "Descargar";
-ITEM_SPLIT						= "Unpack";
+ITEM_SPLIT						= "Dividir";
 ITEM_DROP						= "Dejar";
 ITEM_QUANTITY					= "Cantidad";
-ITEM_LOADEDTYPE					= "Ammo Type";
-ITEM_LOADEDQUANTITY				= "Ammo Count";
+ITEM_LOADEDTYPE					= "Tipo de munición";
+ITEM_LOADEDQUANTITY				= "Conteo de munición";
 
 // Item Action Names
-ITEM_INJECT						= "Inject";
+ITEM_INJECT						= "Inyectar";
 ITEM_OPEN						= "Abrir";
 ITEM_EAT						= "Gorge";
-ITEM_DRINK						= "Quaff";
-ITEM_READ						= "Read";
+ITEM_DRINK						= "Beber a grandes tragos";
+ITEM_READ						= "Leer";
 ITEM_ZOOM						= "Zoom";
 
 ACTIVATE_FULLHEALTH				= "At Max Health";
 ACTIVATE_FULLINVENTORY			= "Cannot Carry Any More of That";
-ACTIVATE_SAVEGAME				= "Save Game";
+ACTIVATE_SAVEGAME				= "Guardar juego";
 
 // Item groups
-ITEMGROUP_ALL					= "All";
-ITEMGROUP_EQUIPMENT				= "Equipment";
-ITEMGROUP_CONSUMABLES			= "Consumables";
-ITEMGROUP_FOOD					= "Food";
-ITEMGROUP_WEAPONS				= "Weapons";
-ITEMGROUP_AMMO					= "Ammo";
-ITEMGROUP_KEYS					= "Keys";
-ITEMGROUP_CURRENCY				= "Currency";
-ITEMGROUP_NOTES					= "Notes";
+ITEMGROUP_ALL					= "Todo";
+ITEMGROUP_EQUIPMENT				= "Equipo";
+ITEMGROUP_CONSUMABLES			= "Consumibles";
+ITEMGROUP_FOOD					= "Alimento";
+ITEMGROUP_WEAPONS				= "Armas";
+ITEMGROUP_AMMO					= "Munición";
+ITEMGROUP_KEYS					= "Llaves";
+ITEMGROUP_CURRENCY				= "Divisa";
+ITEMGROUP_NOTES					= "Notas";
 
 // Items
-ITEM_BACKPACK_NAME				= "Backpack";
-ITEM_BACKPACK_DESC				= "A bag to carry all your items in";
+ITEM_BACKPACK_NAME = "Mochila";
+ITEM_BACKPACK_DESC = "Una bolsa para llevar todos tus objetos";
 
-ITEM_BLOODVIAL_NAME				= "Blood Vial";
-ITEM_BLOODVIAL_DESC				= "A sampling of the doctor's blood to test for trauma, toxins and illnesses.";
+ITEM_BLOODVIAL_NAME = "Vial de sangre";
+ITEM_BLOODVIAL_DESC = "Una muestra de sangre del médico para detectar traumatismos, toxinas y enfermedades.";
 
-ITEM_JOURNAL_NAME				= "Journal";
-ITEM_JOURNAL_DESC				= "A journal containing various notes, documents and maps of the city.";
+ITEM_JOURNAL_NAME = "Diario";
+ITEM_JOURNAL_DESC = "Un diario que contiene diversas notas, documentos y mapas de la ciudad.";
 
-ITEM_HANDLANTERN_NAME			= "Handlantern";
-ITEM_HANDLANTERN_DESC			= "An electrical handlantern that can illuminate the darkness at the cost of high visibility. Local steamboat captains rumor that such lamps can repel the ghostly fog that seeps in from the sea.";
+ITEM_HANDLANTERN_NAME = "Linterna de mano";
+ITEM_HANDLANTERN_DESC = "Una linterna de mano eléctrica que puede iluminar la oscuridad a costa de una alta visibilidad. Los capitanes de los barcos de vapor locales rumorean que estas lámparas pueden repeler la niebla fantasmal que se filtra desde el mar.";
 
-ITEM_HANDLANTERN_BROKEN_NAME	= "Broken Handlantern";
-ITEM_HANDLANTERN_BROKEN_DESC	= "A broken electrical handlantern. Not much use for it now.";
+ITEM_HANDLANTERN_BROKEN_NAME = "Linterna de mano rota";
+ITEM_HANDLANTERN_BROKEN_DESC = "Una linterna eléctrica rota. No le sirve de mucho ahora.";
 
-ITEM_LIGHTGEMRING_NAME			= "Light Gem Ring";
-ITEM_LIGHTGEMRING_DESC			= "A ring with a crystal that reacts to nearby light.";
+ITEM_LIGHTGEMRING_NAME = "Anillo de gema ligera";
+ITEM_LIGHTGEMRING_DESC = "Un anillo con un cristal que reacciona a la luz cercana.";
 
-ITEM_KEYRING_NAME				= "Key Ring";
-ITEM_KEYRING_DESC				= "A ring that contains all of your found keys.";
+ITEM_KEYRING_NAME = "Llavero";
+ITEM_KEYRING_DESC = "Un anillo que contiene todas las llaves encontradas.";
 
-ITEM_MEDHYPO_NAME				= "Vitalizing Tonic";
-ITEM_MEDHYPO_DESC				= "A hypodermic syringe containing a concoction of strong analgesics and anticoagulants. The tincture's signature glow comes from a native herb in the southern swamplands.";
+ITEM_MEDHYPO_NAME = "Tónico Vitalizante";
+ITEM_MEDHYPO_DESC = "Una jeringa hipodérmica que contiene una mezcla de analgésicos y anticoagulantes fuertes. El brillo característico de la tintura proviene de una hierba nativa de los pantanos del sur.";
 
-ITEM_MEDKIT_NAME				= "Medikit";
-ITEM_MEDKIT_DESC				= "Fully restores health";
+ITEM_MEDKIT_NAME = "botiquín";
+ITEM_MEDKIT_DESC = "Restaura completamente la salud";
 
-ITEM_MONOCLE_NAME				= "Monocle";
-ITEM_MONOCLE_DESC				= "Has an extendable lens for zooming";
+ITEM_MONOCLE_NAME = "Monóculo";
+ITEM_MONOCLE_DESC = "Tiene una lente extensible para hacer zoom.";
 
-ITEM_MUSICBOX_NAME				= "Music Box";
-ITEM_MUSICBOX_DESC				= "Wind handle to save the game";
+ITEM_MUSICBOX_NAME = "Caja de música";
+ITEM_MUSICBOX_DESC = "Mango de viento para guardar el juego.";
 
-ITEM_WAXCYLINDER_NAME			= "Wax Cylinder";
-ITEM_WAXCYLINDER_DESC			= "A wax cylinder for the Phonograph. Used to save the current progress. Consumed when used.";
+ITEM_WAXCYLINDER_NAME = "Cilindro de cera";
+ITEM_WAXCYLINDER_DESC = "Un cilindro de cera para el fonógrafo. Se utiliza para guardar el progreso actual. Consumido cuando se usa.";
 
 // Food
-ITEM_CHEESE_NAME				= "Cheese Wheel";
-ITEM_CHEESE_DESC				= "A strong scented cheese wheel. The majority of the region's dairy comes from nose-horned goats that migrated from the eastern mountains.";
+ITEM_CHEESE_NAME = "Rueda de queso";
+ITEM_CHEESE_DESC = "Una rueda de queso con un aroma fuerte. La mayor parte de la producción lechera de la región proviene de cabras con cuernos de nariz que emigraron de las montañas orientales.";
 
-ITEM_APPLE_NAME					= "Apple";
-ITEM_APPLE_DESC					= "A somewhat moldy apple.";
+ITEM_APPLE_NAME = "Manzana";
+ITEM_APPLE_DESC = "Una manzana algo mohosa.";
 
-ITEM_BREADLOAF_1_NAME           = "Bread Loaf";
-ITEM_BREADLOAF_1_DESC           = "A stale loaf of bread.";
+ITEM_BREADLOAF_1_NAME = "Pan De Pan";
+ITEM_BREADLOAF_1_DESC = "Una barra de pan duro.";
 
-ITEM_BREADLOAF_1_HALF_NAME      = "Bread Half-Loaf";
-ITEM_BREADLOAF_1_HALF_DESC      = "A stale half-loaf of bread.";
+ITEM_BREADLOAF_1_HALF_NAME = "Pan Media Barra";
+ITEM_BREADLOAF_1_HALF_DESC = "Media barra de pan rancia.";
 
-ITEM_BREADLOAF_1_SLICE_NAME     = "Bread Slice";
-ITEM_BREADLOAF_1_SLICE_DESC     = "A stale slice of bread.";
+ITEM_BREADLOAF_1_SLICE_NAME = "Rebanada de pan";
+ITEM_BREADLOAF_1_SLICE_DESC = "Una rebanada de pan duro.";
 
-ITEM_CARROT_1_NAME              = "Carrot";
-ITEM_CARROT_1_DESC              = "An old carrot.";
+ITEM_CARROT_1_NAME = "Zanahoria";
+ITEM_CARROT_1_DESC = "Una zanahoria vieja.";
 
-ITEM_CARROT_1_CHOPPED_NAME      = "Chopped Carrot";
-ITEM_CARROT_1_CHOPPED_DESC      = "An old chopped carrot.";
+ITEM_CARROT_1_CHOPPED_NAME = "Zanahoria picada";
+ITEM_CARROT_1_CHOPPED_DESC = "Una zanahoria vieja picada.";
 
-ITEM_CARROT_2_NAME              = "Carrot";
-ITEM_CARROT_2_DESC              = "An old carrot.";
+ITEM_CARROT_2_NAME = "Zanahoria";
+ITEM_CARROT_2_DESC = "Una zanahoria vieja.";
 
-ITEM_CARROT_3_NAME              = "Carrot";
-ITEM_CARROT_3_DESC              = "An old carrot.";
+ITEM_CARROT_3_NAME = "Zanahoria";
+ITEM_CARROT_3_DESC = "Una zanahoria vieja.";
 
-ITEM_CHEESE_WEDGE_1_NAME        = "Cheese Wedge";
-ITEM_CHEESE_WEDGE_1_DESC        = "A strong scented cheese wedge.  The majority of the region's dairy comes from nose-horned goats that migrated from the eastern mountains.";
+ITEM_CHEESE_WEDGE_1_NAME = "Cuña De Queso";
+ITEM_CHEESE_WEDGE_1_DESC = "Una rodaja de queso con un fuerte aroma.  La mayor parte de la producción lechera de la región proviene de cabras con cuernos de nariz que emigraron de las montañas orientales.";
 
-ITEM_CORNCOB_1_NAME             = "Corn Cob";
-ITEM_CORNCOB_1_DESC             = "An old corn cob.";
+ITEM_CORNCOB_1_NAME = "Elote";
+ITEM_CORNCOB_1_DESC = "Una vieja mazorca de maíz.";
 
-ITEM_DRIEDPEPPER_1_NAME         = "Dried Pepper";
-ITEM_DRIEDPEPPER_1_DESC         = "A dried pepper. Spicy.";
+ITEM_DRIEDPEPPER_1_NAME = "Pimiento Seco";
+ITEM_DRIEDPEPPER_1_DESC = "Un pimiento seco. Picante.";
 
-ITEM_DRIEDPEPPER_2_NAME         = "Dried Pepper";
-ITEM_DRIEDPEPPER_2_DESC         = "A dried pepper. Spicy.";
+ITEM_DRIEDPEPPER_2_NAME = "Pimiento Seco";
+ITEM_DRIEDPEPPER_2_DESC = "Un pimiento seco. Picante.";
 
-ITEM_MEAT_BRAIN_1_NAME          = "Brain";
-ITEM_MEAT_BRAIN_1_DESC          = "The brain of some unlucky creature. It smells sour.";
+ITEM_MEAT_BRAIN_1_NAME = "Cerebro";
+ITEM_MEAT_BRAIN_1_DESC = "El cerebro de alguna criatura desafortunada. Huele agrio.";
 
-ITEM_MEAT_OFFAL_1_NAME          = "Offal";
-ITEM_MEAT_OFFAL_1_DESC          = "A pile of braised intestines and organs of unknown origin.";
+ITEM_MEAT_OFFAL_1_NAME = "Menudencias";
+ITEM_MEAT_OFFAL_1_DESC = "Un montón de intestinos estofados y órganos de origen desconocido.";
 
-ITEM_MEAT_SALAMI_SLICE_1_NAME   = "Salami Slice";
-ITEM_MEAT_SALAMI_SLICE_1_DESC   = "A slice of cured salami.";
+ITEM_MEAT_SALAMI_SLICE_1_NAME = "Rebanada de salami";
+ITEM_MEAT_SALAMI_SLICE_1_DESC = "Una loncha de salami curado.";
 
-ITEM_MEAT_SALAMI_SLICE_2_NAME   = "Salami Slice";
-ITEM_MEAT_SALAMI_SLICE_2_DESC   = "A slice of cured salami.";
+ITEM_MEAT_SALAMI_SLICE_2_NAME = "Rebanada de salami";
+ITEM_MEAT_SALAMI_SLICE_2_DESC = "Una loncha de salami curado.";
 
-ITEM_MEAT_SALAMI_SLICE_3_NAME   = "Salami Slice";
-ITEM_MEAT_SALAMI_SLICE_3_DESC   = "A slice of cured salami.";
+ITEM_MEAT_SALAMI_SLICE_3_NAME = "Rebanada de salami";
+ITEM_MEAT_SALAMI_SLICE_3_DESC = "Una loncha de salami curado.";
 
-ITEM_MEAT_SALAMI_SLICE_4_NAME   = "Salami Slice";
-ITEM_MEAT_SALAMI_SLICE_4_DESC   = "A slice of cured salami.";
+ITEM_MEAT_SALAMI_SLICE_4_NAME = "Rebanada de salami";
+ITEM_MEAT_SALAMI_SLICE_4_DESC = "Una loncha de salami curado.";
 
-ITEM_MUSHROOM_1_NAME            = "Mushroom";
-ITEM_MUSHROOM_1_DESC            = "An edible mushroom with a strong earthy scent.";
+ITEM_MUSHROOM_1_NAME = "Champiñón";
+ITEM_MUSHROOM_1_DESC = "Un hongo comestible con un fuerte aroma terroso.";
 
-ITEM_ONION_1_NAME               = "Onion";
-ITEM_ONION_1_DESC               = "An old onion.";
+ITEM_ONION_1_NAME = "Cebolla";
+ITEM_ONION_1_DESC = "Una cebolla vieja.";
 
-ITEM_POTATO_1_NAME              = "Potato";
-ITEM_POTATO_1_DESC              = "An old potato.";
+ITEM_POTATO_1_NAME = "Papa";
+ITEM_POTATO_1_DESC = "Una patata vieja.";
 
-ITEM_POTATO_2_NAME              = "Potato";
-ITEM_POTATO_2_DESC              = "An old potato.";
+ITEM_POTATO_2_NAME = "Papa";
+ITEM_POTATO_2_DESC = "Una patata vieja.";
 
-ITEM_POTATO_3_NAME              = "Potato";
-ITEM_POTATO_3_DESC              = "An old chopped potato.";
+ITEM_POTATO_3_NAME = "Papa";
+ITEM_POTATO_3_DESC = "Una patata vieja picada.";
 
-ITEM_POTATO_4_NAME              = "Potato";
-ITEM_POTATO_4_DESC              = "An old potato.";
+ITEM_POTATO_4_NAME = "Papa";
+ITEM_POTATO_4_DESC = "Una patata vieja.";
 
-ITEM_SALSIFY_1_NAME             = "Salsify";
-ITEM_SALSIFY_1_DESC             = "An old salsify, a root vegetable.";
+ITEM_SALSIFY_1_NAME = "Salsifí";
+ITEM_SALSIFY_1_DESC = "Un viejo salsifí, un tubérculo.";
 
-ITEM_SANDWICH_BRAIN_1_NAME      = "Brain Sandwich";
-ITEM_SANDWICH_BRAIN_1_DESC      = "A brain between two slices of bread. The thought of eating it makes your stomach churn.";
+ITEM_SANDWICH_BRAIN_1_NAME = "Sándwich de cerebro";
+ITEM_SANDWICH_BRAIN_1_DESC = "Un cerebro entre dos rebanadas de pan. La idea de comerlo te revuelve el estómago.";
 
-ITEM_TOAST_1_NAME               = "Toast";
-ITEM_TOAST_1_DESC               = "A stale slice of toast.";
+ITEM_TOAST_1_NAME = "Tostada";
+ITEM_TOAST_1_DESC = "Una tostada rancia.";
 
-ITEM_TOAST_2_NAME               = "Toast";
-ITEM_TOAST_2_DESC               = "A stale, halved slice of toast.";
+ITEM_TOAST_2_NAME = "Tostada";
+ITEM_TOAST_2_DESC = "Una tostada rancia partida por la mitad.";
 
-ITEM_LEVER_HANDLE_NAME			= "Lever Handle";
-ITEM_LEVER_HANDLE_DESC			= "A handle for a mechanical lever";
+ITEM_LEVER_HANDLE_NAME = "Manija de palanca";
+ITEM_LEVER_HANDLE_DESC = "Un mango para una palanca mecánica.";
 
 // Ammo
-ITEM_REVOLVERROUND_NAME			= "Revolver Cartridge";
-ITEM_REVOLVERROUND_DESC			= "A single, revolver cartridge. The casing appears to have been reused. May create a decent distraction in a pinch.";
+ITEM_REVOLVERROUND_NAME = "Cartucho de revólver";
+ITEM_REVOLVERROUND_DESC = "Un solo cartucho de revólver. La carcasa parece haber sido reutilizada. Puede crear una distracción decente en caso de apuro.";
 
-ITEM_REVOLVERROUNDSPENT_NAME	= "Spent Revolver Round";
-ITEM_REVOLVERROUNDSPENT_DESC	= "An empty, spent revolver casing. May suffice as an impromptu distraction in a pinch.";
+ITEM_REVOLVERROUNDSPENT_NAME = "Ronda de revólver gastada";
+ITEM_REVOLVERROUNDSPENT_DESC = "Un casquillo de revólver vacío y gastado. Puede ser suficiente como distracción improvisada en caso de apuro.";
 
-ITEM_REVOLVERROUNDBOX_NAME		= "Revolver Cartridges";
-ITEM_REVOLVERROUNDBOX_DESC		= "A worn, soggy box of common revolver cartridges. A faint marking of the Constabulary approval stamp is barely legible on the front.";
+ITEM_REVOLVERROUNDBOX_NAME = "Cartuchos de revólver";
+ITEM_REVOLVERROUNDBOX_DESC = "Una caja gastada y empapada de cartuchos de revólver comunes. En el frente apenas se puede leer una débil marca del sello de aprobación de la policía.";
 
-ITEM_SHOTGUNSHELL_NAME			= "Shotgun Shell";
-ITEM_SHOTGUNSHELL_DESC			= "A buckshot shell for the shotgun. May suffice as an impromptu distraction in a pinch.";
+ITEM_SHOTGUNSHELL_NAME = "Cartucho de escopeta";
+ITEM_SHOTGUNSHELL_DESC = "Un cartucho de perdigones para la escopeta. Puede ser suficiente como distracción improvisada en caso de apuro.";
 
-ITEM_SHOTGUNSHELLSPENT_NAME		= "Spent Shotgun Shell";
-ITEM_SHOTGUNSHELLSPENT_DESC		= "An empty, spent shell. May suffice as an impromptu distraction in a pinch.";
+ITEM_SHOTGUNSHELLSPENT_NAME = "Cartucho de escopeta gastado";
+ITEM_SHOTGUNSHELLSPENT_DESC = "Un caparazón vacío y gastado. Puede ser suficiente como distracción improvisada en caso de apuro.";
 
-ITEM_SHOTGUNSHELLBOX_NAME		= "Shotgun Shell Box";
-ITEM_SHOTGUNSHELLBOX_DESC		= "A decayed box of shotgun shells. Once outlawed in this region, shotgun ammunition returned to usage as the city relied more on game over imported goods.";
+ITEM_SHOTGUNSHELLBOX_NAME = "Caja de cartuchos de escopeta";
+ITEM_SHOTGUNSHELLBOX_DESC = "Una caja deteriorada de cartuchos de escopeta. Una vez prohibida en esta región, la munición de escopeta volvió a utilizarse a medida que la ciudad dependía más de la caza que de los productos importados.";
 
-ITEM_FLAREGUN_BATON_NAME		= "Baton Bolt";
-ITEM_FLAREGUN_BATON_DESC		= "A blunt, rubber-filled round for the Flare Pistol. Deals minimal damage, but can interact with buttons, shatter windows and break lightbulbs from a distance.";
+ITEM_FLAREGUN_BATON_NAME = "Perno de bastón";
+ITEM_FLAREGUN_BATON_DESC = "Una bala contundente y rellena de goma para la pistola de bengalas. Causa un daño mínimo, pero puede interactuar con botones, romper ventanas y romper bombillas desde la distancia.";
 
-ITEM_FLAREGUN_CHOKE_NAME		= "Choke Bolt";
-ITEM_FLAREGUN_CHOKE_DESC		= "A vapor-filled round for the Flare Pistol. Can extinguish fire sources and induce brief coughing fits in creatures.";
+ITEM_FLAREGUN_CHOKE_NAME = "Perno de estrangulamiento";
+ITEM_FLAREGUN_CHOKE_DESC = "Una bala llena de vapor para la pistola de bengalas. Puede extinguir fuentes de fuego e inducir breves ataques de tos en las criaturas.";
 
-ITEM_FLAREGUN_INCENDIARY_NAME	= "Incendiary Bolt";
-ITEM_FLAREGUN_INCENDIARY_DESC	= "A flammable round for the Flare Pistol. Can ignite objects and instantly combust explosive sources.";
+ITEM_FLAREGUN_INCENDIARY_NAME = "Rayo incendiario";
+ITEM_FLAREGUN_INCENDIARY_DESC = "Una bala inflamable para la pistola de bengalas. Puede encender objetos y quemar instantáneamente fuentes explosivas.";
 
-ITEM_FLAREGUN_FLARE_NAME		= "Flare Bolt";
-ITEM_FLAREGUN_FLARE_DESC		= "A flare round for the Flare Pistol. Illuminates the target area for a period of time. This effect may lure nearby creatures.";
+ITEM_FLAREGUN_FLARE_NAME = "Perno abocinado";
+ITEM_FLAREGUN_FLARE_DESC = "Una bala de bengalas para la pistola de bengalas. Ilumina el área objetivo durante un período de tiempo. Este efecto puede atraer a criaturas cercanas.";
 
-ITEM_FLAREGUN_SHOCK_NAME		= "Flash Bolt";
-ITEM_FLAREGUN_SHOCK_DESC		= "A blinding round for the Flare Pistol.";
+ITEM_FLAREGUN_SHOCK_NAME = "Rayo de destello";
+ITEM_FLAREGUN_SHOCK_DESC = "Una bala cegadora para la pistola de bengalas.";
 
-ITEM_GUNPOWDER_NAME				= "Gunpowder";
+ITEM_GUNPOWDER_NAME = "Pólvora";
 ITEM_GUNPOWDER_DESC				= "";
 
-ITEM_HARPOON_NAME			    = "Harpoon";
-ITEM_HARPOON_DESC			    = "A sharp harpoon that can burrow into certain surfaces.";
+ITEM_HARPOON_NAME = "Arpón";
+ITEM_HARPOON_DESC = "Un arpón afilado que puede penetrar determinadas superficies.";
 
 // Junk
-ITEM_BOTTLE_NAME				= "Glass Bottle";
-ITEM_BOTTLE_DESC				= "An empty, glass liquor bottle that is capable of creating a loud distraction. The faded label of the Ashbrew Brewery wraps the front.";
+ITEM_BOTTLE_NAME = "botella de vidrio";
+ITEM_BOTTLE_DESC = "Una botella de licor de vidrio vacía que es capaz de crear una fuerte distracción. La etiqueta descolorida de Ashbrew Brewery envuelve el frente.";
 
-ITEM_CAN_FISH_NAME				= "Can of Fish";
-ITEM_CAN_FISH_DESC				= "A can labeled with a 'Croup Fisheries' sticker. A salty, sickly smell emanates from the wrapper.";
+ITEM_CAN_FISH_NAME = "lata de pescado";
+ITEM_CAN_FISH_DESC = "Una lata etiquetada con una pegatina que dice <Pesca de cereales>. Del envoltorio emana un olor salado y repugnante.";
 
-ITEM_CAN_FISH_EMPTY_NAME		= "Can of Fish (Empty)";
-ITEM_CAN_FISH_EMPTY_DESC		= "An empty can labeled with a 'Croup Fisheries' sticker. The inside of the can is stained with a slimy residue.";
+ITEM_CAN_FISH_EMPTY_NAME = "Lata de Pescado (Vacía)";
+ITEM_CAN_FISH_EMPTY_DESC = "Una lata vacía etiquetada con una pegatina que dice <Pesca de cultivos>. El interior de la lata está manchado con un residuo viscoso.";
 
-ITEM_CAN_BEANS_NAME				= "Can of Beans";
-ITEM_CAN_BEANS_DESC				= "A can labeled with a 'Doctor Smithy's Pork and Beans' sticker. An unmistakable nostalgic scent eminates.";
+ITEM_CAN_BEANS_NAME = "lata de frijoles";
+ITEM_CAN_BEANS_DESC = "Una lata etiquetada con una pegatina que dice <Doctor Smithy's Pork and Beans>. Emite un inconfundible aroma nostálgico.";
 
-ITEM_CAN_BEANS_EMPTY_NAME		= "Can of Beans (Empty)";
-ITEM_CAN_BEANS_EMPTY_DESC		= "An empty can labeled with a 'Doctor Smithy's Pork and Beans' sticker. The only thing left inside is the pain of having nothing. It hurts.";
+ITEM_CAN_BEANS_EMPTY_NAME = "Lata de Frijoles (Vacía)";
+ITEM_CAN_BEANS_EMPTY_DESC = "Una lata vacía etiquetada con una pegatina que dice <Doctor Smithy's Pork and Beans>. Lo único que queda dentro es el dolor de no tener nada. Duele.";
 
-ITEM_RIFLE_BROKEN_NAME			= "Huntsmans' Rifle";
-ITEM_RIFLE_BROKEN_DESC			= "A makeshift, shoddy hunting rifle. The grips are built for the distorted proportions of the huntsmen and cannot be handled by average humans.";
+ITEM_RIFLE_BROKEN_NAME = "Rifle de cazador";
+ITEM_RIFLE_BROKEN_DESC = "Un rifle de caza improvisado y de mala calidad. Las empuñaduras están diseñadas para las proporciones distorsionadas de los cazadores y no pueden ser manejadas por humanos promedio.";
 
-ITEM_CORPSE_RAT_NAME = "RAT";
-ITEM_CORPSE_RAT_DESC = "A dead rat. It smells bloody awful.";
+ITEM_CORPSE_RAT_NAME = "RATA";
+ITEM_CORPSE_RAT_DESC = "Una rata muerta. Huele fatal.";
 
-ITEM_CORPSE_RAT_BLACK_NAME = "BLACK RAT";
-ITEM_CORPSE_RAT_BLACK_DESC = "A dead black rat. It smells bloody awful.";
+ITEM_CORPSE_RAT_BLACK_NAME = "RATA NEGRA";
+ITEM_CORPSE_RAT_BLACK_DESC = "Una rata negra muerta. Huele fatal.";
 
-ITEM_CORPSE_RAT_GRAY_1_NAME = "LIGHT GRAY RAT";
-ITEM_CORPSE_RAT_GRAY_1_DESC = "A dead light gray rat. It smells bloody awful.";
+ITEM_CORPSE_RAT_GRAY_1_NAME = "RATA GRIS CLARO";
+ITEM_CORPSE_RAT_GRAY_1_DESC = "Una rata muerta de color gris claro. Huele fatal.";
 
-ITEM_CORPSE_RAT_GRAY_2_NAME = "DARK GRAY RAT";
-ITEM_CORPSE_RAT_GRAY_2_DESC = "A dead dark gray rat. It smells bloody awful.";
+ITEM_CORPSE_RAT_GRAY_2_NAME = "RATA GRIS OSCURO";
+ITEM_CORPSE_RAT_GRAY_2_DESC = "Una rata muerta de color gris oscuro. Huele fatal.";
 
 // Giblets
-ITEM_GIBLET_WOODSMAN_HEAD_NAME		= "Woodsman Head";
-ITEM_GIBLET_WOODSMAN_HEAD_DESC		= "(Not Researched)";
+ITEM_GIBLET_WOODSMAN_HEAD_NAME = "Cabeza de leñador";
+ITEM_GIBLET_WOODSMAN_HEAD_DESC = "(No investigado)";
 
-ITEM_GIBLET_WOODSMAN_ARM_LEFT_NAME	= "Woodsman Arm (Left)";
-ITEM_GIBLET_WOODSMAN_ARM_LEFT_DESC	= "(Not Researched)";
+ITEM_GIBLET_WOODSMAN_ARM_LEFT_NAME = "Brazo de leñador (izquierdo)";
+ITEM_GIBLET_WOODSMAN_ARM_LEFT_DESC = "(No investigado)";
 
-ITEM_GIBLET_WOODSMAN_ARM_RIGHT_NAME	= "Woodsman Arm (Right)";
-ITEM_GIBLET_WOODSMAN_ARM_RIGHT_DESC	= "(Not Researched)";
+ITEM_GIBLET_WOODSMAN_ARM_RIGHT_NAME = "Brazo de leñador (derecho)";
+ITEM_GIBLET_WOODSMAN_ARM_RIGHT_DESC = "(No investigado)";
 
-ITEM_GIBLET_WOODSMAN_LEG_LEFT_NAME	= "Woodsman Leg (Left)";
-ITEM_GIBLET_WOODSMAN_LEG_LEFT_DESC	= "(Not Researched)";
+ITEM_GIBLET_WOODSMAN_LEG_LEFT_NAME = "Pierna de leñador (izquierda)";
+ITEM_GIBLET_WOODSMAN_LEG_LEFT_DESC = "(No investigado)";
 
-ITEM_GIBLET_WOODSMAN_LEG_RIGHT_NAME	= "Woodsman Leg (Right)";
-ITEM_GIBLET_WOODSMAN_LEG_RIGHT_DESC	= "(Not Researched)";
+ITEM_GIBLET_WOODSMAN_LEG_RIGHT_NAME = "Pierna de leñador (derecha)";
+ITEM_GIBLET_WOODSMAN_LEG_RIGHT_DESC = "(No investigado)";
 
-ITEM_GIBLET_HUNTSMAN_HEAD_NAME		= "Huntsman Head";
-ITEM_GIBLET_HUNTSMAN_HEAD_DESC		= "(Not Researched)";
+ITEM_GIBLET_HUNTSMAN_HEAD_NAME = "Cabeza de cazador";
+ITEM_GIBLET_HUNTSMAN_HEAD_DESC = "(No investigado)";
 
-ITEM_GIBLET_HUNTSMAN_ARM_LEFT_NAME	= "Huntsman Arm (Left)";
-ITEM_GIBLET_HUNTSMAN_ARM_LEFT_DESC	= "(Not Researched)";
+ITEM_GIBLET_HUNTSMAN_ARM_LEFT_NAME = "Brazo de cazador (izquierdo)";
+ITEM_GIBLET_HUNTSMAN_ARM_LEFT_DESC = "(No investigado)";
 
-ITEM_GIBLET_HUNTSMAN_ARM_RIGHT_NAME	= "Huntsman Arm (Right)";
-ITEM_GIBLET_HUNTSMAN_ARM_RIGHT_DESC	= "(Not Researched)";
+ITEM_GIBLET_HUNTSMAN_ARM_RIGHT_NAME = "Brazo de cazador (derecho)";
+ITEM_GIBLET_HUNTSMAN_ARM_RIGHT_DESC = "(No investigado)";
 
-ITEM_GIBLET_HUNTSMAN_LEG_LEFT_NAME	= "Huntsman Leg (Left)";
-ITEM_GIBLET_HUNTSMAN_LEG_LEFT_DESC	= "(Not Researched)";
+ITEM_GIBLET_HUNTSMAN_LEG_LEFT_NAME = "Pierna de cazador (izquierda)";
+ITEM_GIBLET_HUNTSMAN_LEG_LEFT_DESC = "(No investigado)";
 
-ITEM_GIBLET_HUNTSMAN_LEG_RIGHT_NAME	= "Huntsman Leg (Right)";
-ITEM_GIBLET_HUNTSMAN_LEG_RIGHT_DESC	= "(Not Researched)";
+ITEM_GIBLET_HUNTSMAN_LEG_RIGHT_NAME = "Pierna de cazador (derecha)";
+ITEM_GIBLET_HUNTSMAN_LEG_RIGHT_DESC = "(No investigado)";
 
-ITEM_GIBLET_CITIZEN_MAN_HEAD_NAME	= "Citizen Man Head";
-ITEM_GIBLET_CITIZEN_MAN_HEAD_DESC	= "(Not Researched)";
+ITEM_GIBLET_CITIZEN_MAN_HEAD_NAME = "Cabeza de hombre ciudadano";
+ITEM_GIBLET_CITIZEN_MAN_HEAD_DESC = "(No investigado)";
 
-ITEM_GOATMAN_HORN_LEFT_NAME			= "Goatman Horn (Left)";
-ITEM_GOATMAN_HORN_LEFT_DESC			= "(Not Researched)";
+ITEM_GOATMAN_HORN_LEFT_NAME = "Cuerno de Cabra (Izquierda)";
+ITEM_GOATMAN_HORN_LEFT_DESC = "(No investigado)";
 
-ITEM_GOATMAN_HORN_RIGHT_NAME		= "Goatman Horn (Right)";
-ITEM_GOATMAN_HORN_RIGHT_DESC		= "(Not Researched)";
+ITEM_GOATMAN_HORN_RIGHT_NAME = "Cuerno de Cabra (Derecha)";
+ITEM_GOATMAN_HORN_RIGHT_DESC = "(No investigado)";
 
 // Weapons
-ITEM_CANESWORD_NAME					= "Canesword";
-ITEM_CANESWORD_DESC					= "A durable canesword with an ivory handle and silver coated blade. A powered thrust to an unaware, unarmored enemy will deal critical damage.";
+ITEM_CANESWORD_NAME = "espada de bastón";
+ITEM_CANESWORD_DESC = "Una espada de bastón duradera con mango de marfil y hoja recubierta de plata. Un ataque potente contra un enemigo inconsciente y desarmado causará un daño crítico.";
 
-ITEM_REVOLVER_NAME					= "Revolver";
-ITEM_REVOLVER_DESC					= "Break-action revolver with six chambers. Steel-casted and chambered for a cartridge round local to the city.";
+ITEM_REVOLVER_NAME = "Revólver";
+ITEM_REVOLVER_DESC = "Revólver de acción de rotura con seis recámaras. De acero fundido y con recámara para un cartucho local de la ciudad.";
 
-ITEM_SHOTGUN_NAME					= "Shotgun";
-ITEM_SHOTGUN_DESC					= "A collapsable pump shotgun. A favorite among the trappers who desired an easily carryable close-range weapon for their excursions past the bulwark.";
+ITEM_SHOTGUN_NAME = "Escopeta";
+ITEM_SHOTGUN_DESC = "Una escopeta de bomba plegable. Un favorito entre los tramperos que deseaban un arma de corto alcance fácilmente transportable para sus excursiones más allá del baluarte.";
 
-ITEM_LEGTRAP_NAME					= "Snare Trap";
-ITEM_LEGTRAP_DESC					= "A trap that can be used to snare the target's leg.";
+ITEM_LEGTRAP_NAME = "trampa trampa";
+ITEM_LEGTRAP_DESC = "Una trampa que se puede utilizar para atrapar la pierna del objetivo.";
 
-ITEM_FLAREGUN_NAME					= "Flare Pistol";
-ITEM_FLAREGUN_DESC					= "A custom, single-shot pistol with a silencer. The chamber is shaped for a special bolt type. The name 'Undertaker' is etched into the handle.";
+ITEM_FLAREGUN_NAME = "Pistola de bengalas";
+ITEM_FLAREGUN_DESC = "Una pistola personalizada de un solo tiro con silenciador. La cámara tiene una forma especial para un tipo de cerrojo. El nombre <Undertaker> está grabado en el mango.";
 
-ITEM_FLASHBOMB_NAME					= "Flashbomb";
-ITEM_FLASHBOMB_DESC					= "A throwable bomb that emits a blinding flash, rendering nearby creatures unable to see or attack. A newly introduced tool used by the Constabulary to quell riots and protests.";
+ITEM_FLASHBOMB_NAME = "bomba flash";
+ITEM_FLASHBOMB_DESC = "Una bomba arrojable que emite un destello cegador, lo que deja a las criaturas cercanas incapaces de ver o atacar. Una herramienta recientemente introducida utilizada por la policía para sofocar disturbios y protestas.";
 
-ITEM_HARPOONGUN_NAME			    = "Harpoon Gun";
-ITEM_HARPOONGUN_DESC			    = "A harpoon gun powered by a novel steam exhaust system. While this weapon is usually employed for fishing purposes, one can use it on certain surfaces to create an extendable rope.";
-
-// Tools
-ITEM_BUTTON_PRESSER_NAME			= "Button Cap";
-ITEM_BUTTON_PRESSER_DESC			= "A cap for a button presser. Can be used to repair certain devices.";
-
-ITEM_VALVE_NAME						= "Handvalve";
-ITEM_VALVE_DESC						= "A handvalve for manually operating various devices. Can be installed into an appropriate valve seat.";
-
-ITEM_CANNONBALL_NAME				= "Cannonball";
-ITEM_CANNONBALL_DESC				= "Cannonball that can be loaded into a cannon. There's a thin layer of rust covering it.";
-
-ITEM_CANNON_FUSE_NAME				= "Cannon Fuse";
-ITEM_CANNON_FUSE_DESC				= "A fuse string for a cannon.";
-
-ITEM_POWDERFLASK_NAME				= "Powderflask Horn";
-ITEM_POWDERFLASK_DESC				= "A small container made from an animal horn. Useful for pouring gunpowder into older, muzzle-loaded weapons like muskets and cannons.";
+ITEM_HARPOONGUN_NAME = "Arma de arpón";
+ITEM_HARPOONGUN_DESC = "Un cañón de arpón impulsado por un novedoso sistema de escape de vapor. Si bien esta arma generalmente se emplea con fines de pesca, se puede usar en ciertas superficies para crear una cuerda extensible.";
 
 //-------------------------------------------------------------
 // Keys
 
 KEY_NONE_NAME						= "None";
-KEY_NONE_DESC						= "No keys have been found.";
+KEY_NONE_DESC = "No se han encontrado llaves.";
 
-KEY_TESTKEY1_NAME					= "Test Key";
-KEY_TESTKEY1_DESC					= "The first test key.";
+KEY_TESTKEY1_NAME = "Clave de prueba";
+KEY_TESTKEY1_DESC = "La primera clave de prueba.";
 
-KEY_TESTKEY2_NAME					= "Second Test Key";
-KEY_TESTKEY2_DESC					= "The second test key.";
+KEY_TESTKEY2_NAME = "Segunda clave de prueba";
+KEY_TESTKEY2_DESC = "La segunda clave de prueba.";
 
-KEY_EMBLEM_CROW_NAME				= "Emblem of the Crow";
-KEY_EMBLEM_CROW_DESC				= "Engraved with the symbol of a Crow";
+KEY_EMBLEM_CROW_NAME = "Emblema del cuervo";
+KEY_EMBLEM_CROW_DESC = "Grabado con el símbolo de un cuervo.";
 
-KEY_EMBLEM_RAT_NAME					= "Emblem of the Rat";
-KEY_EMBLEM_RAT_DESC					= "Engraved symbol of a Rat";
+KEY_EMBLEM_RAT_NAME = "Emblema de la rata";
+KEY_EMBLEM_RAT_DESC = "Símbolo grabado de una rata.";
 
-KEY_DEMO_SAFEHOUSE_NAME				= "Safehouse Key";
-KEY_DEMO_SAFEHOUSE_DESC				= "For the safehouse front door";
+KEY_DEMO_SAFEHOUSE_NAME = "Llave de casa segura";
+KEY_DEMO_SAFEHOUSE_DESC = "Para la puerta de entrada de la casa segura";
 
-KEY_DEMO_COURTYARD_NAME				= "Warden Court Key";
-KEY_DEMO_COURTYARD_DESC				= "For the door near the Jailhouse entrance";
+KEY_DEMO_COURTYARD_NAME = "Llave de la corte del guardián";
+KEY_DEMO_COURTYARD_DESC = "Para la puerta cerca de la entrada de la cárcel.";
 
-KEY_DEMO_GUARDHOUSE_NAME			= "Guardhouse Key";
-KEY_DEMO_GUARDHOUSE_DESC			= "For the guardhouse near the Market gate";
+KEY_DEMO_GUARDHOUSE_NAME = "Llave de la caseta de vigilancia";
+KEY_DEMO_GUARDHOUSE_DESC = "Para la caseta de vigilancia cerca de la puerta del mercado.";
 
-KEY_FISHERY_SUPPLYROOM_NAME			= "Fishery Supply Room Key";
-KEY_FISHERY_SUPPLYROOM_DESC			= "Key to the supply room at Mr. Croup's Fishery.";
+KEY_FISHERY_SUPPLYROOM_NAME = "Llave de la sala de suministros pesqueros";
+KEY_FISHERY_SUPPLYROOM_DESC = "Llave de la sala de suministros de la pesquería del Sr. Croup.";
 
-KEY_FISHERY_MANAGER_NAME			= "Fishery Manager's Key";
-KEY_FISHERY_MANAGER_DESC			= "Manager's key at Mr. Croup's Fishery.";
+KEY_FISHERY_MANAGER_NAME = "La clave del administrador pesquero";
+KEY_FISHERY_MANAGER_DESC = "La llave del gerente en Mr. Croup's Fishery.";
 
-KEY_FISHERY_ROOFTOP_NAME			= "Fishery Rooftop Key";
-KEY_FISHERY_ROOFTOP_DESC			= "Key for the rooftop at Mr. Croup's Fishery.";
+KEY_FISHERY_ROOFTOP_NAME = "Llave de la azotea de pesca";
+KEY_FISHERY_ROOFTOP_DESC = "Llave para la azotea de Mr. Croup's Fishery.";
 
-KEY_FISHERY_POWERROOM_NAME			= "Fishery Power Room";
-KEY_FISHERY_POWERROOM_DESC			= "Key for the power room at Mr. Croup's Fishery.";
+KEY_FISHERY_POWERROOM_NAME = "Sala de energía pesquera";
+KEY_FISHERY_POWERROOM_DESC = "Llave para la sala de energía de Mr. Croup's Fishery.";
 
-KEY_FISHERY_POWERGENERATOR_NAME		= "Fishery Generator Key";
-KEY_FISHERY_POWERGENERATOR_DESC		= "Key to the Fishery power generator.";
+KEY_FISHERY_POWERGENERATOR_NAME = "Clave del generador de pesca";
+KEY_FISHERY_POWERGENERATOR_DESC = "Clave del generador de energía pesquera.";
 
-KEY_FISHERY_WATCHTOWER_NAME			= "Fishery Watchtower Key";
-KEY_FISHERY_WATCHTOWER_DESC			= "Key to the watchtower at Mr. Croup's Fishery.";
+KEY_FISHERY_WATCHTOWER_NAME = "Llave de la Atalaya de Pesca";
+KEY_FISHERY_WATCHTOWER_DESC = "Llave de la torre de vigilancia de Mr. Croup's Fishery.";
 
-KEY_FISHERY_CARRIAGE_BACKDOOR_NAME	= "Fishery Carriage Station Backdoor";
-KEY_FISHERY_CARRIAGE_BACKDOOR_DESC	= "Key to the backdoor of the Fishery Carriage Station.";
+KEY_FISHERY_CARRIAGE_BACKDOOR_NAME = "Puerta trasera de la estación de transporte pesquero";
+KEY_FISHERY_CARRIAGE_BACKDOOR_DESC = "Llave de la puerta trasera de la estación de transporte pesquero.";
 
-KEY_FISHERY_CARRIAGE_BASEMENT_NAME	= "Fishery Carriage Basement Key";
-KEY_FISHERY_CARRIAGE_BASEMENT_DESC	= "Key to the basement garage of the Mr. Croup's Fishery carriage station.";
+KEY_FISHERY_CARRIAGE_BASEMENT_NAME = "Llave del sótano del transporte pesquero";
+KEY_FISHERY_CARRIAGE_BASEMENT_DESC = "Llave del garaje del sótano de la estación de carruajes de Mr. Croup's Fishery.";
 
-KEY_COAST_FISHERY_CABIN_NAME		= "Fishery Cabin Key";
-KEY_COAST_FISHERY_CABIN_DESC		= "Key to the cabin overlooking Mr. Croup's Fishery.";
+KEY_COAST_FISHERY_CABIN_NAME = "Llave de la cabaña de pesca";
+KEY_COAST_FISHERY_CABIN_DESC = "Llave de la cabaña con vistas a la pesquería del Sr. Croup.";
 
-KEY_CAVES_POWERGENERATOR_NAME		= "Mines Generator Key";
-KEY_CAVES_POWERGENERATOR_DESC		= "Key to the generator room in the coastal mines.";
+KEY_CAVES_POWERGENERATOR_NAME = "Clave del generador de minas";
+KEY_CAVES_POWERGENERATOR_DESC = "Llave de la sala del generador en las minas costeras.";
 
-KEY_CAVES_STORAGE_NAME				= "Mines Storage Key";
-KEY_CAVES_STORAGE_DESC				= "Key to the storage room in the coastal mines. A faint scent of blood is stained into the metal.";
+KEY_CAVES_STORAGE_NAME = "Clave de almacenamiento de minas";
+KEY_CAVES_STORAGE_DESC = "Llave del almacén de las minas costeras. Un leve olor a sangre está manchado en el metal.";
 
-KEY_COAST_HOUSE_1_NAME				= "Coast Desolated House Key";
-KEY_COAST_HOUSE_1_DESC				= "Key to a desolated house along the coastal road.";
+KEY_COAST_HOUSE_1_NAME = "Llave de la casa desolada de la costa";
+KEY_COAST_HOUSE_1_DESC = "Llave de una casa desolada junto a la carretera costera.";
 
-KEY_PADLOCK_COAST_CLIFF_WALL_NAME	= "Lighthouse Path Padlock Door";
-KEY_PADLOCK_COAST_CLIFF_WALL_DESC	= "Key to the padlock door wall on the path up to the Lighthouse.";
+KEY_PADLOCK_COAST_CLIFF_WALL_NAME = "Puerta del candado del camino del faro";
+KEY_PADLOCK_COAST_CLIFF_WALL_DESC = "Llave de la pared de la puerta con candado en el camino hacia el Faro.";
 
-KEY_COAST_TAVERN_GUNCASE_NAME		= "Slaughtered Goat Guncase Key";
-KEY_COAST_TAVERN_GUNCASE_DESC		= "Key to the mounted guncase in the Slaughtered Goat Tavern.";
+KEY_COAST_TAVERN_GUNCASE_NAME = "Llave de pistolera de cabra sacrificada";
+KEY_COAST_TAVERN_GUNCASE_DESC = "Llave de la funda de pistola montada en Slaughtered Goat Tavern.";
 
-KEY_COAST_TAVERN_BASEMENT_NAME		= "Slaughtered Goat Basement Key";
-KEY_COAST_TAVERN_BASEMENT_DESC		= "Key to the basement of the Slaughtered Goat Tavern.";
+KEY_COAST_TAVERN_BASEMENT_NAME = "Llave del sótano de cabra sacrificada";
+KEY_COAST_TAVERN_BASEMENT_DESC = "Llave del sótano de la Taberna de la Cabra Sacrificada.";
 
-KEY_COAST_TAVERN_ROOMS_NAME			= "Slaughtered Goat Room Key";
-KEY_COAST_TAVERN_ROOMS_DESC			= "Key to the guest rooms at the Slaughtered Goat Tavern.";
+KEY_COAST_TAVERN_ROOMS_NAME = "Llave de la habitación de la cabra sacrificada";
+KEY_COAST_TAVERN_ROOMS_DESC = "Llave de las habitaciones de huéspedes de Slaughtered Goat Tavern.";
 
-KEY_COAST_GUARDTOWER_NAME			= "Coastal Guardtower Key";
-KEY_COAST_GUARDTOWER_DESC			= "Key to the coastal guard tower outside the city gates.";
+KEY_COAST_GUARDTOWER_NAME = "Llave de la Torre de la Guardia Costera";
+KEY_COAST_GUARDTOWER_DESC = "Llave de la torre de vigilancia costera fuera de las puertas de la ciudad.";
 
-KEY_COAST_GATEHOUSE_STORAGE_NAME	= "City Gatehouse Storage Key";
-KEY_COAST_GATEHOUSE_STORAGE_DESC	= "Key to the storage room in the city gatehouse.";
+KEY_COAST_GATEHOUSE_STORAGE_NAME = "Llave de almacenamiento de la puerta de entrada de la ciudad";
+KEY_COAST_GATEHOUSE_STORAGE_DESC = "Llave del trastero de la puerta de entrada de la ciudad.";
 
-KEY_MARKET_SHACK_1_NAME = "Fishing Hut Door Key";
-KEY_MARKET_SHACK_1_DESC = "Key to the door of a locked fishing hut in in the Market District.";
+KEY_MARKET_SHACK_1_NAME = "Llave de la puerta de la cabaña de pesca";
+KEY_MARKET_SHACK_1_DESC = "Llave de la puerta de una cabaña de pescadores cerrada con llave en el Market District.";
 
-KEY_MARKET_GUNSHOP_FRONTDOOR_NAME		= "Gunshop Front Door Key";
-KEY_MARKET_GUNSHOP_FRONTDOOR_DESC		= "Key to the front door of the gunshop in the Market District.";
+KEY_MARKET_GUNSHOP_FRONTDOOR_NAME = "Llave de la puerta principal de la armería";
+KEY_MARKET_GUNSHOP_FRONTDOOR_DESC = "Llave de la puerta principal de la armería en Market District.";
 
-KEY_MARKET_GUNSHOP_CASHIER_NAME			= "Gunshop Cashier Key";
-KEY_MARKET_GUNSHOP_CASHIER_DESC			= "Key to the cashier desk of the gunshop in the Market District.";
+KEY_MARKET_GUNSHOP_CASHIER_NAME = "Llave del cajero de la armería";
+KEY_MARKET_GUNSHOP_CASHIER_DESC = "Llave de la caja de la armería del Market District.";
 
-KEY_MARKET_GUNSHOP_DISPLAYCASE_NAME		= "Gunshop Display Case Key";
-KEY_MARKET_GUNSHOP_DISPLAYCASE_DESC		= "Key to the display cases in the gunshop in the Market District.";
+KEY_MARKET_GUNSHOP_DISPLAYCASE_NAME = "Llave de vitrina de armería";
+KEY_MARKET_GUNSHOP_DISPLAYCASE_DESC = "Llave de las vitrinas de la armería del Market District.";
 
-KEY_MARKET_DOCK_POWERSTATION_NAME		= "Market Power Station Key";
-KEY_MARKET_DOCK_POWERSTATION_DESC		= "Key to the power station near the dock in the Market District.";
+KEY_MARKET_DOCK_POWERSTATION_NAME = "Clave de la central eléctrica del mercado";
+KEY_MARKET_DOCK_POWERSTATION_DESC = "Llave de la central eléctrica cerca del muelle en Market District.";
 
-KEY_MARKET_BARBERSHOP_BASEMENT_NAME		= "Barbershop Basement Key";
-KEY_MARKET_BARBERSHOP_BASEMENT_DESC		= "Key to the basement of the Barbershop in the Market District.";
+KEY_MARKET_BARBERSHOP_BASEMENT_NAME = "Llave del sótano de la barbería";
+KEY_MARKET_BARBERSHOP_BASEMENT_DESC = "Llave del sótano de la barbería del Market District.";
 
-KEY_MARKET_MANOR_BACKDOOR_1_NAME		= "Lord Kar's Manor Back Key";
-KEY_MARKET_MANOR_BACKDOOR_1_DESC		= "Key to the back door of a manor in the Market District.";
+KEY_MARKET_MANOR_BACKDOOR_1_NAME = "Llave trasera de la mansión de Lord Kar";
+KEY_MARKET_MANOR_BACKDOOR_1_DESC = "Llave de la puerta trasera de una mansión en Market District.";
 
-KEY_MARKET_RESTROOM_FRONTDOOR_NAME		= "Market Restroom Key";
-KEY_MARKET_RESTROOM_FRONTDOOR_DESC		= "Key to the public restroom in the Market District. Quite smelly.";
+KEY_MARKET_RESTROOM_FRONTDOOR_NAME = "Llave del baño del mercado";
+KEY_MARKET_RESTROOM_FRONTDOOR_DESC = "Llave del baño público en Market District. Bastante mal.";
 
-KEY_MARKET_MANOR_2_FRONTDOOR_NAME		= "Lord Marwyn's Manor Key";
-KEY_MARKET_MANOR_2_FRONTDOOR_DESC		= "Key to the front door of a manor in the Market District. The name 'Lord Marwyn' is inscribed on the head.";
+KEY_MARKET_MANOR_2_FRONTDOOR_NAME = "Llave de la mansión de Lord Marwyn";
+KEY_MARKET_MANOR_2_FRONTDOOR_DESC = "Llave de la puerta de entrada de una mansión en Market District. El nombre "Lord Marwyn" está inscrito en la cabeza.";
 
-KEY_MARKET_MANOR_3_FRONTDOOR_NAME		= "Lord Kar's Manor Front Key";
-KEY_MARKET_MANOR_3_FRONTDOOR_DESC		= "Key to the front door of a manor in the Market District. The name 'Lord Kar' is inscribed on the head.";
+KEY_MARKET_MANOR_3_FRONTDOOR_NAME = "Llave frontal de la mansión de Lord Kar";
+KEY_MARKET_MANOR_3_FRONTDOOR_DESC = "Llave de la puerta de entrada de una mansión en Market District. El nombre "Lord Kar" está inscrito en la cabeza.";
 
-KEY_UNDERPORT_ENTRANCE_NAME				= "Underport Entrance Gate Key";
-KEY_UNDERPORT_ENTRANCE_DESC				= "Key to the entry gate to the Underport in the Market District.";
+KEY_UNDERPORT_ENTRANCE_NAME = "Llave de la puerta de entrada al subpuerto";
+KEY_UNDERPORT_ENTRANCE_DESC = "Llave de la puerta de entrada al puerto subterráneo en Market District.";
 
-KEY_UNDERPORT_PUMPSTATION_MAIN_NAME		= "Underport Pump Station Key";
-KEY_UNDERPORT_PUMPSTATION_MAIN_DESC		= "Key to the Public Pumpworks Station in the Underport.";
+KEY_UNDERPORT_PUMPSTATION_MAIN_NAME = "Llave de la estación de bombeo bajo puerto";
+KEY_UNDERPORT_PUMPSTATION_MAIN_DESC = "Llave de la estación de bombeo pública en el puerto subterráneo.";
 
-KEY_UNDERPORT_WAREHOUSE_1F_NAME			= "Van Der Meer Warehouse 1F Key";
-KEY_UNDERPORT_WAREHOUSE_1F_DESC			= "Key to the first floor of the Van Der Meer Warehouse in the Underport.";
+KEY_UNDERPORT_WAREHOUSE_1F_NAME = "Llave del almacén 1F de Van Der Meer";
+KEY_UNDERPORT_WAREHOUSE_1F_DESC = "Llave del primer piso del almacén Van Der Meer en Underport.";
 
-KEY_UNDERPORT_WAREHOUSE_ARMORY_NAME		= "Van Der Meer Armory Key";
-KEY_UNDERPORT_WAREHOUSE_ARMORY_DESC		= "Key to the weapons and explosive storage room in the Van Der Meer Warehouse in the Underport.";
+KEY_UNDERPORT_WAREHOUSE_ARMORY_NAME = "Llave de la armería Van Der Meer";
+KEY_UNDERPORT_WAREHOUSE_ARMORY_DESC = "Llave del almacén de armas y explosivos en el almacén Van Der Meer en Underport.";
 
-KEY_UNDERPORT_WAREHOUSE_GATE_NAME		= "Van Der Meer Gate Key";
-KEY_UNDERPORT_WAREHOUSE_GATE_DESC		= "Key to the side gate of the Van Der Meer Warehouse in the Underport.";
+KEY_UNDERPORT_WAREHOUSE_GATE_NAME = "Llave de la puerta de Van Der Meer";
+KEY_UNDERPORT_WAREHOUSE_GATE_DESC = "Llave de la puerta lateral del almacén Van Der Meer en Underport.";
 
-KEY_UNDERPORT_SEWER_B_BREAKROOM_NAME	= "Sewer Section B Break Room Key";
-KEY_UNDERPORT_SEWER_B_BREAKROOM_DESC	= "Key to the break room of the Sewer B section in the Underport.";
+KEY_UNDERPORT_SEWER_B_BREAKROOM_NAME = "Llave de la sala de descanso de la sección B de alcantarillado";
+KEY_UNDERPORT_SEWER_B_BREAKROOM_DESC = "Llave de la sala de descanso de la sección de Alcantarillado B en Underport.";
 
 // Currency
-CURRENCY_GOLD_NAME					= "Gold";
-CURRENCY_GOLD_DESC					= "Shiny coins and valuable trinkets";
+CURRENCY_GOLD_NAME					= "Oro";
+CURRENCY_GOLD_DESC					= "Monedas brillantes y baratijas valiosas.";
 
 // Treasure
-ITEM_BROOCH_1_NAME					= "Red Gem Brooch";
-ITEM_BROOCH_1_DESC					= "A red gem-stone brooch. Could fetch a high price from the right buyer.";
+ITEM_BROOCH_1_NAME = "Broche de gema roja";
+ITEM_BROOCH_1_DESC = "Un broche de piedras preciosas rojas. Podría obtener un precio elevado del comprador adecuado.";
 
-ITEM_GEM_WHITE_SMALL_NAME			= "White Gem (Small)";
-ITEM_GEM_WHITE_SMALL_DESC			= "A small, sparkling white gem. Can be sold.";
+ITEM_GEM_WHITE_SMALL_NAME = "Gema blanca (pequeña)";
+ITEM_GEM_WHITE_SMALL_DESC = "Una pequeña joya blanca y brillante. Se puede vender.";
 
-ITEM_GEM_WHITE_LARGE_NAME			= "White Gem (Large)";
-ITEM_GEM_WHITE_LARGE_DESC			= "A large, sparkling white gem. Can be sold.";
+ITEM_GEM_WHITE_LARGE_NAME = "Gema blanca (grande)";
+ITEM_GEM_WHITE_LARGE_DESC = "Una gema grande y brillante de color blanco. Se puede vender.";
 
-ITEM_GEM_BLOOD_TINY_NAME			= "Bloodstone (Tiny)";
-ITEM_GEM_BLOOD_TINY_DESC			= "A tiny, blood-trapped gemstone. Fairly valuable despite the small size.";
+ITEM_GEM_BLOOD_TINY_NAME = "Piedra de sangre (pequeña)";
+ITEM_GEM_BLOOD_TINY_DESC = "Una pequeña piedra preciosa atrapada en sangre. Bastante valioso a pesar del pequeño tamaño.";
 
-ITEM_GEM_BLOOD_SMALL_NAME			= "Bloodstone (Small)";
-ITEM_GEM_BLOOD_SMALL_DESC			= "A small, blood-trapped gemstone. Quite rare and valuable in the city.";
+ITEM_GEM_BLOOD_SMALL_NAME = "Piedra de sangre (pequeña)";
+ITEM_GEM_BLOOD_SMALL_DESC = "Una pequeña piedra preciosa atrapada en sangre. Bastante raro y valioso en la ciudad.";
 
-ITEM_GEM_EMERALD_LARGE_NAME			= "Emerald Gem (Large)";
-ITEM_GEM_EMERALD_LARGE_DESC			= "A large, glistening emerald gem. Can be sold. Emeralds are rumored to be the gemstone of the madman, inducing one to embrace chaos and furor.";
+ITEM_GEM_EMERALD_LARGE_NAME = "Gema esmeralda (grande)";
+ITEM_GEM_EMERALD_LARGE_DESC = "Una gema esmeralda grande y reluciente. Se puede vender. Se rumorea que las esmeraldas son la piedra preciosa del loco, lo que induce a abrazar el caos y el furor.";
 
-ITEM_HORN_ULMAR_NAME				= "Horn of Ulmar";
-ITEM_HORN_ULMAR_DESC				= "A prized, ivory horn from the Old Kingdom. It is told that these horns could once sing across entire realms, but their power has long since faded.";
+ITEM_HORN_ULMAR_NAME = "Cuerno de Ulmar";
+ITEM_HORN_ULMAR_DESC = "Un preciado cuerno de marfil del Reino Antiguo. Se dice que estos cuernos alguna vez pudieron cantar en reinos enteros, pero su poder hace mucho que se desvaneció.";
 
-ITEM_RING_EMERALD_NAME				= "Emerald Ring";
-ITEM_RING_EMERALD_DESC				= "A ring with an emerald gem. Emeralds are rumored to be the gemstone of the madman, inducing one to embrace chaos and furor.";
+ITEM_RING_EMERALD_NAME = "Anillo Esmeralda";
+ITEM_RING_EMERALD_DESC = "Un anillo con una gema esmeralda. Se rumorea que las esmeraldas son la piedra preciosa del loco, lo que induce a abrazar el caos y el furor.";
 
-ITEM_CHALICE_1_GOLD_NAME			= "Gold Chalice";
-ITEM_CHALICE_1_GOLD_DESC			= "An ornate golden chalice, adorned with engraved trims and set with blood-red gemstones.";
+ITEM_CHALICE_1_GOLD_NAME = "Cáliz de oro";
+ITEM_CHALICE_1_GOLD_DESC = "Un cáliz dorado ornamentado, adornado con adornos grabados y engastado con piedras preciosas de color rojo sangre.";
 
-ITEM_POCKETWATCH_1_GOLD_NAME = "Gold Pocket Watch";
-ITEM_POCKETWATCH_1_GOLD_DESC = "A golden pocket watch assembled by the finest watchmakers in the city.";
+ITEM_POCKETWATCH_1_GOLD_NAME = "Reloj de bolsillo dorado";
+ITEM_POCKETWATCH_1_GOLD_DESC = "Un reloj de bolsillo dorado elaborado por los mejores relojeros de la ciudad.";
 
 //-------------------------------------------------------------
 // Seasonal
 
 // Halloween
 ITEM_JACKOLANTERN_NAME				= "Jack-o-Lantern";
-ITEM_JACKOLANTERN_DESC				= "A peculiar carved turnip in the shape of a face. A local, seasonal custom perhaps?";
+ITEM_JACKOLANTERN_DESC				= "Un nabo tallado con forma de cara. ¿Quizás una costumbre local y estacional?";
 
 // Christmas
 ITEM_SNOWBALL_NAME					= "Snowball";
-ITEM_SNOWBALL_DESC					= "A clump of snow. Time to spread some jolly good fun.";
+ITEM_SNOWBALL_DESC					= "Un montón de nieve. Es hora de esparcir un poco de diversión y alegría.";
