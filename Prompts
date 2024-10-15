@@ -53,5 +53,5 @@ TUTORIAL_SHOP_SELL_PLACEMAT = "Mantel individual";
 ACTIONLOG_INVENTORY_INVALIDPOS = "No se puede colocar el inventario aquí";
 ACTIONLOG_INVENTORY_FULL = "El inventario está lleno";
 ACTIONLOG_PICKUP_READABLE = "Se agregó legible {READABLE}";
-ACTIONLOG_PICKUP_KEY = "Clave agregada {ITEM}";
+ACTIONLOG_PICKUP_KEY = "Llave agregada {ITEM}";
 ACTIONLOG_PICKUP_REQUIREMENT = "Requiere {ITEM}";

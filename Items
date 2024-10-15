@@ -324,11 +324,11 @@ ITEM_HARPOONGUN_DESC = "Un cañón de arpón impulsado por un novedoso sistema d
 KEY_NONE_NAME						= "None";
 KEY_NONE_DESC = "No se han encontrado llaves.";
 
-KEY_TESTKEY1_NAME = "Clave de prueba";
-KEY_TESTKEY1_DESC = "La primera clave de prueba.";
+KEY_TESTKEY1_NAME = "Llave de prueba";
+KEY_TESTKEY1_DESC = "La primera llave de prueba.";
 
-KEY_TESTKEY2_NAME = "Segunda clave de prueba";
-KEY_TESTKEY2_DESC = "La segunda clave de prueba.";
+KEY_TESTKEY2_NAME = "Segunda llave de prueba";
+KEY_TESTKEY2_DESC = "La segunda llave de prueba.";
 
 KEY_EMBLEM_CROW_NAME = "Emblema del cuervo";
 KEY_EMBLEM_CROW_DESC = "Grabado con el símbolo de un cuervo.";
@@ -348,7 +348,7 @@ KEY_DEMO_GUARDHOUSE_DESC = "Para la caseta de vigilancia cerca de la puerta del 
 KEY_FISHERY_SUPPLYROOM_NAME = "Llave de la sala de suministros pesqueros";
 KEY_FISHERY_SUPPLYROOM_DESC = "Llave de la sala de suministros de la pesquería del Sr. Croup.";
 
-KEY_FISHERY_MANAGER_NAME = "La clave del administrador pesquero";
+KEY_FISHERY_MANAGER_NAME = "La llave del administrador pesquero";
 KEY_FISHERY_MANAGER_DESC = "La llave del gerente en Mr. Croup's Fishery.";
 
 KEY_FISHERY_ROOFTOP_NAME = "Llave de la azotea de pesca";
@@ -357,8 +357,8 @@ KEY_FISHERY_ROOFTOP_DESC = "Llave para la azotea de Mr. Croup's Fishery.";
 KEY_FISHERY_POWERROOM_NAME = "Sala de energía pesquera";
 KEY_FISHERY_POWERROOM_DESC = "Llave para la sala de energía de Mr. Croup's Fishery.";
 
-KEY_FISHERY_POWERGENERATOR_NAME = "Clave del generador de pesca";
-KEY_FISHERY_POWERGENERATOR_DESC = "Clave del generador de energía pesquera.";
+KEY_FISHERY_POWERGENERATOR_NAME = "Llave del generador de pesca";
+KEY_FISHERY_POWERGENERATOR_DESC = "Llave del generador de energía pesquera.";
 
 KEY_FISHERY_WATCHTOWER_NAME = "Llave de la Atalaya de Pesca";
 KEY_FISHERY_WATCHTOWER_DESC = "Llave de la torre de vigilancia de Mr. Croup's Fishery.";
@@ -372,10 +372,10 @@ KEY_FISHERY_CARRIAGE_BASEMENT_DESC = "Llave del garaje del sótano de la estaci�
 KEY_COAST_FISHERY_CABIN_NAME = "Llave de la cabaña de pesca";
 KEY_COAST_FISHERY_CABIN_DESC = "Llave de la cabaña con vistas a la pesquería del Sr. Croup.";
 
-KEY_CAVES_POWERGENERATOR_NAME = "Clave del generador de minas";
+KEY_CAVES_POWERGENERATOR_NAME = "Llave del generador de minas";
 KEY_CAVES_POWERGENERATOR_DESC = "Llave de la sala del generador en las minas costeras.";
 
-KEY_CAVES_STORAGE_NAME = "Clave de almacenamiento de minas";
+KEY_CAVES_STORAGE_NAME = "Llave de almacenamiento de minas";
 KEY_CAVES_STORAGE_DESC = "Llave del almacén de las minas costeras. Un leve olor a sangre está manchado en el metal.";
 
 KEY_COAST_HOUSE_1_NAME = "Llave de la casa desolada de la costa";
@@ -411,7 +411,7 @@ KEY_MARKET_GUNSHOP_CASHIER_DESC = "Llave de la caja de la armería del Market Di
 KEY_MARKET_GUNSHOP_DISPLAYCASE_NAME = "Llave de vitrina de armería";
 KEY_MARKET_GUNSHOP_DISPLAYCASE_DESC = "Llave de las vitrinas de la armería del Market District.";
 
-KEY_MARKET_DOCK_POWERSTATION_NAME = "Clave de la central eléctrica del mercado";
+KEY_MARKET_DOCK_POWERSTATION_NAME = "Llave de la central eléctrica del mercado";
 KEY_MARKET_DOCK_POWERSTATION_DESC = "Llave de la central eléctrica cerca del muelle en Market District.";
 
 KEY_MARKET_BARBERSHOP_BASEMENT_NAME = "Llave del sótano de la barbería";

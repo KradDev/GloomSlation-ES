@@ -1,5 +1,5 @@
 NONE							= "";
-AI_STRANGER_ID					= "Stranger";
+AI_STRANGER_ID					= "Extraño";
 
 //-------------------------------------------------------------
 // Merchant 
@@ -52,7 +52,7 @@ VO_MERCHANT_SHOP_SELL_SUCCESS_7 = "¡Excelente!";
 //-------------------------------------------------------------
 // Countess
 
-AI_COUNTESS_ID							= "Countess";
+AI_COUNTESS_ID							= "Condesa";
 VO_COUNTESS_CON_LIGHTHOUSE_INTRODUCTION = "Hola doctor...";
 VO_COUNTESS_CON_LIGHTHOUSE_CARRIAGE = "Haré que uno de mis servidores de confianza lo recoja en carruaje.";
 VO_COUNTESS_CON_LIGHTHOUSE_MARKETPLAZA = "Ven a Market Plaza antes de la medianoche.";
@@ -88,7 +88,7 @@ VO_OLIVER_CON_MARKET_SHOO = "Adelante, muchacho. Estas barras son más para tu s
 //-------------------------------------------------------------
 // Huntsman
 
-AI_HUNTSMAN_ID						= "Huntsman";
+AI_HUNTSMAN_ID						= "Cazador";
 SFX_HUNTSMAN_AMBIENT_IDLE_1 = "*Respiraciones entrecortadas*";
 SFX_HUNTSMAN_ALERT_ZERO_HEAR = "Todo parece tranquilo ahora...";
 SFX_HUNTSMAN_ALERT_ZERO_SIGHT = "Parece que no fue nada...";
@@ -213,7 +213,7 @@ VO_HUNTSMAN_CON_UNDERPORT_WATCHDOG_1 = "Debe haber sido reprogramado. Los agente
 //-------------------------------------------------------------
 // Woodsman
 
-AI_WOODSMAN_ID						= "Woodsman";
+AI_WOODSMAN_ID						= "Leñador";
 SFX_WOODSMAN_ALERT_ZERO_HEAR = "Todo parece tranquilo ahora...";
 SFX_WOODSMAN_ALERT_ZERO_SIGHT = "Parece que no fue nada...";
 SFX_WOODSMAN_ALERT_ONE_HEAR_1 = "Un sonido curioso...";
@@ -350,7 +350,7 @@ VO_WOODSMAN_CON_UNDERPORT_WATCHDOG_2 = "Probablemente también tenga algo escond
 //-------------------------------------------------------------
 // Fishdog
 
-AI_FISHDOG_ID				= "Fishdog";
+AI_FISHDOG_ID				= "Perro pescador";
 SFX_FISHDOG_BARK_1			= "*Ladrar*";
 SFX_FISHDOG_BARK_2			= "*Ladrar*";
 SFX_FISHDOG_BARK_3			= "*Ladrar*";
@@ -369,7 +369,7 @@ SFX_FISHDOG_DEATH_LOUD		= "*Gemido*";
 //-------------------------------------------------------------
 // Goatman
 
-AI_GOATMAN_ID				= "Goatman";
+AI_GOATMAN_ID				= "Hombre Cabra";
 SFX_GOATMAN_ALERT_ONE		= "*Murmullo*";
 SFX_GOATMAN_ALERT_TWO		= "*Ininteligible*";
 SFX_GOATMAN_ALERT_THREE		= "*Rugido*";
@@ -384,20 +384,20 @@ SFX_GOATMAN_DEATH			= "*Croak*";
 //-------------------------------------------------------------
 // Batbarber
 
-AI_BATBARBER_ID				= "Batbarber";
-SFX_BATBARBER_WAKE			= "*Snicker*";
-SFX_BATBARBER_ALERT_ONE		= "*Growl*";
-SFX_BATBARBER_REACT_ENEMY	= "*Screech*";
-SFX_BATBARBER_GRUNT_LIGHT_1	= "*Snarl*";
-SFX_BATBARBER_GRUNT_LIGHT_2	= "*Snarl*";
-SFX_BATBARBER_GRUNT_LIGHT_3	= "*Snarl*";
-SFX_BATBARBER_PAIN_1		= "*Hiss*";
-SFX_BATBARBER_PAIN_2		= "*Hiss*";
-SFX_BATBARBER_PAIN_3		= "*Hiss*";
-SFX_BATBARBER_DEATH_LOUD	= "*Scream*";
+AI_BATBARBER_ID				= "Murciélago barbero";
+SFX_BATBARBER_WAKE			= "*Risa disimulada*";
+SFX_BATBARBER_ALERT_ONE		= "*Gruñido*";
+SFX_BATBARBER_REACT_ENEMY	= "*Chillido*";
+SFX_BATBARBER_GRUNT_LIGHT_1	= "*Gruñido*";
+SFX_BATBARBER_GRUNT_LIGHT_2	= "*Gruñido*";
+SFX_BATBARBER_GRUNT_LIGHT_3	= "*Gruñido*";
+SFX_BATBARBER_PAIN_1		= "*Dolor*";
+SFX_BATBARBER_PAIN_2		= "*Dolor*";
+SFX_BATBARBER_PAIN_3		= "*Dolor*";
+SFX_BATBARBER_DEATH_LOUD	= "*Grito*";
 
 //-------------------------------------------------------------
 // Crowman
 
-AI_CROWMAN_ID				= "Crowman";
+AI_CROWMAN_ID				= "Hombre cuervo";
 
