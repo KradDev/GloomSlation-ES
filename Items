@@ -4,39 +4,39 @@ NONE							= "None";
 // Item Slots
 SLOT_MELEE						= "Melee";
 SLOT_OFFHAND					= "Offhand";
-SLOT_HEAD						= "Head";
-SLOT_EYE						= "Eye";
-SLOT_RING						= "Ring";
-SLOT_CURRENCY					= "Gold";
-SLOT_JOURNAL					= "Journal";
+SLOT_HEAD						= "Cabeza";
+SLOT_EYE						= "Ojo";
+SLOT_RING						= "Anillo";
+SLOT_CURRENCY					= "Oro";
+SLOT_JOURNAL					= "Diario";
 
 // Condition
-CONDITION						= "Condition";
-CONDITION_FINE					= "Fine";
-CONDITION_CAUTION				= "Caution";
-CONDITION_DANGER				= "Danger";
+CONDITION						= "Condición";
+CONDITION_FINE					= "Bien";
+CONDITION_CAUTION				= "Precaución";
+CONDITION_DANGER				= "Peligro";
 
 // Shop
-SHOP_DISCOUNT					= "Discount!";
-SHOP_SOLDOUT					= "Sold Out!";
+SHOP_DISCOUNT					= "Descuento!";
+SHOP_SOLDOUT					= "¡Agotado!";
 
 // Item Actions
-ITEM_EQUIP						= "Equip";
-ITEM_UNEQUIP					= "Unequip";
-ITEM_DRAW						= "Draw";
-ITEM_USE						= "Use";
-ITEM_EXAMINE					= "Examine";
-ITEM_HOLD						= "Hold";
-ITEM_UNLOAD						= "Unload";
+ITEM_EQUIP						= "Equipar";
+ITEM_UNEQUIP					= "Desequipar";
+ITEM_DRAW						= "Dibujar";
+ITEM_USE						= "Usar";
+ITEM_EXAMINE					= "Examinar";
+ITEM_HOLD						= "Sostener";
+ITEM_UNLOAD						= "Descargar";
 ITEM_SPLIT						= "Unpack";
-ITEM_DROP						= "Drop";
-ITEM_QUANTITY					= "Quantity";
+ITEM_DROP						= "Dejar";
+ITEM_QUANTITY					= "Cantidad";
 ITEM_LOADEDTYPE					= "Ammo Type";
 ITEM_LOADEDQUANTITY				= "Ammo Count";
 
 // Item Action Names
 ITEM_INJECT						= "Inject";
-ITEM_OPEN						= "Open";
+ITEM_OPEN						= "Abrir";
 ITEM_EAT						= "Gorge";
 ITEM_DRINK						= "Quaff";
 ITEM_READ						= "Read";
