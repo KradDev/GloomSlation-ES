@@ -6,9 +6,9 @@ AI_STRANGER_ID					= "Extraño";
 
 AI_MERCHANT_ID						= "Grezzo";
 VO_MERCHANT_FISHERY_INTRO_START = "Ah, buen doctor. En qué desafortunada situación te encontraste: secuestrada y traída aquí precisamente. Jeje. Bueno, si me escuchas, es posible que aún sobrevivas esta noche.";
-VO_MERCHANT_INTRO_EXIT = "Me voy. No puedo quedarme aquí. Busque el antiguo faro en la costa. He dejado instrucciones allí. Buena suerte, doctora. ¡Hay más en esta ciudad de lo que puedas imaginar!";
+VO_MERCHANT_INTRO_EXIT = "Me voy. No puedo quedarme aquí. Busque el antiguo faro en la costa. He dejado instrucciones allí. Buena suerte, doctor. ¡Hay más en esta ciudad de lo que puedas imaginar!";
 VO_MERCHANT_JAILBREAK_LIGHTHOUSE = "Me voy. No puedo quedarme aquí. Busque el antiguo faro en la costa. He dejado instrucciones allí.";
-VO_MERCHANT_JAILBREAK_GOODLUCK = "Buena suerte, doctora. Hay más en esta ciudad de lo que puedas imaginar.";
+VO_MERCHANT_JAILBREAK_GOODLUCK = "Buena suerte, doctor. Hay más en esta ciudad de lo que puedas imaginar.";
 VO_MERCHANT_RING_GIVE = "Aquí. Este anillo debería ayudarte a mantenerte alejado de la luz. Tienes muchos enemigos aquí; la oscuridad te protegerá de ellos.";
 VO_MERCHANT_RING_WAIT = "No hay tiempo que perder, doctor. ¡Recoge eso! Los guardias volverán pronto.";
 VO_MERCHANT_WELCOME_1 = "Por fin dentro, ¿verdad? ¡Bienvenido!";
