@@ -222,6 +222,9 @@ ITEM_FLAREGUN_SHOCK_DESC		= "A blinding round for the Flare Pistol.";
 ITEM_GUNPOWDER_NAME				= "Gunpowder";
 ITEM_GUNPOWDER_DESC				= "";
 
+ITEM_HARPOON_NAME			    = "Harpoon";
+ITEM_HARPOON_DESC			    = "A sharp harpoon that can burrow into certain surfaces.";
+
 // Junk
 ITEM_BOTTLE_NAME				= "Glass Bottle";
 ITEM_BOTTLE_DESC				= "An empty, glass liquor bottle that is capable of creating a loud distraction. The faded label of the Ashbrew Brewery wraps the front.";
@@ -241,8 +244,17 @@ ITEM_CAN_BEANS_EMPTY_DESC		= "An empty can labeled with a 'Doctor Smithy's Pork 
 ITEM_RIFLE_BROKEN_NAME			= "Huntsmans' Rifle";
 ITEM_RIFLE_BROKEN_DESC			= "A makeshift, shoddy hunting rifle. The grips are built for the distorted proportions of the huntsmen and cannot be handled by average humans.";
 
-ITEM_CORPSE_RAT_NAME = "DEAD RAT";
+ITEM_CORPSE_RAT_NAME = "RAT";
 ITEM_CORPSE_RAT_DESC = "A dead rat. It smells bloody awful.";
+
+ITEM_CORPSE_RAT_BLACK_NAME = "BLACK RAT";
+ITEM_CORPSE_RAT_BLACK_DESC = "A dead black rat. It smells bloody awful.";
+
+ITEM_CORPSE_RAT_GRAY_1_NAME = "LIGHT GRAY RAT";
+ITEM_CORPSE_RAT_GRAY_1_DESC = "A dead light gray rat. It smells bloody awful.";
+
+ITEM_CORPSE_RAT_GRAY_2_NAME = "DARK GRAY RAT";
+ITEM_CORPSE_RAT_GRAY_2_DESC = "A dead dark gray rat. It smells bloody awful.";
 
 // Giblets
 ITEM_GIBLET_WOODSMAN_HEAD_NAME		= "Woodsman Head";
@@ -303,6 +315,9 @@ ITEM_FLAREGUN_DESC					= "A custom, single-shot pistol with a silencer. The cham
 ITEM_FLASHBOMB_NAME					= "Flashbomb";
 ITEM_FLASHBOMB_DESC					= "A throwable bomb that emits a blinding flash, rendering nearby creatures unable to see or attack. A newly introduced tool used by the Constabulary to quell riots and protests.";
 
+ITEM_HARPOONGUN_NAME			    = "Harpoon Gun";
+ITEM_HARPOONGUN_DESC			    = "A harpoon gun powered by a novel steam exhaust system. While this weapon is usually employed for fishing purposes, one can use it on certain surfaces to create an extendable rope.";
+
 // Tools
 ITEM_BUTTON_PRESSER_NAME			= "Button Cap";
 ITEM_BUTTON_PRESSER_DESC			= "A cap for a button presser. Can be used to repair certain devices.";
@@ -319,7 +334,9 @@ ITEM_CANNON_FUSE_DESC				= "A fuse string for a cannon.";
 ITEM_POWDERFLASK_NAME				= "Powderflask Horn";
 ITEM_POWDERFLASK_DESC				= "A small container made from an animal horn. Useful for pouring gunpowder into older, muzzle-loaded weapons like muskets and cannons.";
 
+//-------------------------------------------------------------
 // Keys
+
 KEY_NONE_NAME						= "None";
 KEY_NONE_DESC						= "No keys have been found.";
 
@@ -401,32 +418,50 @@ KEY_COAST_GATEHOUSE_STORAGE_DESC	= "Key to the storage room in the city gatehous
 KEY_MARKET_SHACK_1_NAME = "Fishing Hut Door Key";
 KEY_MARKET_SHACK_1_DESC = "Key to the door of a locked fishing hut in in the Market District.";
 
-KEY_MARKET_GUNSHOP_FRONTDOOR_NAME	= "Gunshop Front Door Key";
-KEY_MARKET_GUNSHOP_FRONTDOOR_DESC	= "Key to the front door of the gunshop in the Market District.";
+KEY_MARKET_GUNSHOP_FRONTDOOR_NAME		= "Gunshop Front Door Key";
+KEY_MARKET_GUNSHOP_FRONTDOOR_DESC		= "Key to the front door of the gunshop in the Market District.";
 
-KEY_MARKET_GUNSHOP_CASHIER_NAME		= "Gunshop Cashier Key";
-KEY_MARKET_GUNSHOP_CASHIER_DESC		= "Key to the cashier desk of the gunshop in the Market District.";
+KEY_MARKET_GUNSHOP_CASHIER_NAME			= "Gunshop Cashier Key";
+KEY_MARKET_GUNSHOP_CASHIER_DESC			= "Key to the cashier desk of the gunshop in the Market District.";
 
-KEY_MARKET_GUNSHOP_DISPLAYCASE_NAME	= "Gunshop Display Case Key";
-KEY_MARKET_GUNSHOP_DISPLAYCASE_DESC	= "Key to the display cases in the gunshop in the Market District.";
+KEY_MARKET_GUNSHOP_DISPLAYCASE_NAME		= "Gunshop Display Case Key";
+KEY_MARKET_GUNSHOP_DISPLAYCASE_DESC		= "Key to the display cases in the gunshop in the Market District.";
 
-KEY_MARKET_DOCK_POWERSTATION_NAME	= "Market Power Station Key";
-KEY_MARKET_DOCK_POWERSTATION_DESC	= "Key to the power station near the dock in the Market District.";
+KEY_MARKET_DOCK_POWERSTATION_NAME		= "Market Power Station Key";
+KEY_MARKET_DOCK_POWERSTATION_DESC		= "Key to the power station near the dock in the Market District.";
 
-KEY_MARKET_BARBERSHOP_BASEMENT_NAME	= "Barbershop Basement Key";
-KEY_MARKET_BARBERSHOP_BASEMENT_DESC	= "Key to the basement of the Barbershop in the Market District.";
+KEY_MARKET_BARBERSHOP_BASEMENT_NAME		= "Barbershop Basement Key";
+KEY_MARKET_BARBERSHOP_BASEMENT_DESC		= "Key to the basement of the Barbershop in the Market District.";
 
-KEY_MARKET_MANOR_BACKDOOR_1_NAME	= "Lord Kar's Manor Back Key";
-KEY_MARKET_MANOR_BACKDOOR_1_DESC	= "Key to the back door of a manor in the Market District.";
+KEY_MARKET_MANOR_BACKDOOR_1_NAME		= "Lord Kar's Manor Back Key";
+KEY_MARKET_MANOR_BACKDOOR_1_DESC		= "Key to the back door of a manor in the Market District.";
 
-KEY_MARKET_RESTROOM_FRONTDOOR_NAME	= "Market Restroom Key";
-KEY_MARKET_RESTROOM_FRONTDOOR_DESC	= "Key to the public restroom in the Market District. Quite smelly.";
+KEY_MARKET_RESTROOM_FRONTDOOR_NAME		= "Market Restroom Key";
+KEY_MARKET_RESTROOM_FRONTDOOR_DESC		= "Key to the public restroom in the Market District. Quite smelly.";
 
-KEY_MARKET_MANOR_2_FRONTDOOR_NAME	= "Lord Marwyn's Manor Key";
-KEY_MARKET_MANOR_2_FRONTDOOR_DESC	= "Key to the front door of a manor in the Market District. The name 'Lord Marwyn' is inscribed on the head.";
+KEY_MARKET_MANOR_2_FRONTDOOR_NAME		= "Lord Marwyn's Manor Key";
+KEY_MARKET_MANOR_2_FRONTDOOR_DESC		= "Key to the front door of a manor in the Market District. The name 'Lord Marwyn' is inscribed on the head.";
 
-KEY_MARKET_MANOR_3_FRONTDOOR_NAME	= "Lord Kar's Manor Front Key";
-KEY_MARKET_MANOR_3_FRONTDOOR_DESC	= "Key to the front door of a manor in the Market District. The name 'Lord Kar' is inscribed on the head.";
+KEY_MARKET_MANOR_3_FRONTDOOR_NAME		= "Lord Kar's Manor Front Key";
+KEY_MARKET_MANOR_3_FRONTDOOR_DESC		= "Key to the front door of a manor in the Market District. The name 'Lord Kar' is inscribed on the head.";
+
+KEY_UNDERPORT_ENTRANCE_NAME				= "Underport Entrance Gate Key";
+KEY_UNDERPORT_ENTRANCE_DESC				= "Key to the entry gate to the Underport in the Market District.";
+
+KEY_UNDERPORT_PUMPSTATION_MAIN_NAME		= "Underport Pump Station Key";
+KEY_UNDERPORT_PUMPSTATION_MAIN_DESC		= "Key to the Public Pumpworks Station in the Underport.";
+
+KEY_UNDERPORT_WAREHOUSE_1F_NAME			= "Van Der Meer Warehouse 1F Key";
+KEY_UNDERPORT_WAREHOUSE_1F_DESC			= "Key to the first floor of the Van Der Meer Warehouse in the Underport.";
+
+KEY_UNDERPORT_WAREHOUSE_ARMORY_NAME		= "Van Der Meer Armory Key";
+KEY_UNDERPORT_WAREHOUSE_ARMORY_DESC		= "Key to the weapons and explosive storage room in the Van Der Meer Warehouse in the Underport.";
+
+KEY_UNDERPORT_WAREHOUSE_GATE_NAME		= "Van Der Meer Gate Key";
+KEY_UNDERPORT_WAREHOUSE_GATE_DESC		= "Key to the side gate of the Van Der Meer Warehouse in the Underport.";
+
+KEY_UNDERPORT_SEWER_B_BREAKROOM_NAME	= "Sewer Section B Break Room Key";
+KEY_UNDERPORT_SEWER_B_BREAKROOM_DESC	= "Key to the break room of the Sewer B section in the Underport.";
 
 // Currency
 CURRENCY_GOLD_NAME					= "Gold";
@@ -457,8 +492,11 @@ ITEM_HORN_ULMAR_DESC				= "A prized, ivory horn from the Old Kingdom. It is told
 ITEM_RING_EMERALD_NAME				= "Emerald Ring";
 ITEM_RING_EMERALD_DESC				= "A ring with an emerald gem. Emeralds are rumored to be the gemstone of the madman, inducing one to embrace chaos and furor.";
 
-ITEM_GOLD_CHALICE_1_NAME			= "Gold Chalice";
-ITEM_GOLD_CHALICE_1_DESC			= "An ornate golden chalice, adorned with engraved trims and set with blood-red gemstones.";
+ITEM_CHALICE_1_GOLD_NAME			= "Gold Chalice";
+ITEM_CHALICE_1_GOLD_DESC			= "An ornate golden chalice, adorned with engraved trims and set with blood-red gemstones.";
+
+ITEM_POCKETWATCH_1_GOLD_NAME = "Gold Pocket Watch";
+ITEM_POCKETWATCH_1_GOLD_DESC = "A golden pocket watch assembled by the finest watchmakers in the city.";
 
 //-------------------------------------------------------------
 // Seasonal

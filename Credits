@@ -1,14 +1,14 @@
 NONE							= "";
 
-CREDIT_AND						= "And";
-CREDIT_PRESENTS					= "Presents";
+CREDIT_AND						= "Y";
+CREDIT_PRESENTS					= "Presenta";
 CREDIT_PUBLISHER				= "New Blood Interactive";
-CREDIT_ROLE_LEADDEVELOPER		= "Lead Developer";
-CREDIT_ROLE_DEVELOPER			= "Developer";
-CREDIT_ROLE_CODEVELOPER			= "Co-Developer";
-CREDIT_ROLE_COMPOSER			= "Music";
+CREDIT_ROLE_LEADDEVELOPER		= "Desarrollador principal";
+CREDIT_ROLE_DEVELOPER			= "Desarrollador";
+CREDIT_ROLE_CODEVELOPER			= "Co-Desarrollador";
+CREDIT_ROLE_COMPOSER			= "Música";
 
-// Names
+// Nombres
 CREDIT_LEADDEVELOPER_1_NAME		= "Dillon Rogers";
 CREDIT_CODEVELOPER_1_NAME		= "David Szymanski";
 CREDIT_COMPOSER_NAME			= "Taylor Shechet";

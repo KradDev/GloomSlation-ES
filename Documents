@@ -39,40 +39,31 @@ MAPSET_TREASURE_COAST_1_NAME	= "Treasure Map - Coast #1";
 MAP_TREASURE_COAST_1_NAME		= "Treasure Map - Coast #1";
 
 // Fishery
-NOTE_FISHERY_LIFTBUTTON_NAME	= "Fishery Lift Buttons";
-NOTE_FISHERY_LIFTBUTTON_BODY	= "All- \n\nA few of the lift buttons weren't working right, so I've taken them to my workshop down the hall for fixing. \n\n -Samuel";
+NOTE_FISHERY_LIFTBUTTON_NAME = "Botones de elevación de pesca";
+NOTE_FISHERY_LIFTBUTTON_BODY = "Todos- \n\nAlgunos de los botones del ascensor no funcionaban correctamente, así que los llevé a mi taller al final del pasillo para arreglarlos. \n\n -Samuel";
+NOTE_FISHERY_POWERKEY_NAME = "Manivela del generador de pesca";
+NOTE_FISHERY_POWERKEY_BODY = "Hobbs perdió la manivela del generador de energía.\n\nDijo que una anguila se acercó y se la quitó. Trató de sacárselo de las fauces. '¡Tenía dientes malvados! ¡Tan largo como tu dedo!' Claro.\nDe cualquier manera, saldrá de su paga.\n\nEnvié una solicitud al orfebre de Market Plaza para que nos hiciera una nueva manivela mientras tanto.";
+NOTE_FISHERY_PRISONERLOG_NAME = "Registro de prisioneros";
+NOTE_FISHERY_PRISONERLOG_BODY = "Mujer, de mediana edad, enfermiza.  Encontrado vagando solo por las calles.  Envió demanda de rescate a direcciones encontradas en el bolso.  Ninguna respuesta.  Cadáver arrojado a un pozo de desechos.\n\n\nMujer, joven, encontrada escondida en Sootworks.  Pasó hambre durante dos días para obtener información sobre los familiares supervivientes.  Enviado a casa cuando se pagó el rescate.\n\n\nEl hombre, beligerante, se negó a cooperar incluso bajo presión.  Alimentado a los perros.\n\n\nMacho, forastero.  Mostró signos de infección después de la captura.  Inmediatamente eliminado y arrojado al mar.\n\n\nHombre, forastero, sospechoso.  El cliente solicita que lo transporten ileso al mercado.";
+NOTE_FISHERY_MANAGER_NAME = "La confesión del Sr. Croup";
+NOTE_FISHERY_MANAGER_BODY = "Considere esto como mi última voluntad y mi confesión:\n\nHice todo lo que ella me pidió.\n\nCuando ella quiso un puesto en el consejo mercantil, se lo di.\n\n¿Cuando quiso que alguna figura desagradable fuera eliminada y descartada silenciosamente? Yo lo proporcioné.\n\nAhora se ha desatado el infierno y tengo mercenarios paletos asediando la fábrica. Aquí sólo tengo trabajadores y marineros, no soldados. Ni siquiera he disparado ese maldito revólver que estaba en mi caja fuerte.\n\nCumplí mi parte del trato. Años de promesas vacías. ¿Realmente estuve así de ciego todo el tiempo?\n\nMaldita seas, Sylvia. Que este pueblo podrido te lleve consigo.";
+NOTE_FISHERY_ACCOUNTING_NAME = "Factura de gastos";
+NOTE_FISHERY_ACCOUNTING_BODY = "Mes de septiembre:\n\nBolsas de red - 8\n\nCombustible del generador - 20\n\nReparación del botón de elevación - 3 <color=#840601><alpha=#EE>(Samuel se encarga de ello)</color>\n \nPintura de radio - 17\n\nReemplazo de ventanas (almacenamiento) - 10\n\nBombillas de repuesto - 8\n\nBarril de aceite de grasa (x3) - 77\n\nBote de remos nuevo - 41\n\nMr. Honorarios de Carrington - 120\n\nManivela del generador de energía - 0 <color=#840601><alpha=#EE>(Saliendo del sueldo de Hobbs)</color>\n\nRuedas de carro (x4) - 55\n\n \n\n\n\n\nTotal: $359\n\n\n<color=#840601><alpha=#EE>(Sr. Croup, ¿quiere que elimine los honorarios del Sr. Carrington como de costumbre? -Sra. D)</color>\n\n\n\n\n\n\n\nSra. Daryl,\n\n\t Sí, por favor. Y asegúrese de que la pintura llegue a mi oficina.\n\n\t-Sr. Crup";
+NOTE_FISHERY_CARRIAGE_BASEMENT_NAME = "Algunos consejos amistosos para su primer día";
+NOTE_FISHERY_CARRIAGE_BASEMENT_BODY = "Batty,\n\nYo diría que te preocupes por el hedor de aquí abajo, pero dado que vienes de la fábrica de conservas, en comparación, esto probablemente sea aire fresco del campo.\n\nNo esperamos que seas un maestro carpintero, eres principalmente Sólo estoy aquí para mantener el asiento caliente y tal vez colocar una o dos ruedas de repuesto hasta que Falmouth se recupere de la gripe.\n\nEso sí, esto parecerá una tontería, pero mantente alejado del espejo de la esquina. No sé cuál es la historia, pero sí sé que el Sr. Croup tenía prisa por sacar la cosa de su oficina, y desde entonces algunos de los chicos juran que está encantada, alegando luces y voces fantasmas y tonterías como esa.\n\nYa sabes cómo se ponen, así que tómalo con cautela.";
+NOTE_FISHERY_WATCHTOWER_NAME = "Diario del vigilante";
+NOTE_FISHERY_WATCHTOWER_BODY = "DÍA 1 (no estoy seguro de cuál es la fecha):\n\n¡No puedo creer que haya funcionado! Huelo a tripas de pescado pero, sinceramente, eso probablemente me ayudó a pasar desapercibido. Incluso logré robar algunas latas de la línea para seguir adelante.\n\nDÍA 2:\n\nRupert, idiota estúpido, ¡no trajiste nada para abrir las latas! Y joder, que estoy encerrada. No sé cómo me siguieron, pero en lugar de escapar he acabado en otra celda. Podría disparar a la cerradura... pero sólo tengo una bala, así que tiene que contar. Tener hambre.\n\nDÍA 3:\n\nVi a un grupo de esos hombres con sombreros arrastrando a alguien hacia la puerta principal. Debe haber sido otro prisionero atrapado intentando escapar. Me alegro de que no fuera yo. Lo arrastraron pataleando y gritando hasta la puerta principal y lo entregaron a un caballero alto y espeluznante que vestido de blanco destacaba como un pulgar dolorido entre todos los sombreros negros; me dio escalofríos durante todo el camino hasta aquí. Casi sentí que sabía que estaba mirando. Necesito comer algo, estoy empezando a perder la cabeza.\n\n¿Día 5? 6?\n Tenía tanta hambre que tuve que contenerme para no abrir una de las latas. Quizás todavía lo haga. No me importa si me atrapan, sólo necesito COMIDA.";
+MAP_SKETCH_COUNTRYSIDE_1_NAME = "Bosquejo costero #1";
+MAP_FISHERY_BASEMENT_NAME = "Plano de pesca - Sótano";
+MAP_FISHERY_F1_NAME = "Plano de pesca - 1F";
+MAP_FISHERY_F2_NAME = "Plano de pesca - 2F";
+MAPSET_FISHERY_BLUEPRINT_NAME = "Planos de pesca";
+MAPSET_COUNTRYSIDE_SKETCH_NAME = "Bosquejo del campo";
+MAPSET_TREASURE_FISHERY_COVE_NAME = "Mapa del tesoro n.° 1";
+MAPSET_TREASURE_FISHERY_COVE_BODY = "Mapa del tesoro";
+NOTE_FISHERY_HOBBSCHEESE_NAME = "Colección de quesos de Hobbs";
+NOTE_FISHERY_HOBBSCHEESE_BODY = "Estos son mis quesos.  \n\nNO TOCAR.  \n\nLos escondo aquí para que los perros no los encuentren.  Puedo ver el deseo de queso en sus ojos.  ¡Oh, qué ganas tienen de este delicioso queso... esos asquerosos perros pescadores y sus cómplices, los bichos que se alimentan de electricidad!  \n\nAquí no encontrarán el queso.  \n\nOh, no, no lo harán.\n\n-Hobbs";
 
-NOTE_FISHERY_POWERKEY_NAME		= "Fishery Generator Crank";
-NOTE_FISHERY_POWERKEY_BODY		= "Hobbs lost the crank to the power generator.\n\nSaid a spine eel came right up and took it off him. Tried to wrestle it from its jaws. 'Had wicked teeth! As long as your finger!' Sure.\nEither way, it's coming out of his pay.\n\nI sent a request to the Metalsmith in the Market Plaza to make us a new crank in the mean time.";
-
-NOTE_FISHERY_PRISONERLOG_NAME	= "Prisoner Log";
-NOTE_FISHERY_PRISONERLOG_BODY	= "Woman, middle-aged, sickly.  Found wandering the streets alone.  Sent ransom demand to addresses found in purse.  No reply.  Dumped corpse in waste pit.\n\n\nWoman, young, found hiding in Sootworks.  Starved for two days to gain information about surviving relatives.  Sent home when ransom was paid.\n\n\nMan, belligerent, refused to cooperate even under duress.  Fed to the hounds.\n\n\nMale, outsider.  Showed signs of infection after capture.  Immediately disposed of and thrown into the sea.\n\n\nMan, outsider, suspicious.  Client requests he be transported to the market unharmed.";
-
-NOTE_FISHERY_MANAGER_NAME		= "Mr. Croup's Confession";
-NOTE_FISHERY_MANAGER_BODY		= "Consider this my last will and my confession:\n\nI did everything she asked of me.\n\nWhen she wanted a seat on the mercantile council, I delivered.\n\nWhen she wanted some unsavory figure removed and discarded quietly? I provided.\n\nNow all hell has broken loose and I have yokel mercenaries besieging the factory floor. I only have line workers and sailors here, not soldiers. I haven't even fired that damn revolver in my safe.\n\nI kept my end of the bargain. Years of empty promises. Was I really this blind all along?\n\nCurse you, Sylvia. May this rotten town take you with it.";
-
-NOTE_FISHERY_ACCOUNTING_NAME	= "Bill of Expenses";
-NOTE_FISHERY_ACCOUNTING_BODY	= "Month of September:\n\nNetting Bags - 8\n\nGenerator Fuel - 20\n\nLift Button Repair - 3 <color=#840601><alpha=#EE>(Samuel is handling it)</color>\n\nRadium Paint - 17\n\nWindow Replacement (Storage) - 10\n\nSpare Bulbs - 8\n\nGrease Oil Barrel (x3) - 77\n\nNew Rowboat - 41\n\nMr. Carrington's Fees - 120\n\nPower Generator Crank - 0 <color=#840601><alpha=#EE>(Coming out of Hobbs' pay)</color>\n\nCarriage Wheels (x4) - 55\n\n\n\n\n\n\nTotal: $359\n\n\n<color=#840601><alpha=#EE>(Mr. Croup, do you want me to remove Mr. Carrington's fee as usual? -Ms. D)</color>\n\n\n\n\n\n\n\nMs. Daryl,\n\n\t Yes, please. And ensure the paint gets delivered to my office.\n\n\t-Mr. Croup";
-
-NOTE_FISHERY_CARRIAGE_BASEMENT_NAME	= "Some Friendly Advice for Your First Day";
-NOTE_FISHERY_CARRIAGE_BASEMENT_BODY	= "Batty,\n\nI'd say mind the stench down here but seeing as you came from the cannery this is probably country fresh air in comparison.\n\nWe don't expect you to be a master woodworker, you're mostly just here to keep the seat warm and maybe slap on a replacement wheel or two until Falmouth gets over his flu.\n\nMind you, this will sound silly, but steer clear of the mirror in the corner. I don't know what the story there is, but I do know that Mr. Croup was in a hurry to get the thing out of his office, and since then some of the boys swear it's haunted -- claiming phantom lights and voices and nonsense like that.\n\nYou know how they get, so take that with a grain of salt.";
-
-NOTE_FISHERY_WATCHTOWER_NAME	= "Watchman's Journal";
-NOTE_FISHERY_WATCHTOWER_BODY	= "DAY 1 (not sure what the date is):\n\nI can't believe that worked! I smell like fish guts but honestly that probably helped me sneak out unnoticed. I even managed to filch a few cans off the line to keep me going.\n\nDAY 2:\n\nRupert, you stupid prat, you didn't bring anything to open the cans! And Bugger me, I'm locked in. I don't know how they tracked me, but instead of escaping I've ended up in another cell. I could shoot off the lock... but I've only got one bullet, so it has to count. Getting hungry.\n\nDAY 3:\n\nSaw a group of those men in hats dragging someone toward the main gate. Must have been another prisoner caught trying to escape. Glad it wasn't me. They dragged him kicking and screaming to the main gate and handed him off to some tall, creepy gent who in white stood out like a sore thumb among all the black hats -- he gave me shivers all the way up here. Almost felt like he knew I was watching. I need to eat something, I'm starting to lose my mind.\n\nDay 5? 6?\n So hungry I had to stop myself from shooting one of the cans open. I might still do it. Don't care if I'm caught, I just need FOOD.";
-
-MAP_SKETCH_COUNTRYSIDE_1_NAME	= "Coastal Sketch #1";
-MAP_FISHERY_BASEMENT_NAME		= "Fishery Blueprint - Basement";
-MAP_FISHERY_F1_NAME				= "Fishery Blueprint - 1F";
-MAP_FISHERY_F2_NAME				= "Fishery Blueprint - 2F";
-
-MAPSET_FISHERY_BLUEPRINT_NAME	= "Fishery Blueprints";
-MAPSET_COUNTRYSIDE_SKETCH_NAME	= "Countryside Sketch";
-
-MAPSET_TREASURE_FISHERY_COVE_NAME	= "Treasure Map #1";
-MAPSET_TREASURE_FISHERY_COVE_BODY	= "Treasure Map";
-
-NOTE_FISHERY_HOBBSCHEESE_NAME   = "Hobbs' Cheese Collection";
-NOTE_FISHERY_HOBBSCHEESE_BODY   = "These are my cheeses.  \n\nDO NOT TOUCH.  \n\nI am hiding them here so the dogs do not find them.  I can see the desire for cheese in their eyes.  Oh, such desire they have for this delicious cheese... those foul fishy dogs and their accomplices, the bugs which feast upon electricity.  \n\nThey will not find the cheese here.  \n\nOh no they will not.\n\n-Hobbs";
 
 // Coast Caves
 NOTE_CAVES_POWERGENERATOR_NAME	= "Cave Power Generator";
@@ -159,6 +150,30 @@ NOTE_MARKET_MANOR_KITCHEN_1_BODY = "Lord Kar now has a kitchen dumbwaiter!\n\nIt
 
 NOTE_MARKET_MANOR_KITCHEN_2_NAME = "Lord Kar Manor Kitchen Note";
 NOTE_MARKET_MANOR_KITCHEN_2_BODY = "Staff,\n\nA trespasser was caught in my altar room after sneaking in through the skylight. I've sent word to the metalsmith to forge some guards for those windows.\n\nIn the mean time, show our guest some Kar hospitality. You know how I like the meat prepared.";
+
+//-------------------------------------------------------------
+// Underport
+
+NOTE_UNDERPORT_MANOR_1_NAME					= "Underport Manor Note #1";
+NOTE_UNDERPORT_MANOR_1_BODY					= "It's been two weeks since the disappearance of grandad.\n\nI can't sleep. It's the pipes. When I close my eyes, I feel their rusted appendages coil around me and drag me underneath. I try to scream, but my lungs are flooded with black water.\n\nI went for a walk this afternoon to clear my head. The city feels so empty, so many boarded windows and doors.\n\nI wish I had listened, grandad.";
+
+NOTE_UNDERPORT_PUMPSTATION_1_NAME			= "Brother Liam's Orders";
+NOTE_UNDERPORT_PUMPSTATION_1_BODY			= "Brother Liam,\n\nYour instructions are to assault and commandeer the Lampfire Power Plant and clear it of any mutants. The Underport is divided into sections that are linked with water bridges. Have your brothers raise the bridges and prepare for the arrival of additional forces from the forward camp. Be alert as reports suggest the tunnels are highly infested.\n\n-Captain Orlot";
+
+NOTE_UNDERPORT_MISSINGPERSONS_1_NAME		= "Missing Persons Notice";
+NOTE_UNDERPORT_MISSINGPERSONS_1_BODY		= "PUBLIC NOTICE.\n\nFROM THE CITY CONSTABULARY:\n\nAN OVERWHELMING INCREASE IN THE INCIDENCE OF MISSING PERSONS HAVING BEEN OBSERVED,\n\nTHE CONSTABULARY, BEING LIMITED IN ITS CAPACITY TO INVESTIGATE, IS REGRETTABLY UNABLE TO RESPOND INDIVIDUALLY TO NEW REPORTS,\n\nAND THUS COUNSELS CONCERNED CITIZENS TO POST BULLETINS REGARDING MISSING PERSONS DIRECTLY TO PUBLIC BOARDS.\n\n-Chief Constable Harland.";
+
+NOTE_UNDERPORT_WAREHOUSE_MANAGER_1_NAME		= "Warehouse Manager Note #1";
+NOTE_UNDERPORT_WAREHOUSE_MANAGER_1_BODY		= "Hah. I hear you fools out there. You think this electronically powered, ironclad security door is going to bend to mere gunpowder?\n\nIf you want in, you'll have to try harder than that!\n\nHere, I'll even sweeten the deal: my safe's code is 115. You get me that seal, and I will forgive this pathetic transgression and give you its contents.\n\nWill that get some smarts going in those thick skulls of yours?";
+
+NOTE_UNDERPORT_WAREHOUSE_MANAGER_2_NAME		= "Warehouse Manager Note #2";
+NOTE_UNDERPORT_WAREHOUSE_MANAGER_2_BODY		= "You can't get good hired help anymore.\n\nI've been trying to retrieve that damned guild seal from the tunnels for months now. A group of mountain mercenaries, two accomplished treasure hunters and an exhibition shooter all could not dislodge that prize from the undercity's talons.\n\nI can't very well go down there myself. I am a businessman, not some rogue spoiling for a fight.\n\nPerhaps the order of the huntsmen has enough meatheads to take on such a perilous dive.\n\nI would just need to entice them with the right strategy...";
+
+NOTE_UNDERPORT_PIT_1_NAME					= "Underport Pit Quarantine";
+NOTE_UNDERPORT_PIT_1_BODY					= "The pigs have quarantined off the pit.\n\nWe all know why. Those creatures have a nest down there. I've seen it.\n\nWe shouldn't bother with no barricade. I say we just dump as much dynamite and gunpowder as possible and blow them all to kingdom come.\n\nIt's the only way to be sure.";
+
+NOTE_UNDERPORT_POWERPLANT_SUBFLOW_1_NAME	= "Underport Power Plant Switch Note";
+NOTE_UNDERPORT_POWERPLANT_SUBFLOW_1_BODY	= "Note: As the Constabulary has quarantined off the undercity tunnels, the power to that section has been shut off to conserve resources.\n\nIn the event that they wish to access that area again, ask them whether they desire power to be reactivated:\n\nWithout power enabled, several of the powered flood gates are inaccessible and most of the running lights are disabled, making it considerably more challenging to navigate the darkness.\n\nWith power enabled, the area will be easier to traverse, but several flood gates may trigger audible alarms when opening.";
 
 NOTE_SHOP_ITEM_STORAGE_NAME		= "Item Storage";
 NOTE_SHOP_ITEM_STORAGE_BODY		= "Doctor,\n\nFeel free to leave behind any belongings in this room.\n\nThey'll be safe in my possession.";
