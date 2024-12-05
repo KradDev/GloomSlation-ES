@@ -165,6 +165,9 @@ NOTE_MARKET_MANOR_KITCHEN_2_BODY = "Personal,\n\nUn intruso fue atrapado en mi s
 //-------------------------------------------------------------
 // Underport
 
+MAPSET_UNDERPORT_POWER_1_NAME				= "Mapa de la red eléctrica de Underport";
+MAP_UNDERPORT_POWER_1_NAME					= "Mapa de la red eléctrica de Underport";
+
 NOTE_UNDERPORT_MANOR_1_NAME = "Nota #1 de Underport Manor";
 NOTE_UNDERPORT_MANOR_1_BODY = "Han pasado dos semanas desde la desaparición del abuelo.\n\nNo puedo dormir. Son las tuberías. Cuando cierro los ojos, siento sus apéndices oxidados enrollarse a mi alrededor y arrastrarme hacia abajo. Intento gritar, pero mis pulmones están inundados de agua negra.\n\nEsta tarde salí a caminar para aclararme la cabeza. La ciudad se siente tan vacía, con tantas ventanas y puertas tapiadas.\n\nOjalá hubiera escuchado, abuelo.";
 
@@ -174,6 +177,15 @@ NOTE_UNDERPORT_PUMPSTATION_1_BODY = "Hermano Liam,\n\nTus instrucciones son asal
 NOTE_UNDERPORT_MISSINGPERSONS_1_NAME = "Aviso de personas desaparecidas";
 NOTE_UNDERPORT_MISSINGPERSONS_1_BODY = "AVISO PÚBLICO.\n\nDE LA POLICÍA DE LA CIUDAD:\n\nSE HA OBSERVADO UN AUMENTO ABRUMADOR EN LA INCIDENCIA DE PERSONAS DESAPARECIDAS,\n\nLA POLICÍA, AL SER LIMITADA EN SU CAPACIDAD PARA INVESTIGAR, LAMENTABLEMENTE NO PUEDE RESPONDER INDIVIDUALMENTE A NUEVOS INFORMES ,\n\nY POR LO TANTO, SE ACONSEJA A LOS CIUDADANOS PREOCUPADOS A PUBLICAR BOLETINES SOBRE PERSONAS DESAPARECIDAS DIRECTAMENTE EN LAS JUNTAS PÚBLICAS.\n\n-Jefe de policía Harland.";
 
+NOTE_UNDERPORT_WAREHOUSE_MANAGER_1_NAME		= "Nota n.º 1 de Señor Van Der Meer";
+NOTE_UNDERPORT_WAREHOUSE_MANAGER_1_BODY		= "No entiendo por qué ustedes, tontos, no aceptan este trato.\n\nLo dejé claro: ustedes me traen el sello del gremio encontrado en los túneles, yo les proporciono munición y potencia de fuego para continuar su guerra con la policía.\n\nEn lugar de atacar infructuosamente mi búnker de confinamiento, podemos llegar a un acuerdo que nos beneficie a ambos.\n\nIncluso endulzaré el trato: el código de mi caja fuerte aquí es 115. Consideren su contenido como un pago inicial.";
+
+NOTE_UNDERPORT_WAREHOUSE_MANAGER_2_NAME		= "Nota n.º 2 de Señor Van Der Meer";
+NOTE_UNDERPORT_WAREHOUSE_MANAGER_2_BODY		= "Ya no se puede conseguir ayuda contratada.\n\nLlevo meses intentando recuperar ese maldito sello del gremio de los túneles. Un grupo de mercenarios de montaña, dos cazadores de tesoros expertos y un tirador de exhibición no han podido desalojar ese premio de las garras de la ciudad subterránea.\n\nNo puedo bajar allí yo mismo. Soy un hombre de negocios, no un pícaro que busca pelea.\n\nQuizás la orden de los cazadores tenga suficientes cabezas huecas para emprender una inmersión tan peligrosa. Solo tendría que atraerlos con la estrategia adecuada...\n\nPor ahora, el chiflado está a salvo conmigo, así que no tendré que preocuparme de que otros ladrones se lleven el sello.\n\nHe intentado ponerme en contacto con Sylvia, pero ya no responde en mi espejo.\n\n¿Ya no cree que estoy a la altura de esta tarea?";
+
+NOTE_UNDERPORT_PIT_1_NAME					= "Barricada de foso subterráneo";
+NOTE_UNDERPORT_PIT_1_BODY					= "Vi que el Sr. Van Der Meer trajo a un grupo de sus muchachos y construyó esta barricada aquí.\n\nTodos sabemos que esos cerdos no han hecho nada por la gente desaparecida.\n\n¡Bien por el Sr. Van Der Meer!\n\nHay cosas allí abajo que no nos están contando.";
+
 NOTE_UNDERPORT_WAREHOUSE_MANAGER_1_NAME = "Nota del gerente de almacén n.° 1";
 NOTE_UNDERPORT_WAREHOUSE_MANAGER_1_BODY = "Ja. Los escucho tontos por ahí. ¿Crees que esta puerta de seguridad blindada y accionada electrónicamente se va a doblar hasta convertirse en mera pólvora?\n\n¡Si quieres entrar, tendrás que esforzarte más que eso!\n\nAquí, incluso mejoraré el trato: mi caja fuerte El código es 115. Consígueme ese sello y perdonaré esta patética transgresión y te daré su contenido.\n\n¿Eso despertará algo de inteligencia en esos gruesos cráneos tuyos?";
 
@@ -182,6 +194,7 @@ NOTE_UNDERPORT_WAREHOUSE_MANAGER_2_BODY = "Ya no puedes conseguir buena ayuda co
 
 NOTE_UNDERPORT_PIT_1_NAME = "Cuarentena del foso subterráneo";
 NOTE_UNDERPORT_PIT_1_BODY = "Los cerdos han sido puestos en cuarentena fuera del pozo.\n\nTodos sabemos por qué. Esas criaturas tienen un nido ahí abajo. Lo he visto.\n\nNo deberíamos molestarnos en no poner barricadas. Yo digo que simplemente arrojemos tanta dinamita y pólvora como sea posible y los volemos todos al cielo.\n\nEs la única manera de estar seguros.";
+NOTE_UNDERPORT_POWERPLANT_SUBFLOW_1_BODY	= "Hemos perdido contacto con los trabajadores de los túneles. Teniendo en cuenta lo que hemos oído de la policía, probablemente sea una causa perdida.\n\nLa dirección está dando la orden de cortar la electricidad allí. Esperemos por su bien que tengan un generador de respaldo.";
 
 NOTE_UNDERPORT_POWERPLANT_SUBFLOW_1_NAME = "Nota sobre el interruptor de la planta de energía bajo puerto";
 NOTE_UNDERPORT_POWERPLANT_SUBFLOW_1_BODY = "Nota: Como la policía ha puesto en cuarentena los túneles subterráneos, se ha cortado la electricidad en esa sección para conservar recursos.\n\nEn el caso de que deseen acceder a esa área nuevamente, pregúnteles si desean que se reactive la electricidad: \n\nSin la energía habilitada, varias de las compuertas eléctricas contra inundaciones son inaccesibles y la mayoría de las luces de circulación están desactivadas, lo que hace que sea considerablemente más difícil navegar en la oscuridad.\n\nCon la energía habilitada, el área será más fácil de atravesar, pero Varias compuertas contra inundaciones pueden activar alarmas audibles al abrirse.";
@@ -189,7 +202,34 @@ NOTE_UNDERPORT_POWERPLANT_SUBFLOW_1_BODY = "Nota: Como la policía ha puesto en 
 NOTE_SHOP_ITEM_STORAGE_NAME = "Almacenamiento de artículos";
 NOTE_SHOP_ITEM_STORAGE_BODY = "Doctor,\nn Siéntase libre de dejar cualquier pertenencia en esta habitación.\n\nEstarán a salvo en mi posesión.";
 
-// Mirror
+//-------------------------------------------------------------
+// Underport - Hive
+
+MAPSET_UNDERPORT_HIVE_1_NAME	= "Mapa de la colmena de Underport";
+MAP_UNDERPORT_HIVE_1_NAME       = "Mapa de la colmena de Underport";
+
+NOTE_UNDERPORT_HIVE_SUPERVISOR_NAME = "Nota del supervisor de alcantarillado";
+NOTE_UNDERPORT_HIVE_SUPERVISOR_BODY = "Clem, ¿tienes idea de lo que está pasando en los conductos de ventilación? Y antes de que digas nada, no son las ratas. Todos sabemos cómo suenan las ratas. Los chicos se están asustando. Nunca los había visto así y, francamente, no los culpo. Todavía no hemos visto ni un pelo de Bill desde que se fue a Ingeniería. Tonterías, tendré que ir a comprobarlo yo mismo, ¿no? Está bien. Voy a dirigirme a los túneles de mantenimiento para coger los esquemas completos de los túneles y empezar a comprobar Ingeniería.";
+
+NOTE_UNDERPORT_HIVE_MONITORING_NAME = "Registros de estaciones de monitoreo de bombas";
+NOTE_UNDERPORT_HIVE_MONITORING_BODY = "Martes\n\nLa presión es nominal, sin fluctuaciones de +/- 10 PSI\n\nNota: Me quejé OTRA VEZ con los alguaciles sobre la gentuza que vive al final de la calle en la planta de tratamiento de residuos. Esos holgazanes viven en la inmundicia, siempre haciendo ruido. Me vuelve loco. Alguien tiene que darles una paliza para que entren en razón.\n\nMiércoles\n\nLa presión es nominal, una pequeña fluctuación a las 6:15 a. m.\n\nNota: ¿Los alguaciles finalmente me escucharon? No he escuchado ni pío de esos vándalos en los últimos dos días. Paz al fin.\n\nJueves\n\nLa presión es nominal, sin fluctuaciones de +/- 10 PSI\n\nNota: Vi algo a través de los barrotes del pasillo. No sé qué era, pero no parecía humano. Gracias a Dios no hay válvula de puerta en su lado.";
+
+NOTE_UNDERPORT_HIVE_HIDING_NAME = "Nota del trabajador escondido";
+NOTE_UNDERPORT_HIVE_HIDING_BODY = "Vi una de esas aves... y me escondí en esta habitación trasera. Sigo intentando escapar, pero ahora están por todas partes. Este lugar es un infierno... ni siquiera las ratas están aquí abajo. No hay nada que hacer más que agacharse y esperar el momento adecuado. Si puedo mantenerme fuera del camino, tal vez tenga una oportunidad.\n\nTal vez.\n\nLa espera es la peor parte. Escribir esto me ayuda a no perder el control. Tengo que mantenerme alerta si quiero volver a ver el cielo.";
+
+NOTE_UNDERPORT_HIVE_ELEVATOR_NAME = "Nota de los arqueólogos sobre el generador";
+NOTE_UNDERPORT_HIVE_ELEVATOR_BODY = "Profesor,\n\nMoví algunos hilos con mi padre, quien pidió un favor a uno de los proveedores de su empresa y nos consiguió nuestro propio generador para alimentar el ascensor y cualquier otra maquinaria que pudiéramos necesitar. ¡Uno de los muchos beneficios de tener familiares en puestos altos! Finalmente, nos libraremos de los incesantes apagones de esos tontos de Lampfire Power. No podrían mantener una antorcha encendida en un infierno.\n\nAhora viene lo importante: si el generador se queda sin combustible, hemos instalado un depósito cerca de las ruinas de la casa de baños donde puedes conseguir nuevos contenedores Y llenarlos. No cometas el mismo error que Peter: ¡asegúrate de que el contenedor esté realmente lleno antes de cargarlo hasta aquí!\n\nCon el generador instalado, ya no estaremos limitados por los caprichos de la red eléctrica y finalmente podremos hacer un progreso serio en la excavación. ¡Hurra!";
+
+NOTE_UNDERPORT_HIVE_TOWER_NAME		= "Diario de un arqueólogo";
+NOTE_UNDERPORT_HIVE_TOWER_BODY		= "Estoy catalogando mis observaciones aquí porque, francamente, no hay mucho más que pueda hacer mientras estoy atrapado aquí. Ya estaba en la torre para realizar el estudio arqueológico del frente de la presa cuando estos demonios invadieron el campamento. Debieron haber sido atraídos por el ruido del elevador de carga.\n\nDía 1\nDesafortunadamente para mis colegas, es casi imposible escapar de las bestias. Aprende una lección de nuestros ancestros primitivos y aprovecha el hecho de que no pueden trepar. Me las arreglé para conseguir algunos suministros y armas simplemente escabulléndome y trepando cuando uno vino acechando.\n\n¿Día 2?\nSu morfología es ciertamente única. Como crías, se parecen más a una especie aviar, pero los especímenes adultos son claramente bípedos. Tampoco puedo evitar comentar sobre las peculiares prendas que adornan a muchos de los adultos. Hay una variante brutal que no tiene ropa, pero no me atrevo a acercarme para mirar más de cerca.\n\nEs una tontería. Mientras hacía un viaje para conseguir más suministros del depósito de combustible, una de las criaturas debe haberme seguido. ¿Me estuvo observando ir y venir de la torre todo este tiempo y simplemente esperando el momento adecuado? Bueno, amigos. Supongo que no estaba muy lejos de unirme a ustedes después de todo.";
+
+NOTE_UNDERPORT_HIVE_SAFEROOM_NAME = "Nota del encargado de eliminación de residuos";
+NOTE_UNDERPORT_HIVE_SAFEROOM_BODY = "Estoy empezando a preguntarme si fue un error involucrarme con estos tipos arqueo-lo-que-sea. No me malinterpreten, el rasguño que me están dando para dejarles usar el pozo de eliminación de desechos huele igual que cualquier otro, y estaba bien cuando solo bajaban herramientas y equipos.\n\nPero han comenzado a volver a subir cosas. Cosas muy, muy antiguas. Estatuas y cachivaches que me dan una sensación extraña en el estómago al mirarlos. Y eso es solo lo que SÍ veo, ya que la mayoría de las veces mueven cosas durante la noche cuando no estoy en mi escritorio. No me gusta pensar en lo que no quieren que nadie vea.\n\nY lo que es más, otra gente extraña ha estado husmeando. Recibí la visita de un tipo extraño con una máscara blanca que quería que lo dejara bajar al pozo, pero no dijo por qué. Le he dicho que se vaya, pero no puedo quitarme la sensación de que es alguien bien relacionado (quizás incluso con el jefe de espías) y de que estoy en un lío que me supera.\n\nAh, pero el dinero ES bueno. ¿Qué hacer, qué hacer?";
+
+
+//-------------------------------------------------------------
+// Dimension - Mirror
+
 NOTE_MIRROR_ARCHAEOLOGY_1_NAME	= "";
 NOTE_MIRROR_ARCHAEOLOGY_1_BODY	= "Nota WIP sobre hallazgos arqueológicos.";
 

@@ -94,6 +94,14 @@ ITEM_MUSICBOX_DESC = "Mango de viento para guardar el juego.";
 ITEM_WAXCYLINDER_NAME = "Cilindro de cera";
 ITEM_WAXCYLINDER_DESC = "Un cilindro de cera para el fonógrafo. Se utiliza para guardar el progreso actual. Consumido cuando se usa.";
 
+ITEM_UPGRADE_LUGGAGE_8X6_NAME   = "Actualización de inventario (8x6)";
+ITEM_UPGRADE_LUGGAGE_8X6_DESC   = "Un contenedor de almacenamiento ampliado para la maleta.";
+
+// Seals
+
+ITEM_SEAL_UNDERPORT_NAME		= "Sello del subpuerto";
+ITEM_SEAL_UNDERPORT_DESC		= "";
+
 // Food
 ITEM_CHEESE_NAME = "Rueda de queso";
 ITEM_CHEESE_DESC = "Una rueda de queso con un aroma fuerte. La mayor parte de la producción lechera de la región proviene de cabras con cuernos de nariz que emigraron de las montañas orientales.";
@@ -225,9 +233,12 @@ ITEM_GUNPOWDER_DESC				= "";
 ITEM_HARPOON_NAME = "Arpón";
 ITEM_HARPOON_DESC = "Un arpón afilado que puede penetrar determinadas superficies.";
 
+ITEM_HARPOON_ROPE_BUNDLE_NAME = "Paquete de arpones";
+ITEM_HARPOON_ROPE_BUNDLE_DESC = "Un paquete de arpones.";
+
 // Junk
-ITEM_BOTTLE_NAME = "botella de vidrio";
-ITEM_BOTTLE_DESC = "Una botella de licor de vidrio vacía que es capaz de crear una fuerte distracción. La etiqueta descolorida de Ashbrew Brewery envuelve el frente.";
+ITEM_BOTTLE_1_NAME = "botella de vidrio";
+ITEM_BOTTLE_1_DESC = "Una botella de licor de vidrio vacía que es capaz de crear una fuerte distracción. La etiqueta descolorida de Ashbrew Brewery envuelve el frente.";
 
 ITEM_CAN_FISH_NAME = "lata de pescado";
 ITEM_CAN_FISH_DESC = "Una lata etiquetada con una pegatina que dice <Pesca de cereales>. Del envoltorio emana un olor salado y repugnante.";
@@ -244,6 +255,24 @@ ITEM_CAN_BEANS_EMPTY_DESC = "Una lata vacía etiquetada con una pegatina que dic
 ITEM_RIFLE_BROKEN_NAME = "Rifle de cazador";
 ITEM_RIFLE_BROKEN_DESC = "Un rifle de caza improvisado y de mala calidad. Las empuñaduras están diseñadas para las proporciones distorsionadas de los cazadores y no pueden ser manejadas por humanos promedio.";
 
+ITEM_BOTTLE_WINE_1_NAME = "Botella de vino";
+ITEM_BOTTLE_WINE_1_DESC = "Una botella de vino vacía que se rompería fácilmente si la arrojaran. La etiqueta está arrancada, por lo que no hay forma de saber cuánto podría haber disfrutado de lo que había dentro.";
+
+ITEM_BRICK_1_NAME = "Ladrillo";
+ITEM_BRICK_1_DESC = "Un ladrillo, desprendido de una pared. Esto no causará mucho daño, pero definitivamente llamará la atención de alguien.";
+
+ITEM_BOOT_1_LEFT_NAME = "Bota";
+ITEM_BOOT_1_LEFT_DESC = "Una bota de cuero vieja y desgastada para el pie izquierdo. Huele fuertemente a dedos sudorosos y hongos.";
+
+ITEM_BOOT_1_RIGHT_NAME = "Bota";
+ITEM_BOOT_1_RIGHT_DESC = "Una bota de cuero vieja y desgastada para el pie derecho. Huele fuertemente a dedos sudorosos y hongos.";
+
+ITEM_TINCAN_1_NAME = "Lata";
+ITEM_TINCAN_1_DESC = "Una lata sin etiqueta. No se puede determinar por el olor lo que contenía.";
+
+ITEM_TINCAN_2_NAME = "Lata";
+ITEM_TINCAN_2_DESC = "Una lata sin etiqueta. No se puede determinar por el olor lo que contenía.";
+
 ITEM_CORPSE_RAT_NAME = "RATA";
 ITEM_CORPSE_RAT_DESC = "Una rata muerta. Huele fatal.";
 
@@ -255,6 +284,9 @@ ITEM_CORPSE_RAT_GRAY_1_DESC = "Una rata muerta de color gris claro. Huele fatal.
 
 ITEM_CORPSE_RAT_GRAY_2_NAME = "RATA GRIS OSCURO";
 ITEM_CORPSE_RAT_GRAY_2_DESC = "Una rata muerta de color gris oscuro. Huele fatal.";
+
+ITEM_CORPSE_RAT_INFECTED_NAME = "RATA INFECTADA";
+ITEM_CORPSE_RAT_INFECTED_DESC = "Una rata muerta que rezuma pestilencia.";
 
 // Giblets
 ITEM_GIBLET_WOODSMAN_HEAD_NAME = "Cabeza de leñador";
@@ -315,8 +347,35 @@ ITEM_FLAREGUN_DESC = "Una pistola personalizada de un solo tiro con silenciador.
 ITEM_FLASHBOMB_NAME = "bomba flash";
 ITEM_FLASHBOMB_DESC = "Una bomba arrojable que emite un destello cegador, lo que deja a las criaturas cercanas incapaces de ver o atacar. Una herramienta recientemente introducida utilizada por la policía para sofocar disturbios y protestas.";
 
+ITEM_CHOKEBOMB_NAME	= "Bomba de estrangulamiento";
+ITEM_CHOKEBOMB_DESC	= "Una bomba arrojadiza que emite una nube de humo nocivo capaz de aturdir a las criaturas y extinguir las llamas. Una herramienta recién introducida que utiliza la policía para sofocar disturbios y protestas.";
+
 ITEM_HARPOONGUN_NAME = "Arma de arpón";
 ITEM_HARPOONGUN_DESC = "Un cañón de arpón impulsado por un novedoso sistema de escape de vapor. Si bien esta arma generalmente se emplea con fines de pesca, se puede usar en ciertas superficies para crear una cuerda extensible.";
+
+
+// Tools
+ITEM_BUTTON_PRESSER_NAME = "Tapa de botón";
+ITEM_BUTTON_PRESSER_DESC = "Tapa para un pulsador de botón. Puede usarse para reparar ciertos dispositivos.";
+
+ITEM_VALVE_NAME = "Válvula manual";
+ITEM_VALVE_DESC = "Válvula manual para operar manualmente varios dispositivos. Puede instalarse en un asiento de válvula apropiado.";
+
+ITEM_CRANK_HANDLE_NAME = "Manivela";
+ITEM_CRANK_HANDLE_DESC = "Manivela para operar manualmente varios dispositivos. Puede instalarse en una ranura de manivela apropiada.";
+
+ITEM_CRANK_HANDLE_GOLD_NAME = "Manivela dorada";
+ITEM_CRANK_HANDLE_GOLD_DESC = "Manivela adornada propiedad del Sr. Van Der Meer. Una llave bastante elegante para abrir el siniestro submundo de la ciudad.";
+
+ITEM_CANNONBALL_NAME = "Bala de cañón";
+ITEM_CANNONBALL_DESC = "Bala de cañón que se puede cargar en un cañón. Tiene una fina capa de óxido que la cubre.";
+
+ITEM_CANNON_FUSE_NAME = "Mecha de cañón";
+ITEM_CANNON_FUSE_DESC = "Una cadena de mechas para un cañón.";
+
+ITEM_POWDERFLASK_NAME = "Cuerno de frasco de pólvora";
+ITEM_POWDERFLASK_DESC = "Un pequeño recipiente hecho con el cuerno de un animal. Útil para verter pólvora en armas antiguas que se cargan por la boca, como mosquetes y cañones.";
+
 
 //-------------------------------------------------------------
 // Keys
@@ -335,6 +394,9 @@ KEY_EMBLEM_CROW_DESC = "Grabado con el símbolo de un cuervo.";
 
 KEY_EMBLEM_RAT_NAME = "Emblema de la rata";
 KEY_EMBLEM_RAT_DESC = "Símbolo grabado de una rata.";
+
+KEY_SEAL_UNDERPORT_NAME = "Sello del Underport";
+KEY_SEAL_UNDERPORT_DESC = "El sello del Gremio de Pescadores, que fundó los primeros puertos a lo largo de los acantilados. Estos pioneros, que antes eran marineros nómadas, se enfrentaron a los horrores del mar abisal en busca de tierras fértiles.";
 
 KEY_DEMO_SAFEHOUSE_NAME = "Llave de casa segura";
 KEY_DEMO_SAFEHOUSE_DESC = "Para la puerta de entrada de la casa segura";
@@ -371,6 +433,9 @@ KEY_FISHERY_CARRIAGE_BASEMENT_DESC = "Llave del garaje del sótano de la estaci�
 
 KEY_COAST_FISHERY_CABIN_NAME = "Llave de la cabaña de pesca";
 KEY_COAST_FISHERY_CABIN_DESC = "Llave de la cabaña con vistas a la pesquería del Sr. Croup.";
+
+KEY_FISHERY_CABIN_SHORTCUT_NAME = "Llave del túnel de la cabaña de pesca";
+KEY_FISHERY_CABIN_SHORTCUT_DESC = "Llave del túnel debajo de la cabaña que da a la pesquería del Sr. Croup.";
 
 KEY_CAVES_POWERGENERATOR_NAME = "Llave del generador de minas";
 KEY_CAVES_POWERGENERATOR_DESC = "Llave de la sala del generador en las minas costeras.";
@@ -447,6 +512,21 @@ KEY_UNDERPORT_WAREHOUSE_GATE_DESC = "Llave de la puerta lateral del almacén Van
 KEY_UNDERPORT_SEWER_B_BREAKROOM_NAME = "Llave de la sala de descanso de la sección B de alcantarillado";
 KEY_UNDERPORT_SEWER_B_BREAKROOM_DESC = "Llave de la sala de descanso de la sección de Alcantarillado B en Underport.";
 
+KEY_UNDERPORT_TRAM_CHEST_NAME = "Llave de la sala de descarga de tranvías";
+KEY_UNDERPORT_TRAM_CHEST_DESC = "Llave del cofre de la sala de descarga de tranvías de Underport.";
+
+KEY_UNDERPORT_CASTLE_GATE_NAME = "Llave de la puerta del castillo";
+KEY_UNDERPORT_CASTLE_GATE_DESC = "Llave de la puerta del castillo de Underport.";
+
+KEY_HIVE_SHANTYTOWN_NAME = "Llave del barrio de chabolas";
+KEY_HIVE_SHANTYTOWN_DESC = "Llave de la puerta del barrio de chabolas de la colmena.";
+
+KEY_HIVE_ENGINEERING_NAME = "Llave de acceso de ingeniería";
+KEY_HIVE_ENGINEERING_DESC = "Llave del área de acceso de ingeniería de la colmena.";
+
+KEY_HIVE_SUPERVISOR_NAME = "Llave del supervisor de alcantarillado";
+KEY_HIVE_SUPERVISOR_DESC = "Llave de la sala de control de la puerta y de los casilleros del supervisor en la colmena.";
+
 // Currency
 CURRENCY_GOLD_NAME					= "Oro";
 CURRENCY_GOLD_DESC					= "Monedas brillantes y baratijas valiosas.";
@@ -481,6 +561,24 @@ ITEM_CHALICE_1_GOLD_DESC = "Un cáliz dorado ornamentado, adornado con adornos g
 
 ITEM_POCKETWATCH_1_GOLD_NAME = "Reloj de bolsillo dorado";
 ITEM_POCKETWATCH_1_GOLD_DESC = "Un reloj de bolsillo dorado elaborado por los mejores relojeros de la ciudad.";
+
+ITEM_CHALICE_1_GOLD_NAME = "Cáliz de oro";
+ITEM_CHALICE_1_GOLD_DESC = "Un cáliz dorado ornamentado, adornado con adornos grabados y engastado con gemas de color rojo sangre.";
+
+ITEM_POCKETWATCH_1_GOLD_NAME = "Reloj de bolsillo dorado";
+ITEM_POCKETWATCH_1_GOLD_DESC = "Un reloj de bolsillo dorado ensamblado por los mejores relojeros de la ciudad.";
+
+ITEM_CANOPIC_JAR_CROW_NAME = "Jar canópico (cuervo)";
+ITEM_CANOPIC_JAR_CROW_DESC = "Un antiguo tarro utilizado para conservar órganos para el más allá. La tapa forma la cabeza de un cuervo con ojos penetrantes y un pico amenazadoramente afilado, que simboliza la muerte.";
+
+ITEM_CANOPIC_JAR_GOAT_NAME = "Jar canópico (cabra)";
+ITEM_CANOPIC_JAR_GOAT_DESC = "Un antiguo tarro utilizado para conservar órganos para el más allá. Un artesano experto ha esculpido una cabra en la cabeza de piedra del tarro como símbolo de virilidad.";
+
+ITEM_CANOPIC_JAR_LION_NAME = "Jar canópico (león)";
+ITEM_CANOPIC_JAR_LION_DESC = "Un antiguo tarro utilizado para conservar órganos para el más allá. La tapa de piedra tiene la forma de un león, evocando la fuerza y ​​la valentía de aquel cuyos órganos están contenidos en su interior.";
+
+ITEM_COIN_ANCIENT_NAME = "Moneda antigua";
+ITEM_COIN_ANCIENT_DESC = "Una antigua moneda de bronce martillado. El anverso presenta un relieve de un hombre desconocido y en el reverso una extraña figura sin rostro y runas indescifrables.";
 
 //-------------------------------------------------------------
 // Seasonal
