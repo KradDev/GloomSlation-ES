@@ -233,6 +233,9 @@ ITEM_GUNPOWDER_DESC				= "";
 ITEM_HARPOON_NAME = "Arpón";
 ITEM_HARPOON_DESC = "Un arpón afilado que puede penetrar determinadas superficies.";
 
+TEM_HARPOON_ROPE_NAME			= "Arpón";
+ITEM_HARPOON_ROPE_DESC			= "Un arpón afilado que puede penetrar determinadas superficies.";
+
 ITEM_HARPOON_ROPE_BUNDLE_NAME = "Paquete de arpones";
 ITEM_HARPOON_ROPE_BUNDLE_DESC = "Un paquete de arpones.";
 
