@@ -212,19 +212,19 @@ ITEM_SHOTGUNSHELLSPENT_DESC = "Un caparazón vacío y gastado. Puede ser suficie
 ITEM_SHOTGUNSHELLBOX_NAME = "Caja de cartuchos de escopeta";
 ITEM_SHOTGUNSHELLBOX_DESC = "Una caja deteriorada de cartuchos de escopeta. Una vez prohibida en esta región, la munición de escopeta volvió a utilizarse a medida que la ciudad dependía más de la caza que de los productos importados.";
 
-ITEM_FLAREGUN_BATON_NAME = "Perno de bastón";
+ITEM_FLAREGUN_BATON_NAME = "Proyectil de goma";
 ITEM_FLAREGUN_BATON_DESC = "Una bala contundente y rellena de goma para la pistola de bengalas. Causa un daño mínimo, pero puede interactuar con botones, romper ventanas y romper bombillas desde la distancia.";
 
 ITEM_FLAREGUN_CHOKE_NAME = "Proyectil Asfixiante";
 ITEM_FLAREGUN_CHOKE_DESC = "Una bala llena de vapor para la pistola de bengalas. Puede extinguir fuentes de fuego e inducir breves ataques de tos en las criaturas.";
 
-ITEM_FLAREGUN_INCENDIARY_NAME = "Rayo incendiario";
+ITEM_FLAREGUN_INCENDIARY_NAME = "Proyectil incendiario";
 ITEM_FLAREGUN_INCENDIARY_DESC = "Una bala inflamable para la pistola de bengalas. Puede encender objetos y quemar instantáneamente fuentes explosivas.";
 
-ITEM_FLAREGUN_FLARE_NAME = "Perno abocinado";
+ITEM_FLAREGUN_FLARE_NAME = "Proyectil de bengala";
 ITEM_FLAREGUN_FLARE_DESC = "Una bala de bengalas para la pistola de bengalas. Ilumina el área objetivo durante un período de tiempo. Este efecto puede atraer a criaturas cercanas.";
 
-ITEM_FLAREGUN_SHOCK_NAME = "Rayo de destello";
+ITEM_FLAREGUN_SHOCK_NAME = "Proyectil cegador";
 ITEM_FLAREGUN_SHOCK_DESC = "Una bala cegadora para la pistola de bengalas.";
 
 ITEM_GUNPOWDER_NAME = "Pólvora";
