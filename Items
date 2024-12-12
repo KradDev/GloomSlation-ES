@@ -215,7 +215,7 @@ ITEM_SHOTGUNSHELLBOX_DESC = "Una caja deteriorada de cartuchos de escopeta. Una 
 ITEM_FLAREGUN_BATON_NAME = "Perno de bastón";
 ITEM_FLAREGUN_BATON_DESC = "Una bala contundente y rellena de goma para la pistola de bengalas. Causa un daño mínimo, pero puede interactuar con botones, romper ventanas y romper bombillas desde la distancia.";
 
-ITEM_FLAREGUN_CHOKE_NAME = "Perno de estrangulamiento";
+ITEM_FLAREGUN_CHOKE_NAME = "Proyectil Asfixiante";
 ITEM_FLAREGUN_CHOKE_DESC = "Una bala llena de vapor para la pistola de bengalas. Puede extinguir fuentes de fuego e inducir breves ataques de tos en las criaturas.";
 
 ITEM_FLAREGUN_INCENDIARY_NAME = "Rayo incendiario";
@@ -350,7 +350,7 @@ ITEM_FLAREGUN_DESC = "Una pistola personalizada de un solo tiro con silenciador.
 ITEM_FLASHBOMB_NAME = "bomba flash";
 ITEM_FLASHBOMB_DESC = "Una bomba arrojable que emite un destello cegador, lo que deja a las criaturas cercanas incapaces de ver o atacar. Una herramienta recientemente introducida utilizada por la policía para sofocar disturbios y protestas.";
 
-ITEM_CHOKEBOMB_NAME	= "Bomba de estrangulamiento";
+ITEM_CHOKEBOMB_NAME	= "Bomba Asfixiante";
 ITEM_CHOKEBOMB_DESC	= "Una bomba arrojadiza que emite una nube de humo nocivo capaz de aturdir a las criaturas y extinguir las llamas. Una herramienta recién introducida que utiliza la policía para sofocar disturbios y protestas.";
 
 ITEM_HARPOONGUN_NAME = "Arma de arpón";
