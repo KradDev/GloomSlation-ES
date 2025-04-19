@@ -1,7 +1,104 @@
 NONE							= "";
 
-// Status Health
-CONDITION = "Condición";
-CONDITION_FINE = "Bien";
-CONDITION_CAUTION = "Precaución";
-CONDITION_DANGER = "Peligro";
+//-------------------------------------------------------------
+// Tabs
+
+TAB_STATUS		= "Estado";
+TAB_DIAGNOSIS	= "Informe";
+TAB_FILES		= "Archivos";
+TAB_DOCUMENTS	= "Documentos";
+TAB_MAPS		= "Mapas";
+TAB_KEYS		= "Llaves";
+TAB_RESEARCH	= "<size=75%>Investigación";
+TAB_ANATOMY		= "Anatomía";
+TAB_PATHOLOGY	= "Patología";
+TAB_ANALYSIS	= "Análisis";
+
+//-------------------------------------------------------------
+// Header
+
+HEADER_STATUS			= "Estado Médico";
+HEADER_DIAGNOSIS		= "Informe";
+HEADER_FILES			= "Archivos";
+HEADER_DOCUMENTS		= "Documentos";
+HEADER_DOCUMENTS_CONT	= "Documentos (Cont.)";
+HEADER_MAPS				= "Mapas";
+HEADER_MAPS_CONT		= "Mapas (Cont.)";
+HEADER_KEYS				= "Llaves";
+HEADER_KEYS_CONT		= "Llaves (Cont.)";
+HEADER_RESEARCH			= "<size=85%>Investigación";
+HEADER_ANATOMY			= "Anatomía";
+HEADER_PATHOLOGY		= "Patología";
+HEADER_ANALYSIS			= "Análisis";
+
+//-------------------------------------------------------------
+// Status
+
+CONDITION_LIFE			= "Salud";
+CONDITION_MIND			= "Mente";
+CONDITION_EXCELLENT		= "Excelente";
+CONDITION_FINE			= "Bien";
+CONDITION_CAUTION		= "Precaución";
+CONDITION_DANGER		= "Peligro";
+CONDITION_EFFECT_LIST	= "Síntomas";
+
+//-------------------------------------------------------------
+// Research
+
+ENTRY_CROWKING				= "Corvus Patriarca";
+ENTRY_FISHDOG				= "Canis Aquaticus";
+ENTRY_HUNTSMAN				= "Homo Venari";
+ENTRY_WOODSMAN				= "Homo Lignum";
+ENTRY_RAT					= "Rata";
+
+DESCRIPTION_ANATOMY			= "Encuentra y disecciona especímenes.";
+DESCRIPTION_PATHOLOGY		= "Investiga la anatomía del espécimen para descubrir la fórmula del suero.";
+ENTRY_COMPLETE				= "- Completado";
+
+SERUM_UNKNOWN				= "Suero Desconocido";
+
+IDENTIFIER_HEAD				= "Cabeza";
+IDENTIFIER_TORSO			= "Torso";
+IDENTIFIER_LEFTARM			= "Brazo Izquierdo";
+IDENTIFIER_RIGHTARM			= "Brazo Derecho";
+IDENTIFIER_RIGHTLEG			= "Pierna Derecha";
+IDENTIFIER_LEFTLEG			= "Pierna Izquierda";
+IDENTIFIER_PELVIS			= "Pelvis";
+IDENTIFIER_LEFTHORN			= "Cuerno Izquierdo";
+IDENTIFIER_RIGHTHORN		= "Cuerno Derecho";
+IDENTIFIER_TAIL				= "Cola";
+IDENTIFIER_RIGHTHAND		= "Mano Derecha";
+IDENTIFIER_RIGHTUPPERARM	= "Brazo Superior Derecho";
+
+//-------------------------------------------------------------
+// Research - Goatman
+
+ENTRY_GOATMAN				= "Hombre Cabra - Tipo A";
+ENTRY_GOATMAN_SPECIES		= "Homo Caprae";
+
+RESEARCH_GOATMAN_1			= "El espécimen 'Homo Caprae' mide dos metros sesenta y es un humanoide bípedo con rasgos caprinos. Su lengua parece capaz de emitir sonidos guturales.";
+RESEARCH_GOATMAN_2			= "La infección ha formado masas musculares densas por todo el cuerpo y ha transformado diversos huesos en cuernos y pezuñas similares a la queratina.";
+RESEARCH_GOATMAN_3			= "El denso pelaje hace que el cuerpo sea vulnerable al fuego, pero puede provocar que el espécimen entre en un estado de furia. En ese estado, adopta una postura cuadrúpeda para aumentar su velocidad de movimiento.";
+RESEARCH_GOATMAN_4			= "Un suero derivado de este espécimen podría otorgar beneficios como defensa física extraordinaria, gran fuerza de combate cuerpo a cuerpo y potencia en lanzamiento.";
+
+//-------------------------------------------------------------
+// Research - Batbarber
+
+ENTRY_BATBARBER				= "Bestia Murciélago - Tipo A";
+ENTRY_BATBARBER_SPECIES		= "Vesper Sapiens";
+
+RESEARCH_BATBARBER_1		= "El espécimen 'Vesper Sapiens' es un híbrido entre humano y murciélago de poco más de un metro veinte, con postura encorvada y brazos y dedos alargados.";
+RESEARCH_BATBARBER_2		= "La infección ha reducido su estructura ósea y agrandado las orejas y la nariz, permitiéndole una percepción sensorial mejorada.";
+RESEARCH_BATBARBER_3		= "Aunque incapaz de volar, el espécimen es extremadamente ágil y capaz de saltar desde grandes alturas. También parece ser capaz de usar herramientas.";
+RESEARCH_BATBARBER_4		= "Un suero derivado de este espécimen podría otorgar beneficios como mayor altura de salto, gran reducción de daño por caída y afinidad con otras bestias murciélago.";
+
+//-------------------------------------------------------------
+// Research - Crowman
+
+ENTRY_CROWMAN				= "Hombre Cuervo - Tipo A";
+ENTRY_CROWMAN_SPECIES		= "Corvus Orthograde";
+
+RESEARCH_CROWMAN_1			= "El espécimen 'Corvus Orthograde' es un híbrido humano-cuervo de más de dos metros, con un gran pico óseo sobresaliente.";
+RESEARCH_CROWMAN_2			= "La infección ha formado una estructura ósea endurecida alrededor de la columna vertebral, protegiéndola del daño físico.";
+RESEARCH_CROWMAN_3			= "El espécimen parece vestir algún tipo de ropa. Se desconoce si fue encontrada o formaba parte del cuerpo original.";
+RESEARCH_CROWMAN_4			= "Un suero derivado de este espécimen podría otorgar beneficios como mayor velocidad de movimiento y desplazamiento agazapado, así como afinidad con otras bestias cuervo.";

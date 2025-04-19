@@ -20,6 +20,11 @@ CONDITION_DANGER				= "Peligro";
 SHOP_DISCOUNT					= "Descuento!";
 SHOP_SOLDOUT					= "¡Agotado!";
 
+// Research
+RESEARCH_AVAILABLE				= "Puede ser investigado";
+RESEARCH_COMPLETE				= "Investigación completa";
+RESEARCH_SUBSTANCE				= "Puede tener valor científico";
+
 // Item Actions
 ITEM_EQUIP						= "Equipar";
 ITEM_UNEQUIP					= "Desequipar";
@@ -94,8 +99,14 @@ ITEM_MUSICBOX_DESC = "Mango de viento para guardar el juego.";
 ITEM_WAXCYLINDER_NAME = "Cilindro de cera";
 ITEM_WAXCYLINDER_DESC = "Un cilindro de cera para el fonógrafo. Se utiliza para guardar el progreso actual. Consumido cuando se usa.";
 
-ITEM_UPGRADE_LUGGAGE_8X6_NAME   = "Actualización de inventario (8x6)";
-ITEM_UPGRADE_LUGGAGE_8X6_DESC   = "Un contenedor de almacenamiento ampliado para la maleta.";
+ITEM_LUGGAGE_UPGRADE_6X4_NAME   = "Actualización de inventario (6x4)";
+ITEM_LUGGAGE_UPGRADE_6X4_DESC   = "Un contenedor de almacenamiento ampliado para la maleta.";
+
+ITEM_LUGGAGE_UPGRADE_7X5_NAME   = "Actualización de inventario (7x5)";
+ITEM_LUGGAGE_UPGRADE_7X5_DESC   = "Un contenedor de almacenamiento ampliado para la maleta.";
+
+ITEM_LUGGAGE_UPGRADE_8X6_NAME   = "Actualización de inventario (8x6)";
+ITEM_LUGGAGE_UPGRADE_8X6_DESC   = "Un contenedor de almacenamiento ampliado para la maleta.";
 
 // Seals
 
@@ -291,37 +302,6 @@ ITEM_CORPSE_RAT_GRAY_2_DESC = "Una rata muerta de color gris oscuro. Huele fatal
 ITEM_CORPSE_RAT_INFECTED_NAME = "RATA INFECTADA";
 ITEM_CORPSE_RAT_INFECTED_DESC = "Una rata muerta que rezuma pestilencia.";
 
-// Giblets
-ITEM_GIBLET_WOODSMAN_HEAD_NAME = "Cabeza de leñador";
-ITEM_GIBLET_WOODSMAN_HEAD_DESC = "(No investigado)";
-
-ITEM_GIBLET_WOODSMAN_ARM_LEFT_NAME = "Brazo de leñador (izquierdo)";
-ITEM_GIBLET_WOODSMAN_ARM_LEFT_DESC = "(No investigado)";
-
-ITEM_GIBLET_WOODSMAN_ARM_RIGHT_NAME = "Brazo de leñador (derecho)";
-ITEM_GIBLET_WOODSMAN_ARM_RIGHT_DESC = "(No investigado)";
-
-ITEM_GIBLET_WOODSMAN_LEG_LEFT_NAME = "Pierna de leñador (izquierda)";
-ITEM_GIBLET_WOODSMAN_LEG_LEFT_DESC = "(No investigado)";
-
-ITEM_GIBLET_WOODSMAN_LEG_RIGHT_NAME = "Pierna de leñador (derecha)";
-ITEM_GIBLET_WOODSMAN_LEG_RIGHT_DESC = "(No investigado)";
-
-ITEM_GIBLET_HUNTSMAN_HEAD_NAME = "Cabeza de cazador";
-ITEM_GIBLET_HUNTSMAN_HEAD_DESC = "(No investigado)";
-
-ITEM_GIBLET_HUNTSMAN_ARM_LEFT_NAME = "Brazo de cazador (izquierdo)";
-ITEM_GIBLET_HUNTSMAN_ARM_LEFT_DESC = "(No investigado)";
-
-ITEM_GIBLET_HUNTSMAN_ARM_RIGHT_NAME = "Brazo de cazador (derecho)";
-ITEM_GIBLET_HUNTSMAN_ARM_RIGHT_DESC = "(No investigado)";
-
-ITEM_GIBLET_HUNTSMAN_LEG_LEFT_NAME = "Pierna de cazador (izquierda)";
-ITEM_GIBLET_HUNTSMAN_LEG_LEFT_DESC = "(No investigado)";
-
-ITEM_GIBLET_HUNTSMAN_LEG_RIGHT_NAME = "Pierna de cazador (derecha)";
-ITEM_GIBLET_HUNTSMAN_LEG_RIGHT_DESC = "(No investigado)";
-
 ITEM_GIBLET_CITIZEN_MAN_HEAD_NAME = "Cabeza de hombre ciudadano";
 ITEM_GIBLET_CITIZEN_MAN_HEAD_DESC = "(No investigado)";
 
@@ -334,6 +314,9 @@ ITEM_GOATMAN_HORN_RIGHT_DESC = "(No investigado)";
 // Weapons
 ITEM_CANESWORD_NAME = "espada de bastón";
 ITEM_CANESWORD_DESC = "Una espada de bastón duradera con mango de marfil y hoja recubierta de plata. Un ataque potente contra un enemigo inconsciente y desarmado causará un daño crítico.";
+
+ITEM_BONESAW_NAME   = "sierra para huesos";
+ITEM_BONESAW_DESC	= "Una sierra de hueso de acero de grado quirúrgico, con mango de cuerno y madera. Útil para convertir muestras grandes en muestras fáciles de transportar.";
 
 ITEM_REVOLVER_NAME = "Revólver";
 ITEM_REVOLVER_DESC = "Revólver de acción de rotura con seis recámaras. De acero fundido y con recámara para un cartucho local de la ciudad.";
@@ -361,14 +344,17 @@ ITEM_HARPOONGUN_DESC = "Un cañón de arpón impulsado por un novedoso sistema d
 ITEM_BUTTON_PRESSER_NAME = "Tapa de botón";
 ITEM_BUTTON_PRESSER_DESC = "Tapa para un pulsador de botón. Puede usarse para reparar ciertos dispositivos.";
 
-ITEM_VALVE_NAME = "Válvula manual";
-ITEM_VALVE_DESC = "Válvula manual para operar manualmente varios dispositivos. Puede instalarse en un asiento de válvula apropiado.";
+ITEM_VALVE_WHEEL_NAME = "Válvula manual";
+ITEM_VALVE_WHEEL_DESC = "Válvula manual para operar manualmente varios dispositivos. Puede instalarse en un asiento de válvula apropiado.";
 
 ITEM_CRANK_HANDLE_NAME = "Manivela";
 ITEM_CRANK_HANDLE_DESC = "Manivela para operar manualmente varios dispositivos. Puede instalarse en una ranura de manivela apropiada.";
 
 ITEM_CRANK_HANDLE_GOLD_NAME = "Manivela dorada";
 ITEM_CRANK_HANDLE_GOLD_DESC = "Manivela adornada propiedad del Sr. Van Der Meer. Una llave bastante elegante para abrir el siniestro submundo de la ciudad.";
+
+ITEM_LEVER_PULLDOWN_HANDLE_NAME	= "Palanca";
+ITEM_LEVER_PULLDOWN_HANDLE_DESC	= "Una palanca para accionar manualmente diversos dispositivos. Puede instalarse en un mecanismo de palanca adecuado.";
 
 ITEM_CANNONBALL_NAME = "Bala de cañón";
 ITEM_CANNONBALL_DESC = "Bala de cañón que se puede cargar en un cañón. Tiene una fina capa de óxido que la cubre.";
@@ -582,6 +568,229 @@ ITEM_CANOPIC_JAR_LION_DESC = "Un antiguo tarro utilizado para conservar órganos
 
 ITEM_COIN_ANCIENT_NAME = "Moneda antigua";
 ITEM_COIN_ANCIENT_DESC = "Una antigua moneda de bronce martillado. El anverso presenta un relieve de un hombre desconocido y en el reverso una extraña figura sin rostro y runas indescifrables.";
+
+//-------------------------------------------------------------
+// Research
+
+ITEM_SERUM_FAILED_NAME				= "Suero fallido";
+ITEM_SERUM_FAILED_DESC				= "Un destilado resultante de un experimento fallido.";
+
+ITEM_SERUM_CROWMAN_NAME				= "Suero Corvus";
+ITEM_SERUM_CROWMAN_DESC				= "Suero derivado de la especie Corvus Orthograde. Inyectar para obtener temporalmente los efectos de la mutación.";
+
+ITEM_SERUM_CROWKING_NAME			= "Suero del Patriarca Corvus";
+ITEM_SERUM_CROWKING_DESC			= "Suero derivado de la especie Corvus Patriarch. ";
+
+ITEM_SERUM_FISHDOG_NAME				= "Suero del canis acuático";
+ITEM_SERUM_FISHDOG_DESC				= "Suero derivado de la especie Canis Aquaticus.";
+
+ITEM_SERUM_BATBARBER_NAME			= "Suero Vesper";
+ITEM_SERUM_BATBARBER_DESC			= "Suero derivado de la especie bestia murciélago (Vesper Sapiens). Inyectar para obtener temporalmente los efectos de la mutación.";
+
+ITEM_SERUM_GOATMAN_NAME				= "Suero Capra";
+ITEM_SERUM_GOATMAN_DESC				= "Suero derivado de la especie hombres cabra (Homo Caprae). Inyectar para obtener temporalmente los efectos de la mutación.";
+
+ITEM_SERUM_RAT_NAME					= "Suero de Rata";
+ITEM_SERUM_RAT_DESC					= "Suero derivado de la especie Rata.";
+
+ITEM_SERUM_HUNTSMAN_NAME			= "Suero Homo Venari";
+ITEM_SERUM_HUNTSMAN_DESC			= "Suero derivado de la especie Homo Venari.";
+
+ITEM_SERUM_WOODSMAN_NAME			= "Suero Homo Lignum";
+ITEM_SERUM_WOODSMAN_DESC			= "Suero derivado de la especie Homo Lignum.";
+
+ITEM_RESEARCH_JAR_1_EYEBALLS_NAME	= "Muestra Ocular";
+ITEM_RESEARCH_JAR_1_EYEBALLS_DESC	= "Un frasco con muchos globos oculares que miran fijamente, flotando en un fluido pegajoso y viscoso.";
+
+ITEM_RESEARCH_JAR_2_MOUTH_NAME		= "Boca de Tragón";
+ITEM_RESEARCH_JAR_2_MOUTH_DESC		= "Un frasco con una boca hinchada de Tragón, flotando en un fluido espeso.";
+
+ITEM_RESEARCH_JAR_3_TEETH_NAME		= "Gel Dentado";
+ITEM_RESEARCH_JAR_3_TEETH_DESC		= "Un frasco con dientes de esmalte endurecido suspendidos en una sustancia coagulada.";
+
+ITEM_RESEARCH_JAR_4_TENDRILS_NAME	= "Recipiente de Zarcillos";
+ITEM_RESEARCH_JAR_4_TENDRILS_DESC	= "Un recipiente con raíces de zarcillos de una planta carnívora que habita en el lejano Valle de Songolan.";
+
+ITEM_RESEARCH_JAR_5_HAND_NAME		= "Relicario de Palmas";
+ITEM_RESEARCH_JAR_5_HAND_DESC		= "Una tina con manos arrugadas en lodo. Se rumorea que fueron recolectadas por verdugos que aplican la Ley de la Reina para crímenes capitales.";
+
+ITEM_RESEARCH_JAR_6_LEECHES_NAME	= "Frasco de Sanguijuelas";
+ITEM_RESEARCH_JAR_6_LEECHES_DESC	= "Un frasco con sanguijuelas hinchadas en agua salobre. Cualquier practicante respetable las lleva para sangrías comunes.";
+
+ITEM_RESEARCH_JAR_7_TENTACLES_NAME	= "Frasco de Tentáculos";
+ITEM_RESEARCH_JAR_7_TENTACLES_DESC	= "Un frasco de vidrio con tentáculos en moco viscoso, recolectados de criaturas de las profundidades marinas por sus tintas y aceites.";
+
+ITEM_RESEARCH_JAR_10_WORMS_NAME		= "Grupo de Gusanos";
+ITEM_RESEARCH_JAR_10_WORMS_DESC		= "Un grupo de gusanos retorciéndose en una baba. Estos gusanos son excelentes limpiadores naturales de cadáveres.";
+
+ITEM_RESEARCH_JAR_11_TONGUES_NAME	= "Lata de Lenguas";
+ITEM_RESEARCH_JAR_11_TONGUES_DESC	= "Un frasco de vidrio que contiene lenguas de animales que se cree tienen propiedades antiinflamatorias.";
+
+ITEM_RESEARCH_JAR_12_FINGERS_NAME	= "Colección de Dedos";
+ITEM_RESEARCH_JAR_12_FINGERS_DESC	= "Un frasco lleno de dedos humanos amputados en formol. Útil cuando la medicina tradicional falla y se requiere una metodología más esotérica.";
+
+ITEM_RESEARCH_JAR_13_DOLL_NAME		= "Efigie Conservada";
+ITEM_RESEARCH_JAR_13_DOLL_DESC		= "Este frasco contiene una muñeca supuestamente imbuida con trazas del alma de una joven que fue gravemente agraviada en su corta vida.";
+
+ITEM_RESEARCH_JAR_14_BRAIN_NAME		= "Muestra de Cerebro";
+ITEM_RESEARCH_JAR_14_BRAIN_DESC		= "El cerebro cuidadosamente conservado de un noble excéntrico.";
+
+ITEM_RESEARCH_JAR_15_FACE_NAME		= "Rostro del Alquimista";
+ITEM_RESEARCH_JAR_15_FACE_DESC		= "La cabeza decapitada y conservada de un alquimista que fue ejecutado por afirmar haber descubierto el secreto de la inmortalidad.";
+
+ITEM_RESEARCH_JAR_16_CLAW_NAME		= "Garra de Cristal";
+ITEM_RESEARCH_JAR_16_CLAW_DESC		= "Las garras de una especie de gran lagarto ahora extinta, almacenadas en una solución conservante espesa.";
+
+ITEM_RESEARCH_JAR_17_FROG_NAME		= "Sapo Hipnótico";
+ITEM_RESEARCH_JAR_17_FROG_DESC		= "Un sapo de caña (Rhinella marina) del Amazonas, conocido por secreciones que pueden inducir hipnosis y experiencias psicodélicas.";
+
+ITEM_RESEARCH_JAR_18_TENTACLES_NAME	= "Tentáculos Variados";
+ITEM_RESEARCH_JAR_18_TENTACLES_DESC	= "Tentáculos que parecen retorcerse en un frasco de fluido verde espeso. Recolectados de calamares, pulpos y otros cefalópodos.";
+
+ITEM_RESEARCH_JAR_19_HEART_NAME		= "Corazón Hinchado";
+ITEM_RESEARCH_JAR_19_HEART_DESC		= "Un frasco sin etiqueta que contiene un corazón masivo de origen desconocido. Una observación cuidadosa revela un latido apenas detectable.";
+
+ITEM_RESEARCH_JAR_20_INTESTINES_NAME= "Intestinos en Frasco";
+ITEM_RESEARCH_JAR_20_INTESTINES_DESC= "El intestino de un cocodrilo africano que ha digerido parcialmente una mezcla de hierbas raras.";
+
+ITEM_RESEARCH_JAR_GENERIC_NAME		= "Frasco de Fluido Viscoso";
+ITEM_RESEARCH_JAR_GENERIC_DESC		= "Un frasco de fluido viscoso. Solía contener alguna sustancia de mayor importancia.";
+
+//-------------------------------------------------------------
+// Giblets - Huntsman
+
+ITEM_HUNTSMAN_HEAD_NAME				= "Cabeza de Cazador";
+ITEM_HUNTSMAN_HEAD_DESC				= "La cabeza de un Cazador muerto.";
+ITEM_HUNTSMAN_TORSO_NAME			= "Torso de Cazador";
+ITEM_HUNTSMAN_TORSO_DESC			= "El torso de un Cazador muerto.";
+ITEM_HUNTSMAN_PELVIS_NAME			= "Pelvis de Cazador";
+ITEM_HUNTSMAN_PELVIS_DESC			= "La pelvis de un Cazador muerto.";
+ITEM_HUNTSMAN_ARM_LEFT_NAME			= "Brazo Izquierdo de Cazador";
+ITEM_HUNTSMAN_ARM_LEFT_DESC			= "El brazo izquierdo de un Cazador muerto.";
+ITEM_HUNTSMAN_ARM_RIGHT_NAME		= "Brazo Derecho de Cazador";
+ITEM_HUNTSMAN_ARM_RIGHT_DESC		= "El brazo derecho de un Cazador muerto.";
+ITEM_HUNTSMAN_LEG_LEFT_NAME			= "Pierna Izquierda de Cazador";
+ITEM_HUNTSMAN_LEG_LEFT_DESC			= "La pierna izquierda de un Cazador muerto.";
+ITEM_HUNTSMAN_LEG_RIGHT_NAME		= "Pierna Derecha de Cazador";
+ITEM_HUNTSMAN_LEG_RIGHT_DESC		= "La pierna derecha de un Cazador muerto.";
+
+//-------------------------------------------------------------
+// Giblets - Woodsman
+
+ITEM_WOODSMAN_HEAD_NAME				= "Cabeza de Leñador";
+ITEM_WOODSMAN_HEAD_DESC				= "La cabeza de un Leñador muerto.";
+ITEM_WOODSMAN_TORSO_NAME			= "Torso de Leñador";
+ITEM_WOODSMAN_TORSO_DESC			= "El torso de un Leñador muerto.";
+ITEM_WOODSMAN_PELVIS_NAME			= "Pelvis de Leñador";
+ITEM_WOODSMAN_PELVIS_DESC			= "La pelvis de un Leñador muerto.";
+ITEM_WOODSMAN_ARM_LEFT_NAME			= "Brazo Izquierdo de Leñador";
+ITEM_WOODSMAN_ARM_LEFT_DESC			= "El brazo izquierdo de un Leñador muerto.";
+ITEM_WOODSMAN_ARM_RIGHT_NAME		= "Brazo Derecho de Leñador";
+ITEM_WOODSMAN_ARM_RIGHT_DESC		= "El brazo derecho de un Leñador muerto.";
+ITEM_WOODSMAN_LEG_LEFT_NAME			= "Pierna Izquierda de Leñador";
+ITEM_WOODSMAN_LEG_LEFT_DESC			= "La pierna izquierda de un Leñador muerto.";
+ITEM_WOODSMAN_LEG_RIGHT_NAME		= "Pierna Derecha de Leñador";
+ITEM_WOODSMAN_LEG_RIGHT_DESC		= "La pierna derecha de un Leñador muerto.";
+
+//-------------------------------------------------------------
+// Giblets - Crowman
+
+ITEM_CROWMAN_HEAD_NAME				= "Cabeza de Hombre Cuervo";
+ITEM_CROWMAN_HEAD_DESC				= "La cabeza de un Hombre Cuervo muerto.";
+ITEM_CROWMAN_TORSO_NAME				= "Torso de Hombre Cuervo";
+ITEM_CROWMAN_TORSO_DESC				= "El torso de un Hombre Cuervo muerto.";
+ITEM_CROWMAN_PELVIS_NAME			= "Pelvis de Hombre Cuervo";
+ITEM_CROWMAN_PELVIS_DESC			= "La pelvis de un Hombre Cuervo muerto.";
+ITEM_CROWMAN_ARM_LEFT_NAME			= "Brazo Izquierdo de Hombre Cuervo";
+ITEM_CROWMAN_ARM_LEFT_DESC			= "El brazo izquierdo de un Hombre Cuervo muerto.";
+ITEM_CROWMAN_UPPERARM_RIGHT_NAME	= "Brazo Superior Derecho de Hombre Cuervo";
+ITEM_CROWMAN_UPPERARM_RIGHT_DESC	= "El brazo superior derecho de un Hombre Cuervo muerto.";
+ITEM_CROWMAN_LEG_LEFT_NAME			= "Pierna Izquierda de Hombre Cuervo";
+ITEM_CROWMAN_LEG_LEFT_DESC			= "La pierna izquierda de un Hombre Cuervo muerto.";
+ITEM_CROWMAN_FOOT_RIGHT_NAME		= "Pie Derecho de Hombre Cuervo";
+ITEM_CROWMAN_FOOT_RIGHT_DESC		= "El pie derecho de un Hombre Cuervo muerto.";
+ITEM_CROWMAN_HAND_RIGHT_NAME		= "Mano Derecha de Hombre Cuervo";
+ITEM_CROWMAN_HAND_RIGHT_DESC		= "La mano derecha de un Hombre Cuervo muerto.";
+
+//-------------------------------------------------------------
+// Giblets - Crowking
+
+ITEM_CROWKING_HEAD_NAME				= "Cabeza de Rey Cuervo";
+ITEM_CROWKING_HEAD_DESC				= "La cabeza de un Rey Cuervo muerto.";
+ITEM_CROWKING_TORSO_NAME			= "Torso de Rey Cuervo";
+ITEM_CROWKING_TORSO_DESC			= "El torso de un Rey Cuervo muerto.";
+ITEM_CROWKING_PELVIS_NAME			= "Pelvis de Rey Cuervo";
+ITEM_CROWKING_PELVIS_DESC			= "La pelvis de un Rey Cuervo muerto.";
+ITEM_CROWKING_ARM_LEFT_NAME			= "Brazo Izquierdo de Rey Cuervo";
+ITEM_CROWKING_ARM_LEFT_DESC			= "El brazo izquierdo de un Rey Cuervo muerto.";
+ITEM_CROWKING_ARM_RIGHT_NAME		= "Brazo Derecho de Rey Cuervo";
+ITEM_CROWKING_ARM_RIGHT_DESC		= "El brazo derecho de un Rey Cuervo muerto.";
+ITEM_CROWKING_LEG_LEFT_NAME			= "Pierna Izquierda de Rey Cuervo";
+ITEM_CROWKING_LEG_LEFT_DESC			= "La pierna izquierda de un Rey Cuervo muerto.";
+ITEM_CROWKING_LEG_RIGHT_NAME		= "Pierna Derecha de Rey Cuervo";
+ITEM_CROWKING_LEG_RIGHT_DESC		= "La pierna derecha de un Rey Cuervo muerto.";
+ITEM_CROWKING_HAND_RIGHT_NAME		= "Mano Derecha de Rey Cuervo";
+ITEM_CROWKING_HAND_RIGHT_DESC		= "La mano derecha de un Rey Cuervo muerto.";
+
+//-------------------------------------------------------------
+// Giblets - Fishdog
+
+ITEM_FISHDOG_HEAD_NAME				= "Cabeza de Perropez";
+ITEM_FISHDOG_HEAD_DESC				= "La cabeza de un Perropez muerto.";
+ITEM_FISHDOG_TORSO_NAME				= "Torso de Perropez";
+ITEM_FISHDOG_TORSO_DESC				= "El torso de un Perropez muerto.";
+ITEM_FISHDOG_ARM_LEFT_NAME			= "Brazo Izquierdo de Perropez";
+ITEM_FISHDOG_ARM_LEFT_DESC			= "El brazo izquierdo de un Perropez muerto.";
+ITEM_FISHDOG_ARM_RIGHT_NAME			= "Brazo Derecho de Perropez";
+ITEM_FISHDOG_ARM_RIGHT_DESC			= "El brazo derecho de un Perropez muerto.";
+ITEM_FISHDOG_LEG_LEFT_NAME			= "Pierna Izquierda de Perropez";
+ITEM_FISHDOG_LEG_LEFT_DESC			= "La pierna izquierda de un Perropez muerto.";
+ITEM_FISHDOG_LEG_RIGHT_NAME			= "Pierna Derecha de Perropez";
+ITEM_FISHDOG_LEG_RIGHT_DESC			= "La pierna derecha de un Perropez muerto.";
+
+//-------------------------------------------------------------
+// Giblets - Goatman
+
+ITEM_GOATMAN_HEAD_NAME				= "Cabeza de Hombre Cabra";
+ITEM_GOATMAN_HEAD_DESC				= "La cabeza de un Hombre Cabra muerto.";
+ITEM_GOATMAN_TORSO_NAME				= "Torso de Hombre Cabra";
+ITEM_GOATMAN_TORSO_DESC				= "El torso de un Hombre Cabra muerto.";
+ITEM_GOATMAN_PELVIS_NAME			= "Pelvis de Hombre Cabra";
+ITEM_GOATMAN_PELVIS_DESC			= "La pelvis de un Hombre Cabra muerto.";
+ITEM_GOATMAN_ARM_LEFT_NAME			= "Brazo Izquierdo de Hombre Cabra";
+ITEM_GOATMAN_ARM_LEFT_DESC			= "El brazo izquierdo de un Hombre Cabra muerto.";
+ITEM_GOATMAN_ARM_RIGHT_NAME			= "Brazo Derecho de Hombre Cabra";
+ITEM_GOATMAN_ARM_RIGHT_DESC			= "El brazo derecho de un Hombre Cabra muerto.";
+ITEM_GOATMAN_LEG_LEFT_NAME			= "Pierna Izquierda de Hombre Cabra";
+ITEM_GOATMAN_LEG_LEFT_DESC			= "La pierna izquierda de un Hombre Cabra muerto.";
+ITEM_GOATMAN_LEG_RIGHT_NAME			= "Pierna Derecha de Hombre Cabra";
+ITEM_GOATMAN_LEG_RIGHT_DESC			= "La pierna derecha de un Hombre Cabra muerto.";
+ITEM_GOATMAN_HORN_RIGHT_NAME		= "Cuerno Derecho de Hombre Cabra";
+ITEM_GOATMAN_HORN_RIGHT_DESC		= "El cuerno derecho de un Hombre Cabra muerto.";
+ITEM_GOATMAN_HORN_LEFT_NAME			= "Cuerno Izquierdo de Hombre Cabra";
+ITEM_GOATMAN_HORN_LEFT_DESC			= "El cuerno izquierdo de un Hombre Cabra muerto.";
+
+
+//-------------------------------------------------------------
+// Giblets - Batbarber
+
+ITEM_BATBARBER_HEAD_NAME			= "Cabeza de Murcibarbero";
+ITEM_BATBARBER_HEAD_DESC			= "La cabeza de un Murcibarbero muerto.";
+ITEM_BATBARBER_TORSO_NAME			= "Torso de Murcibarbero";
+ITEM_BATBARBER_TORSO_DESC			= "El torso de un Murcibarbero muerto.";
+ITEM_BATBARBER_TAIL_NAME			= "Cola de Murcibarbero";
+ITEM_BATBARBER_TAIL_DESC			= "La cola de un Murcibarbero muerto.";
+ITEM_BATBARBER_ARM_LEFT_NAME		= "Brazo Izquierdo de Murcibarbero";
+ITEM_BATBARBER_ARM_LEFT_DESC		= "El brazo izquierdo de un Murcibarbero muerto.";
+ITEM_BATBARBER_ARM_RIGHT_NAME		= "Brazo Derecho de Murcibarbero";
+ITEM_BATBARBER_ARM_RIGHT_DESC		= "El brazo derecho de un Murcibarbero muerto.";
+ITEM_BATBARBER_LEG_LEFT_NAME		= "Pierna Izquierda de Murcibarbero";
+ITEM_BATBARBER_LEG_LEFT_DESC		= "La pierna izquierda de un Murcibarbero muerto.";
+ITEM_BATBARBER_LEG_RIGHT_NAME		= "Pierna Derecha de Murcibarbero";
+ITEM_BATBARBER_LEG_RIGHT_DESC		= "La pierna derecha de un Murcibarbero muerto.";
+ITEM_BATBARBER_HAND_RIGHT_NAME		= "Mano Derecha de Murcibarbero";
+ITEM_BATBARBER_HAND_RIGHT_DESC		= "La mano derecha de un Murcibarbero muerto.";
+
 
 //-------------------------------------------------------------
 // Seasonal

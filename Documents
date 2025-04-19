@@ -34,9 +34,21 @@ NOTE_DEMO_COIN_CONTENT			= "The word of tonight's happenings will be reaching th
 
 NOTE_DEMO_MANOR_CONTENT			= "Steel boots gnash upon the gravel\n\nCoals of a furnace that spit and crackle\n\nDrawn by the stench of the rotting dead\n\nPlumes of soot follow its heavy tread\n\nCadavers charred by its godless will\n\nWhat face lies behind that blackened grill?\n\nWith wretched breath comes the vile Corpse Duster\n\nRun, hide or bring all that you can muster...";
 
+//-------------------------------------------------------------
+// Maps
+
 // Treasure Maps
 MAPSET_TREASURE_COAST_1_NAME	= "Mapa del tesoro - Costa n.° 1";
 MAP_TREASURE_COAST_1_NAME		= "Mapa del tesoro - Costa n.° 1";
+
+MAPSET_RESEARCH_NAME			= "Diagrama de investigación";
+MAP_RESEARCH_DIAGRAM_NAME		= "Diagrama de investigación";
+
+//-------------------------------------------------------------
+// Documents
+
+//-------------------------------------------------------------
+// Coast - Fishery
 
 // Fishery
 NOTE_FISHERY_LIFTBUTTON_NAME = "Botones de elevación de pesca";
@@ -75,6 +87,11 @@ MAPSET_TREASURE_FISHERY_COVE_BODY = "Mapa del tesoro";
 NOTE_FISHERY_HOBBSCHEESE_NAME = "Colección de quesos de Hobbs";
 NOTE_FISHERY_HOBBSCHEESE_BODY = "Estos son mis quesos.  \n\nNO TOCAR.  \n\nLos escondo aquí para que los perros no los encuentren.  Puedo ver el deseo de queso en sus ojos.  ¡Oh, qué ganas tienen de este delicioso queso... esos asquerosos perros pescadores y sus cómplices, los bichos que se alimentan de electricidad!  \n\nAquí no encontrarán el queso.  \n\nOh, no, no lo harán.\n\n-Hobbs";
 
+NOTE_FISHERY_CHEM_MANIFEST_NAME	= "Lista de congeladores de pesca";
+NOTE_FISHERY_CHEM_MANIFEST_BODY	= "Parece que nos estamos quedando sin materiales importantes para la operación.\n\nLos aceites que secretan los calamares y pulpos locales de la zona son vitales tanto para la conservación de las carnes enlatadas como para la lubricación de la maquinaria.\n\nAl parecer, los pescadores tienen que bajar a mayor profundidad para obtener la misma captura que en aguas poco profundas hace un año.\n\nHasta que se resuelva este problema, mantenemos una reserva de materiales en el congelador. Estos solo se pueden usar con el permiso del propio Sr. Croup.\n\n<color=#840601><alpha=#EE><b>1 - Garganta de Tragón\n1 - Sapo Hipnótico\n1 - Tarro de Tentáculos\n1 - Tentáculos Variados</color></b>";
+
+//-------------------------------------------------------------
+// Coast - Caves
 
 // Coast Caves
 NOTE_CAVES_POWERGENERATOR_NAME = "Generador de energía de cueva";
@@ -94,6 +111,9 @@ NOTE_COAST_MINING_LOG_1_BODY = "Día 1: Llegada al sitio cerca de la cabeza de p
 
 NOTE_COAST_UNDERCITY_NAME = "Descubrimiento del sitio A del Reino Antiguo";
 NOTE_COAST_UNDERCITY_BODY = "Lo he encontrado.\n\nDespués de meses de que los hombres cavaran túneles, estoy mirando lo que sin duda es una entrada al Reino Antiguo. ¡Es verdaderamente un espectáculo digno de contemplar!\n\nLos hombres están intranquilos por ello. Han escuchado claramente las historias de la infancia y los cuentos de esposas. La verdad es que me sentí bastante ansioso mientras tomaba los bocetos en relieve de la litografía en la cabecera del zigurat.\n\nSin embargo, no es el miedo lo que guía mi corazón, sino la emoción. Todavía tengo la piedra de sangre que Wait encontró en el charco de marea de la playa que inició toda esta operación. Por la mañana, expondré mis planes para abrir una brecha en este edificio y desenterrar lo que no se ha visto en milenios.";
+
+//-------------------------------------------------------------
+// Coast - Cliffside
 
 // Coastal Cliffs
 NOTE_CLIFFS_HOUSE_1_NAME = "Algo no está bien";
@@ -135,6 +155,12 @@ NOTE_TAVERN_MURDERER_BODY = "La ola de crímenes entre 1884 y 1885, ahora conoci
 NOTE_TAVERN_VALVE_NAME = "Trabajo de reparación de válvulas";
 NOTE_TAVERN_VALVE_BODY = "Me contrataron para arreglar el sistema de plomería de este viejo vertedero, pero la mitad de esta estructura metálica está corroída sin posibilidad de reparación o fue construida hace tanto tiempo que ya no fabrican las piezas.\n\nLa válvula que tengo aquí se puede usar en todas partes el sistema de alcantarillado de la ciudad, pero es esencialmente chatarra cuando se trata de este antiguo montón de basura.\n\nTambién podría ir a pedir otra cerveza mientras resuelvo esto. Estar aquí sola me da escalofríos.";
 
+NOTE_RESEARCH_INSTRUCTION_NAME	= "Instrucciones del laboratorio de investigación";
+NOTE_RESEARCH_INSTRUCTION_BODY	= "Doctor, un compañero mío escribió estas instrucciones sobre el uso de este viejo equipo de laboratorio. Espero que le sean útiles:\n\n<b>Ejemplos de Investigación</b>\nPrimero, necesitará un cadáver infectado. Use la sierra de huesos para cortar el cadáver en partes más pequeñas y colóquelas en la pica. Use la lupa para analizarlo y tenga su diario a mano para cualquier observación.\n\n<b>Preparación de Sueros</b>\nCada suero requiere tres ingredientes. Puede descubrir estos ingredientes analizando partes del cuerpo, pero también se permite la experimentación. Tenga cuidado, un suero fallido desperdiciará recursos valiosos.\n\nUna vez listo, siga estos pasos:<color=#840601><alpha=#EE><b>\n\t1. Coloque los tres frascos de ingredientes en el soporte sobre el recipiente.\n\t2. Coloque una parte del cuerpo del espécimen en la pica.\n\t3. Activa el quemador frente al recipiente.\n\t4. Recoge la cápsula de jeringa que se llena en la base de la pica.\n\nPara encontrar más ingredientes, busca en las distintas tiendas y almacenes de la ciudad. Hay una botica a la entrada del Mercado. Podría ser un buen punto de partida. No intentes llevar todos los frascos a la vez: es poco práctico e innecesario.";
+
+//-------------------------------------------------------------
+// Market
+
 NOTE_MARKET_CONSTABLE_ORDER_1_NAME = "Orden de policía n.° 1";
 NOTE_MARKET_CONSTABLE_ORDER_1_BODY = "Orden directa del jefe de policía Harland:\n\nSegunda Brigada:\nMantenga las posiciones de la puerta sur hasta las tres campanadas.\n\nTercera Brigada:\nRefuerce las guarniciones de la plaza central y cubra la retirada de la segunda brigada.\n\nLa División Taller tiene N.B. manipulado y preparado.\n\nDestruya este mensaje al leerlo.";
 
@@ -161,6 +187,9 @@ NOTE_MARKET_MANOR_KITCHEN_1_BODY = "¡Lord Kar ahora tiene un montaplatos en la 
 
 NOTE_MARKET_MANOR_KITCHEN_2_NAME = "Nota de cocina de Lord Kar Manor";
 NOTE_MARKET_MANOR_KITCHEN_2_BODY = "Personal,\n\nUn intruso fue atrapado en mi salón del altar después de colarse por el tragaluz. Le he enviado un mensaje al orfebre para que forje algunos protectores para esas ventanas.\n\nMientras tanto, muéstrale a nuestro invitado un poco de hospitalidad Kar. Ya sabes cómo me gusta la carne preparada.";
+
+NOTE_MARKET_CHEM_MANIFEST_NAME = "Inventario Diario del Boticario";
+NOTE_MARKET_CHEM_MANIFEST_BODY = "Inventario del martes después del cierre: <color=#840601><alpha=#EE><b>\n\nBote de lenguas - 1\nSapo hipnótico - 1\nGel dentado - 1\nRelicario de palma - 1\nGancho devorador - 1</color><\b>\n\n-----\n\nVendido: <color=#840601><alpha=#EE><b>\n\nVaso de zarcillo - 1\nGarra de cristal - 1</color><\b>\n\nAmbas vendidas al dueño de la barbería. Un tipo desagradable. Muy grosero. No me imagino qué podría necesitar un barbero con mis artículos más raros. Nada bueno, estoy seguro.\n\nAdemás, ¿dónde está nuestro próximo envío de Van Der Meer? Me prometieron una muestra rara de cerebro, ¡y aún no ha llegado! Enviaré a mi asistente al Underport de inmediato.";
 
 //-------------------------------------------------------------
 // Underport
@@ -202,6 +231,9 @@ NOTE_UNDERPORT_POWERPLANT_SUBFLOW_1_BODY = "Nota: Como la policía ha puesto en 
 NOTE_SHOP_ITEM_STORAGE_NAME = "Almacenamiento de artículos";
 NOTE_SHOP_ITEM_STORAGE_BODY = "Doctor,\nn Siéntase libre de dejar cualquier pertenencia en esta habitación.\n\nEstarán a salvo en mi posesión.";
 
+NOTE_UNDERPORT_CHEM_MANIFEST_NAME    = "Manifiesto de envío de Van Der Meer";
+NOTE_UNDERPORT_CHEM_MANIFEST_BODY    = "<b>Artículos recibidos:</b>\n\n<color=#840601><alpha=#EE>[x] (1) Frasco de tentáculos\n[x] (1) Recipiente de zarcillos\n[x] (1) Garra de cristal\n[x] (1) Frasco de sanguijuelas\n[x] (1) Racimo de gusanos\n[ ] (1) Muestra de cerebro</color></b>\n\nFaltaba una muestra de cerebro en el palé. Probablemente los repartidores, malditos ingenuos, la dejaron caer en el camino. Debo tomar nota para contactar a su gerente. - VDM";
+
 //-------------------------------------------------------------
 // Underport - Hive
 
@@ -215,7 +247,7 @@ NOTE_UNDERPORT_HIVE_MONITORING_NAME = "Registros de estaciones de monitoreo de b
 NOTE_UNDERPORT_HIVE_MONITORING_BODY = "Martes\n\nLa presión es nominal, sin fluctuaciones de +/- 10 PSI\n\nNota: Me quejé OTRA VEZ con los alguaciles sobre la gentuza que vive al final de la calle en la planta de tratamiento de residuos. Esos holgazanes viven en la inmundicia, siempre haciendo ruido. Me vuelve loco. Alguien tiene que darles una paliza para que entren en razón.\n\nMiércoles\n\nLa presión es nominal, una pequeña fluctuación a las 6:15 a. m.\n\nNota: ¿Los alguaciles finalmente me escucharon? No he escuchado ni pío de esos vándalos en los últimos dos días. Paz al fin.\n\nJueves\n\nLa presión es nominal, sin fluctuaciones de +/- 10 PSI\n\nNota: Vi algo a través de los barrotes del pasillo. No sé qué era, pero no parecía humano. Gracias a Dios no hay válvula de puerta en su lado.";
 
 NOTE_UNDERPORT_HIVE_HIDING_NAME = "Nota del trabajador escondido";
-NOTE_UNDERPORT_HIVE_HIDING_BODY = "Vi una de esas aves... y me escondí en esta habitación trasera. Sigo intentando escapar, pero ahora están por todas partes. Este lugar es un infierno... ni siquiera las ratas están aquí abajo. No hay nada que hacer más que agacharse y esperar el momento adecuado. Si puedo mantenerme fuera del camino, tal vez tenga una oportunidad.\n\nTal vez.\n\nLa espera es la peor parte. Escribir esto me ayuda a no perder el control. Tengo que mantenerme alerta si quiero volver a ver el cielo.";
+NOTE_UNDERPORT_HIVE_HIDING_BODY = "Vi una de esas cosas con forma de pájaro y me escondí en este espacio de acceso. Sigo intentando escapar, pero ahora están por todas partes.\n\nEste lugar es un infierno; ni siquiera las ratas están aquí abajo. No puedo hacer nada más que agacharme y esperar el momento oportuno. Si logro apartarme, quizás tenga una oportunidad. Solo quiero volver a ver el cielo.\n\nEncontré la manija que faltaba de la Sección 4. Ahora solo necesito la llave de la Sala de Control del Capataz.\n\nEntonces podría nadar a través de la sección de turbinas.\n\nOjalá se hayan ido.";
 
 NOTE_UNDERPORT_HIVE_ELEVATOR_NAME = "Nota de los arqueólogos sobre el generador";
 NOTE_UNDERPORT_HIVE_ELEVATOR_BODY = "Profesor,\n\nMoví algunos hilos con mi padre, quien pidió un favor a uno de los proveedores de su empresa y nos consiguió nuestro propio generador para alimentar el ascensor y cualquier otra maquinaria que pudiéramos necesitar. ¡Uno de los muchos beneficios de tener familiares en puestos altos! Finalmente, nos libraremos de los incesantes apagones de esos tontos de Lampfire Power. No podrían mantener una antorcha encendida en un infierno.\n\nAhora viene lo importante: si el generador se queda sin combustible, hemos instalado un depósito cerca de las ruinas de la casa de baños donde puedes conseguir nuevos contenedores Y llenarlos. No cometas el mismo error que Peter: ¡asegúrate de que el contenedor esté realmente lleno antes de cargarlo hasta aquí!\n\nCon el generador instalado, ya no estaremos limitados por los caprichos de la red eléctrica y finalmente podremos hacer un progreso serio en la excavación. ¡Hurra!";

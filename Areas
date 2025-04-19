@@ -1,0 +1,15 @@
+NONE							= "Ninguno";
+ALL								= "Todo";
+
+// Áreas
+LEVEL_OTHER						= "General";
+LEVEL_COAST_FISHERY				= "Pescadería";
+LEVEL_COAST_CAVES				= "Cuevas";
+LEVEL_COAST_CLIFFSIDE			= "Acantilado";
+LEVEL_COAST_TAVERN				= "Taberna";
+LEVEL_CITY_MARKET				= "Mercado";
+LEVEL_CITY_MARKET_SHOP			= "Tienda";
+LEVEL_CITY_UNDERPORT			= "Puerto Subterráneo";
+LEVEL_CITY_UNDERPORT_HIVE		= "Colmena";
+LEVEL_DIMENSION_MIRROR			= "Espejo";
+
