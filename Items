@@ -204,7 +204,9 @@ ITEM_TOAST_2_DESC = "Una tostada rancia partida por la mitad.";
 ITEM_LEVER_HANDLE_NAME = "Manija de palanca";
 ITEM_LEVER_HANDLE_DESC = "Un mango para una palanca mecánica.";
 
-// Ammo
+//-------------------------------------------------------------
+// Ammunition
+
 ITEM_REVOLVERROUND_NAME = "Cartucho de revólver";
 ITEM_REVOLVERROUND_DESC = "Un solo cartucho de revólver. La carcasa parece haber sido reutilizada. Puede crear una distracción decente en caso de apuro.";
 
@@ -241,13 +243,16 @@ ITEM_FLAREGUN_SHOCK_DESC = "Una bala cegadora para la pistola de bengalas.";
 ITEM_GUNPOWDER_NAME = "Pólvora";
 ITEM_GUNPOWDER_DESC				= "";
 
-ITEM_HARPOON_NAME = "Arpón";
-ITEM_HARPOON_DESC = "Un arpón afilado que puede penetrar determinadas superficies.";
+ITEM_HARPOON_NAME = "Arpón - Phineas Spike";
+ITEM_HARPOON_DESC = "Un arpón afilado que puede clavarse en ciertas superficies. Particularmente eficaz para el daño cerebral.";
 
-ITEM_HARPOON_ROPE_NAME			= "Arpón";
-ITEM_HARPOON_ROPE_DESC			= "Un arpón afilado que puede penetrar determinadas superficies.";
+ITEM_HARPOON_BUNDLE_NAME		= "Paquete de arpón - Phineas Spikes";
+ITEM_HARPOON_BUNDLE_DESC		= "Un paquete de arpones de punta.";
 
-ITEM_HARPOON_ROPE_BUNDLE_NAME = "Paquete de arpones";
+ITEM_HARPOON_ROPE_NAME			= "Arpón - Cuerda";
+ITEM_HARPOON_ROPE_DESC			= "Un arpón que puede clavarse en ciertas superficies. Se puede conectar a una cuerda.";
+
+ITEM_HARPOON_ROPE_BUNDLE_NAME = "Paquete de arpones - Cuerda";
 ITEM_HARPOON_ROPE_BUNDLE_DESC = "Un paquete de arpones.";
 
 // Junk
@@ -596,9 +601,6 @@ ITEM_SERUM_RAT_DESC					= "Suero derivado de la especie Rata.";
 ITEM_SERUM_HUNTSMAN_NAME			= "Suero Homo Venari";
 ITEM_SERUM_HUNTSMAN_DESC			= "Suero derivado de la especie Homo Venari.";
 
-ITEM_SERUM_WOODSMAN_NAME			= "Suero Homo Lignum";
-ITEM_SERUM_WOODSMAN_DESC			= "Suero derivado de la especie Homo Lignum.";
-
 ITEM_RESEARCH_JAR_1_EYEBALLS_NAME	= "Muestra Ocular";
 ITEM_RESEARCH_JAR_1_EYEBALLS_DESC	= "Un frasco con muchos globos oculares que miran fijamente, flotando en un fluido pegajoso y viscoso.";
 
@@ -608,8 +610,8 @@ ITEM_RESEARCH_JAR_2_MOUTH_DESC		= "Un frasco con una boca hinchada de Tragón, f
 ITEM_RESEARCH_JAR_3_TEETH_NAME		= "Gel Dentado";
 ITEM_RESEARCH_JAR_3_TEETH_DESC		= "Un frasco con dientes de esmalte endurecido suspendidos en una sustancia coagulada.";
 
-ITEM_RESEARCH_JAR_4_TENDRILS_NAME	= "Recipiente de Zarcillos";
-ITEM_RESEARCH_JAR_4_TENDRILS_DESC	= "Un recipiente con raíces de zarcillos de una planta carnívora que habita en el lejano Valle de Songolan.";
+ITEM_RESEARCH_JAR_4_RATTAILS_NAME	= "Recipiente de cola de rata";
+ITEM_RESEARCH_JAR_4_RATTAILS_DESC	= "Un mechón carnoso de colas de rata entrelazadas. Se dice que proviene de un gran Rey Rata que antaño gobernaba las hordas de roedores desde el sótano de la mansión de un aristócrata.";
 
 ITEM_RESEARCH_JAR_5_HAND_NAME		= "Relicario de Palmas";
 ITEM_RESEARCH_JAR_5_HAND_DESC		= "Una tina con manos arrugadas en lodo. Se rumorea que fueron recolectadas por verdugos que aplican la Ley de la Reina para crímenes capitales.";
@@ -620,14 +622,20 @@ ITEM_RESEARCH_JAR_6_LEECHES_DESC	= "Un frasco con sanguijuelas hinchadas en agua
 ITEM_RESEARCH_JAR_7_TENTACLES_NAME	= "Frasco de Tentáculos";
 ITEM_RESEARCH_JAR_7_TENTACLES_DESC	= "Un frasco de vidrio con tentáculos en moco viscoso, recolectados de criaturas de las profundidades marinas por sus tintas y aceites.";
 
+ITEM_RESEARCH_JAR_8_EARS_NAME        = "Orejas recogidas";
+ITEM_RESEARCH_JAR_8_EARS_DESC        = "Orejas de todas las formas y tamaños seleccionadas de varias especies, cada una con aplicaciones únicas en el arte de la medicina.";
+
+ITEM_RESEARCH_JAR_9_SPINE_NAME      = "Porción de la columna vertebral";
+ITEM_RESEARCH_JAR_9_SPINE_DESC      = "Una sección preservada de una columna vertebral en un frasco, que se dice que tiene más de 400 años, aunque no parece tener más de 50.";
+
 ITEM_RESEARCH_JAR_10_WORMS_NAME		= "Grupo de Gusanos";
 ITEM_RESEARCH_JAR_10_WORMS_DESC		= "Un grupo de gusanos retorciéndose en una baba. Estos gusanos son excelentes limpiadores naturales de cadáveres.";
 
 ITEM_RESEARCH_JAR_11_TONGUES_NAME	= "Lata de Lenguas";
 ITEM_RESEARCH_JAR_11_TONGUES_DESC	= "Un frasco de vidrio que contiene lenguas de animales que se cree tienen propiedades antiinflamatorias.";
 
-ITEM_RESEARCH_JAR_12_FINGERS_NAME	= "Colección de Dedos";
-ITEM_RESEARCH_JAR_12_FINGERS_DESC	= "Un frasco lleno de dedos humanos amputados en formol. Útil cuando la medicina tradicional falla y se requiere una metodología más esotérica.";
+ITEM_RESEARCH_JAR_12_SPIDER_NAME	= "Araña taxidermizada";
+ITEM_RESEARCH_JAR_12_SPIDER_DESC	= "Un frasco lleno de restos disecados de una araña extraordinariamente grande y venenosa del Lejano Oriente. Muy caro.";
 
 ITEM_RESEARCH_JAR_13_DOLL_NAME		= "Efigie Conservada";
 ITEM_RESEARCH_JAR_13_DOLL_DESC		= "Este frasco contiene una muñeca supuestamente imbuida con trazas del alma de una joven que fue gravemente agraviada en su corta vida.";
@@ -635,8 +643,8 @@ ITEM_RESEARCH_JAR_13_DOLL_DESC		= "Este frasco contiene una muñeca supuestament
 ITEM_RESEARCH_JAR_14_BRAIN_NAME		= "Muestra de Cerebro";
 ITEM_RESEARCH_JAR_14_BRAIN_DESC		= "El cerebro cuidadosamente conservado de un noble excéntrico.";
 
-ITEM_RESEARCH_JAR_15_FACE_NAME		= "Rostro del Alquimista";
-ITEM_RESEARCH_JAR_15_FACE_DESC		= "La cabeza decapitada y conservada de un alquimista que fue ejecutado por afirmar haber descubierto el secreto de la inmortalidad.";
+ITEM_RESEARCH_JAR_15_HEAD_NAME		= "Rostro del alquimista";
+ITEM_RESEARCH_JAR_15_HEAD_DESC		= "La cabeza decapitada y preservada de un alquimista que fue ejecutado por afirmar haber descubierto el secreto de la inmortalidad.";
 
 ITEM_RESEARCH_JAR_16_CLAW_NAME		= "Garra de Cristal";
 ITEM_RESEARCH_JAR_16_CLAW_DESC		= "Las garras de una especie de gran lagarto ahora extinta, almacenadas en una solución conservante espesa.";
@@ -644,14 +652,14 @@ ITEM_RESEARCH_JAR_16_CLAW_DESC		= "Las garras de una especie de gran lagarto aho
 ITEM_RESEARCH_JAR_17_FROG_NAME		= "Sapo Hipnótico";
 ITEM_RESEARCH_JAR_17_FROG_DESC		= "Un sapo de caña (Rhinella marina) del Amazonas, conocido por secreciones que pueden inducir hipnosis y experiencias psicodélicas.";
 
-ITEM_RESEARCH_JAR_18_TENTACLES_NAME	= "Tentáculos Variados";
-ITEM_RESEARCH_JAR_18_TENTACLES_DESC	= "Tentáculos que parecen retorcerse en un frasco de fluido verde espeso. Recolectados de calamares, pulpos y otros cefalópodos.";
+ITEM_RESEARCH_JAR_18_UNKNOWN_NAME   = "Desconocido";
+ITEM_RESEARCH_JAR_18_UNKNOWN_DESC   = "Una muestra de una sustancia que desafía la identificación y categorización. Probablemente inútil, pero nunca se sabe.";	
 
 ITEM_RESEARCH_JAR_19_HEART_NAME		= "Corazón Hinchado";
 ITEM_RESEARCH_JAR_19_HEART_DESC		= "Un frasco sin etiqueta que contiene un corazón masivo de origen desconocido. Una observación cuidadosa revela un latido apenas detectable.";
 
-ITEM_RESEARCH_JAR_20_INTESTINES_NAME= "Intestinos en Frasco";
-ITEM_RESEARCH_JAR_20_INTESTINES_DESC= "El intestino de un cocodrilo africano que ha digerido parcialmente una mezcla de hierbas raras.";
+ITEM_RESEARCH_JAR_20_TWINS_NAME      = "Cadáver de siamesas";
+ITEM_RESEARCH_JAR_20_TWINS_DESC      = "El cuerpo embalsamado de siamesas en etapa fetal tardía, preservado para la investigación de mutaciones extremas. No se puede confirmar si es de origen humano.";
 
 ITEM_RESEARCH_JAR_GENERIC_NAME		= "Frasco de Fluido Viscoso";
 ITEM_RESEARCH_JAR_GENERIC_DESC		= "Un frasco de fluido viscoso. Solía contener alguna sustancia de mayor importancia.";

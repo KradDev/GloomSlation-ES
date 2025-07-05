@@ -12,8 +12,10 @@ ACTIONLOG_RESEARCH_ITEM				= "{ITEM} Investigado";
 ACTIONLOG_RESEARCH_DUPLICATE_ITEM	= "{ITEM} ya ha sido investigado";
 ACTIONLOG_RESEARCH_FORMULA			= "Ingrediente sérico descubierto {ITEM}";
 ACTIONLOG_RESEARCH_COMPLETE			= "Análisis completado en {ITEM}";
+ACTIONLOG_RESEARCH_PASSIVE			= "Rasgo desbloqueado {ITEM}";
 ACTIONLOG_DROP_ITEM					= "Inventario lleno - {ITEM} descartado";
 ACTIONLOG_BEASTFORM_INVALIDUSE		= "No se puede usar mientras está transformado";
+ACTIONLOG_CANNOT_USE_ITEM			= "No se puede usar el artículo";
 
 //-------------------------------------------------------------
 // Tutorial

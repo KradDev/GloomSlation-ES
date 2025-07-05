@@ -47,15 +47,18 @@ CONDITION_EFFECT_LIST	= "Síntomas";
 
 ENTRY_CROWKING				= "Corvus Patriarca";
 ENTRY_FISHDOG				= "Canis Aquaticus";
-ENTRY_HUNTSMAN				= "Homo Venari";
-ENTRY_WOODSMAN				= "Homo Lignum";
+ENTRY_HUNTSMAN_WOODSMAN		= "Homo Venari/Lignum";
 ENTRY_RAT					= "Rata";
 
 DESCRIPTION_ANATOMY			= "Encuentra y disecciona especímenes.";
 DESCRIPTION_PATHOLOGY		= "Investiga la anatomía del espécimen para descubrir la fórmula del suero.";
 ENTRY_COMPLETE				= "- Completado";
-
+ENTRY_UNKNOWN				= "Desconocido";
+ANATOMY_PARTS				= "Regiones";
+SERUM_PREFIX				= "Suero:";
+SERUM_DOSES					= "Dosis";
 SERUM_UNKNOWN				= "Suero Desconocido";
+PASSIVE_PREFIX				= "Rasgo:";
 
 IDENTIFIER_HEAD				= "Cabeza";
 IDENTIFIER_TORSO			= "Torso";
@@ -70,35 +73,59 @@ IDENTIFIER_TAIL				= "Cola";
 IDENTIFIER_RIGHTHAND		= "Mano Derecha";
 IDENTIFIER_RIGHTUPPERARM	= "Brazo Superior Derecho";
 
+
+//-------------------------------------------------------------
+// Research - Huntsman
+
+ENTRY_HUNTSMAN					= "Cazadores";
+ENTRY_HUNTSMAN_SPECIES			= "Homo Venatores";
+ENTRY_HUNTSMAN_SERUM_NAME		= "Homo Venatores Cepa";
+ENTRY_HUNTSMAN_SERUM_DESC		= "Mejora la percepción sensorial de todas las formas de vida infectadas cercanas (incluso a través de paredes sólidas) y permite el parentesco con otros cazadores por un tiempo.";
+ENTRY_HUNTSMAN_PASSIVE_NAME		= "Marca del cazador";
+ENTRY_HUNTSMAN_PASSIVE_DESC		= "Se aumentó el daño físico y el daño balístico por disparo a la cabeza contra todas las variantes de cazadores.";
+
+RESEARCH_HUNTSMAN_1				= "El espécimen 'Homo Venatores' es un antiguo miembro humano del Gremio de Cazadores local. Lleva una túnica de cuero, un sombrero de ala ancha y una máscara con gafas protectoras para expediciones de exploración.";
+RESEARCH_HUNTSMAN_2				= "La infección ha aumentado la agresividad del espécimen, reducido su inteligencia y mejorado su percepción sensorial de otras formas de vida portadoras del contagio.";
+RESEARCH_HUNTSMAN_3				= "La jerarquía social permite a los especímenes alertarse e informarse fácilmente, pero también puede permitirles ser engañados con facilidad. También portan diversas armas y armaduras, pero a menudo carecen de experiencia en habilidades.";
+
 //-------------------------------------------------------------
 // Research - Goatman
 
 ENTRY_GOATMAN				= "Hombre Cabra - Tipo A";
 ENTRY_GOATMAN_SPECIES		= "Homo Caprae";
+ENTRY_GOATMAN_SERUM_NAME	= "Caprae Cepa";
+ENTRY_GOATMAN_SERUM_DESC	= "Obtén una defensa física y balística extraordinaria, un gran poder cuerpo a cuerpo y fuerza de lanzamiento por un tiempo.";
+ENTRY_GOATMAN_PASSIVE_NAME	= "Hircine Vigor";
+ENTRY_GOATMAN_PASSIVE_DESC	= "Mayor defensa física y balística.";
 
 RESEARCH_GOATMAN_1			= "El espécimen 'Homo Caprae' mide dos metros sesenta y es un humanoide bípedo con rasgos caprinos. Su lengua parece capaz de emitir sonidos guturales.";
 RESEARCH_GOATMAN_2			= "La infección ha formado masas musculares densas por todo el cuerpo y ha transformado diversos huesos en cuernos y pezuñas similares a la queratina.";
 RESEARCH_GOATMAN_3			= "El denso pelaje hace que el cuerpo sea vulnerable al fuego, pero puede provocar que el espécimen entre en un estado de furia. En ese estado, adopta una postura cuadrúpeda para aumentar su velocidad de movimiento.";
-RESEARCH_GOATMAN_4			= "Un suero derivado de este espécimen podría otorgar beneficios como defensa física extraordinaria, gran fuerza de combate cuerpo a cuerpo y potencia en lanzamiento.";
 
 //-------------------------------------------------------------
 // Research - Batbarber
 
 ENTRY_BATBARBER				= "Bestia Murciélago - Tipo A";
 ENTRY_BATBARBER_SPECIES		= "Vesper Sapiens";
+ENTRY_BATBARBER_SERUM_NAME	= "Vesper Cepa";
+ENTRY_BATBARBER_SERUM_DESC	= "Obtén grandes habilidades para saltar y trepar, una enorme reducción de daño por caída y permite el parentesco con otras bestias murciélago por un tiempo.";
+ENTRY_BATBARBER_PASSIVE_NAME    = "Agilidad alada";
+ENTRY_BATBARBER_PASSIVE_DESC    = "Aumento de la altura del salto y reducción del daño por caída.";
 
 RESEARCH_BATBARBER_1		= "El espécimen 'Vesper Sapiens' es un híbrido entre humano y murciélago de poco más de un metro veinte, con postura encorvada y brazos y dedos alargados.";
 RESEARCH_BATBARBER_2		= "La infección ha reducido su estructura ósea y agrandado las orejas y la nariz, permitiéndole una percepción sensorial mejorada.";
 RESEARCH_BATBARBER_3		= "Aunque incapaz de volar, el espécimen es extremadamente ágil y capaz de saltar desde grandes alturas. También parece ser capaz de usar herramientas.";
-RESEARCH_BATBARBER_4		= "Un suero derivado de este espécimen podría otorgar beneficios como mayor altura de salto, gran reducción de daño por caída y afinidad con otras bestias murciélago.";
 
 //-------------------------------------------------------------
 // Research - Crowman
 
 ENTRY_CROWMAN				= "Hombre Cuervo - Tipo A";
 ENTRY_CROWMAN_SPECIES		= "Corvus Orthograde";
+ENTRY_CROWMAN_SERUM_NAME		= "Corvus Cepa";
+ENTRY_CROWMAN_SERUM_DESC		= "Obtén gran velocidad al correr y agacharte, la capacidad de regenerar salud atacando carne y parentesco con otras bestias cuervo por un tiempo.";
+ENTRY_CROWMAN_PASSIVE_NAME		= "Agilidad del cuervo";
+ENTRY_CROWMAN_PASSIVE_DESC		= "Aumento de la velocidad de carrera enfundada.";
 
 RESEARCH_CROWMAN_1			= "El espécimen 'Corvus Orthograde' es un híbrido humano-cuervo de más de dos metros, con un gran pico óseo sobresaliente.";
 RESEARCH_CROWMAN_2			= "La infección ha formado una estructura ósea endurecida alrededor de la columna vertebral, protegiéndola del daño físico.";
 RESEARCH_CROWMAN_3			= "El espécimen parece vestir algún tipo de ropa. Se desconoce si fue encontrada o formaba parte del cuerpo original.";
-RESEARCH_CROWMAN_4			= "Un suero derivado de este espécimen podría otorgar beneficios como mayor velocidad de movimiento y desplazamiento agazapado, así como afinidad con otras bestias cuervo.";

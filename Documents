@@ -88,7 +88,7 @@ NOTE_FISHERY_HOBBSCHEESE_NAME = "Colección de quesos de Hobbs";
 NOTE_FISHERY_HOBBSCHEESE_BODY = "Estos son mis quesos.  \n\nNO TOCAR.  \n\nLos escondo aquí para que los perros no los encuentren.  Puedo ver el deseo de queso en sus ojos.  ¡Oh, qué ganas tienen de este delicioso queso... esos asquerosos perros pescadores y sus cómplices, los bichos que se alimentan de electricidad!  \n\nAquí no encontrarán el queso.  \n\nOh, no, no lo harán.\n\n-Hobbs";
 
 NOTE_FISHERY_CHEM_MANIFEST_NAME	= "Lista de congeladores de pesca";
-NOTE_FISHERY_CHEM_MANIFEST_BODY	= "Parece que nos estamos quedando sin materiales importantes para la operación.\n\nLos aceites que secretan los calamares y pulpos locales de la zona son vitales tanto para la conservación de las carnes enlatadas como para la lubricación de la maquinaria.\n\nAl parecer, los pescadores tienen que bajar a mayor profundidad para obtener la misma captura que en aguas poco profundas hace un año.\n\nHasta que se resuelva este problema, mantenemos una reserva de materiales en el congelador. Estos solo se pueden usar con el permiso del propio Sr. Croup.\n\n<color=#840601><alpha=#EE><b>1 - Garganta de Tragón\n1 - Sapo Hipnótico\n1 - Tarro de Tentáculos\n1 - Tentáculos Variados</color></b>";
+NOTE_FISHERY_CHEM_MANIFEST_BODY	= "Parece que nos estamos quedando sin materiales importantes para la operación.\n\nLos aceites que secretan los calamares y pulpos locales de la zona son vitales tanto para la conservación de las carnes enlatadas como para la lubricación de la maquinaria.\n\nAl parecer, los pescadores tienen que bajar a mayor profundidad para obtener la misma captura que en aguas poco profundas hace un año.\n\nHasta que se resuelva este problema, mantenemos una reserva de materiales en el congelador. Estos solo se pueden usar con el permiso del propio Sr. Croup.\n\n<color=#840601><alpha=#EE><b>1 - Garganta de Tragón\n1 - Sapo Hipnótico\n1 - Tarro de Tentáculos\n1 - Tarro de sanguijuelas</color></b>";
 
 //-------------------------------------------------------------
 // Coast - Caves
@@ -189,7 +189,10 @@ NOTE_MARKET_MANOR_KITCHEN_2_NAME = "Nota de cocina de Lord Kar Manor";
 NOTE_MARKET_MANOR_KITCHEN_2_BODY = "Personal,\n\nUn intruso fue atrapado en mi salón del altar después de colarse por el tragaluz. Le he enviado un mensaje al orfebre para que forje algunos protectores para esas ventanas.\n\nMientras tanto, muéstrale a nuestro invitado un poco de hospitalidad Kar. Ya sabes cómo me gusta la carne preparada.";
 
 NOTE_MARKET_CHEM_MANIFEST_NAME = "Inventario Diario del Boticario";
-NOTE_MARKET_CHEM_MANIFEST_BODY = "Inventario del martes después del cierre: <color=#840601><alpha=#EE><b>\n\nBote de lenguas - 1\nSapo hipnótico - 1\nGel dentado - 1\nRelicario de palma - 1\nGancho devorador - 1</color><\b>\n\n-----\n\nVendido: <color=#840601><alpha=#EE><b>\n\nVaso de zarcillo - 1\nGarra de cristal - 1</color><\b>\n\nAmbas vendidas al dueño de la barbería. Un tipo desagradable. Muy grosero. No me imagino qué podría necesitar un barbero con mis artículos más raros. Nada bueno, estoy seguro.\n\nAdemás, ¿dónde está nuestro próximo envío de Van Der Meer? Me prometieron una muestra rara de cerebro, ¡y aún no ha llegado! Enviaré a mi asistente al Underport de inmediato.";
+NOTE_MARKET_CHEM_MANIFEST_BODY = "Inventario del martes después del cierre: <color=#840601><alpha=#EE><b>\n\nBote de lenguas - 1\nSapo hipnótico - 1\nGel dentado - 1\nRelicario de palma - 1\nGarra de cristal - 1</color><\b>\n\n-----\n\nVendido: <color=#840601><alpha=#EE><b>\n\nOrejas recolectadas - 1\nVaso de cola de rata - 1</color><\b>\n\nAmbas vendidas al dueño de la barbería. Un tipo desagradable. Muy grosero. No me imagino qué podría necesitar un barbero con estos artículos. Nada bueno, estoy seguro.\n\nAdemás, ¿dónde está nuestro próximo envío de Van Der Meer? ¡Me prometieron una muestra rara de cerebro y aún no ha llegado! Enviaré a mi asistente al Underport de inmediato.";
+
+NOTE_SHOP_ITEM_STORAGE_NAME = "Almacenamiento de artículos";
+NOTE_SHOP_ITEM_STORAGE_BODY = "Doctor,\nn Siéntase libre de dejar cualquier pertenencia en esta habitación.\n\nEstarán a salvo en mi posesión.";
 
 //-------------------------------------------------------------
 // Underport
@@ -212,27 +215,14 @@ NOTE_UNDERPORT_WAREHOUSE_MANAGER_1_BODY		= "No entiendo por qué ustedes, tontos
 NOTE_UNDERPORT_WAREHOUSE_MANAGER_2_NAME		= "Nota n.º 2 de Señor Van Der Meer";
 NOTE_UNDERPORT_WAREHOUSE_MANAGER_2_BODY		= "Ya no se puede conseguir ayuda contratada.\n\nLlevo meses intentando recuperar ese maldito sello del gremio de los túneles. Un grupo de mercenarios de montaña, dos cazadores de tesoros expertos y un tirador de exhibición no han podido desalojar ese premio de las garras de la ciudad subterránea.\n\nNo puedo bajar allí yo mismo. Soy un hombre de negocios, no un pícaro que busca pelea.\n\nQuizás la orden de los cazadores tenga suficientes cabezas huecas para emprender una inmersión tan peligrosa. Solo tendría que atraerlos con la estrategia adecuada...\n\nPor ahora, el chiflado está a salvo conmigo, así que no tendré que preocuparme de que otros ladrones se lleven el sello.\n\nHe intentado ponerme en contacto con Sylvia, pero ya no responde en mi espejo.\n\n¿Ya no cree que estoy a la altura de esta tarea?";
 
-NOTE_UNDERPORT_PIT_1_NAME					= "Barricada de foso subterráneo";
-NOTE_UNDERPORT_PIT_1_BODY					= "Vi que el Sr. Van Der Meer trajo a un grupo de sus muchachos y construyó esta barricada aquí.\n\nTodos sabemos que esos cerdos no han hecho nada por la gente desaparecida.\n\n¡Bien por el Sr. Van Der Meer!\n\nHay cosas allí abajo que no nos están contando.";
+NOTE_UNDERPORT_PIT_1_NAME = "Barricada del pozo subterráneo";
+NOTE_UNDERPORT_PIT_1_BODY = "El señor Van Der Meer vino con algunos de sus muchachos y selló el pozo de basura con una manivela especial.\n\nLos agentes no moverán un dedo y Lampfire ya ha cortado la energía a las estaciones de abajo.\n\n¡Todavía hay gente ahí abajo!\n\nNos vemos en Lampfire esta noche y encontraremos una manera de abrir el pozo y restablecer la energía.\n\nNecesitamos permanecer unidos si queremos sobrevivir a esto.";
 
-NOTE_UNDERPORT_WAREHOUSE_MANAGER_1_NAME = "Nota del gerente de almacén n.° 1";
-NOTE_UNDERPORT_WAREHOUSE_MANAGER_1_BODY = "Ja. Los escucho tontos por ahí. ¿Crees que esta puerta de seguridad blindada y accionada electrónicamente se va a doblar hasta convertirse en mera pólvora?\n\n¡Si quieres entrar, tendrás que esforzarte más que eso!\n\nAquí, incluso mejoraré el trato: mi caja fuerte El código es 115. Consígueme ese sello y perdonaré esta patética transgresión y te daré su contenido.\n\n¿Eso despertará algo de inteligencia en esos gruesos cráneos tuyos?";
-
-NOTE_UNDERPORT_WAREHOUSE_MANAGER_2_NAME = "Nota del Gerente de Almacén #2";
-NOTE_UNDERPORT_WAREHOUSE_MANAGER_2_BODY = "Ya no puedes conseguir buena ayuda contratada.\n\nHe estado intentando recuperar ese maldito sello del gremio de los túneles durante meses. Un grupo de mercenarios de montaña, dos cazadores de tesoros consumados y un tirador de exhibición no pudieron desalojar ese premio de las garras de la ciudad subterránea.\n\nNo puedo bajar allí por mi cuenta. Soy un hombre de negocios, no un pícaro con ganas de pelea.\n\nQuizás la orden de los cazadores tenga suficientes tontos para afrontar una inmersión tan peligrosa.\n\nSólo necesitaría atraerlos con la estrategia adecuada...";
-
-NOTE_UNDERPORT_PIT_1_NAME = "Cuarentena del foso subterráneo";
-NOTE_UNDERPORT_PIT_1_BODY = "Los cerdos han sido puestos en cuarentena fuera del pozo.\n\nTodos sabemos por qué. Esas criaturas tienen un nido ahí abajo. Lo he visto.\n\nNo deberíamos molestarnos en no poner barricadas. Yo digo que simplemente arrojemos tanta dinamita y pólvora como sea posible y los volemos todos al cielo.\n\nEs la única manera de estar seguros.";
-NOTE_UNDERPORT_POWERPLANT_SUBFLOW_1_BODY	= "Hemos perdido contacto con los trabajadores de los túneles. Teniendo en cuenta lo que hemos oído de la policía, probablemente sea una causa perdida.\n\nLa dirección está dando la orden de cortar la electricidad allí. Esperemos por su bien que tengan un generador de respaldo.";
-
-NOTE_UNDERPORT_POWERPLANT_SUBFLOW_1_NAME = "Nota sobre el interruptor de la planta de energía bajo puerto";
-NOTE_UNDERPORT_POWERPLANT_SUBFLOW_1_BODY = "Nota: Como la policía ha puesto en cuarentena los túneles subterráneos, se ha cortado la electricidad en esa sección para conservar recursos.\n\nEn el caso de que deseen acceder a esa área nuevamente, pregúnteles si desean que se reactive la electricidad: \n\nSin la energía habilitada, varias de las compuertas eléctricas contra inundaciones son inaccesibles y la mayoría de las luces de circulación están desactivadas, lo que hace que sea considerablemente más difícil navegar en la oscuridad.\n\nCon la energía habilitada, el área será más fácil de atravesar, pero Varias compuertas contra inundaciones pueden activar alarmas audibles al abrirse.";
-
-NOTE_SHOP_ITEM_STORAGE_NAME = "Almacenamiento de artículos";
-NOTE_SHOP_ITEM_STORAGE_BODY = "Doctor,\nn Siéntase libre de dejar cualquier pertenencia en esta habitación.\n\nEstarán a salvo en mi posesión.";
+NOTE_UNDERPORT_POWERPLANT_SUBFLOW_1_NAME = "Nota sobre el interruptor de la planta de energía Underport";
+NOTE_UNDERPORT_POWERPLANT_SUBFLOW_1_BODY = "Hemos perdido contacto con los trabajadores de los túneles. Por lo que nos ha dicho la policía, probablemente estén perdidos. La dirección está dando la orden de cortar la electricidad. Esperemos, por su bien, que tengan un generador de emergencia. Si piensa bajar sin reactivar el sistema, lleve una linterna y muchas bengalas.";
 
 NOTE_UNDERPORT_CHEM_MANIFEST_NAME    = "Manifiesto de envío de Van Der Meer";
-NOTE_UNDERPORT_CHEM_MANIFEST_BODY    = "<b>Artículos recibidos:</b>\n\n<color=#840601><alpha=#EE>[x] (1) Frasco de tentáculos\n[x] (1) Recipiente de zarcillos\n[x] (1) Garra de cristal\n[x] (1) Frasco de sanguijuelas\n[x] (1) Racimo de gusanos\n[ ] (1) Muestra de cerebro</color></b>\n\nFaltaba una muestra de cerebro en el palé. Probablemente los repartidores, malditos ingenuos, la dejaron caer en el camino. Debo tomar nota para contactar a su gerente. - VDM";
+NOTE_UNDERPORT_CHEM_MANIFEST_BODY    = "<b>Artículos recibidos:</b>\n\n<color=#840601><alpha=#EE>[x] (1) Muestra ocular\n[x] (1) Fragmento de columna\n[x] (1) Garra de cristal\n[x] (1) Esófago de devorador\n[x] (1) Racimo de gusanos\n[ ] (1) Muestra de cerebro</color></b>\n\nFaltaba una muestra de cerebro en el palé. Probablemente los repartidores, malditos ingenuos, la dejaron caer en el camino. Debo tomar nota para contactar a su gerente. - VDM";
 
 //-------------------------------------------------------------
 // Underport - Hive
