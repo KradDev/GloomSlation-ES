@@ -191,8 +191,6 @@ NOTE_MARKET_MANOR_KITCHEN_2_BODY = "Personal,\n\nUn intruso fue atrapado en mi s
 NOTE_MARKET_CHEM_MANIFEST_NAME = "Inventario Diario del Boticario";
 NOTE_MARKET_CHEM_MANIFEST_BODY = "Inventario del martes después del cierre: <color=#840601><alpha=#EE><b>\n\nBote de lenguas - 1\nSapo hipnótico - 1\nGel dentado - 1\nRelicario de palma - 1\nGarra de cristal - 1</color><\b>\n\n-----\n\nVendido: <color=#840601><alpha=#EE><b>\n\nOrejas recolectadas - 1\nVaso de cola de rata - 1</color><\b>\n\nAmbas vendidas al dueño de la barbería. Un tipo desagradable. Muy grosero. No me imagino qué podría necesitar un barbero con estos artículos. Nada bueno, estoy seguro.\n\nAdemás, ¿dónde está nuestro próximo envío de Van Der Meer? ¡Me prometieron una muestra rara de cerebro y aún no ha llegado! Enviaré a mi asistente al Underport de inmediato.";
 
-NOTE_SHOP_ITEM_STORAGE_NAME = "Almacenamiento de artículos";
-NOTE_SHOP_ITEM_STORAGE_BODY = "Doctor,\nn Siéntase libre de dejar cualquier pertenencia en esta habitación.\n\nEstarán a salvo en mi posesión.";
 
 //-------------------------------------------------------------
 // Underport
@@ -220,6 +218,9 @@ NOTE_UNDERPORT_PIT_1_BODY = "El señor Van Der Meer vino con algunos de sus much
 
 NOTE_UNDERPORT_POWERPLANT_SUBFLOW_1_NAME = "Nota sobre el interruptor de la planta de energía Underport";
 NOTE_UNDERPORT_POWERPLANT_SUBFLOW_1_BODY = "Hemos perdido contacto con los trabajadores de los túneles. Por lo que nos ha dicho la policía, probablemente estén perdidos. La dirección está dando la orden de cortar la electricidad. Esperemos, por su bien, que tengan un generador de emergencia. Si piensa bajar sin reactivar el sistema, lleve una linterna y muchas bengalas.";
+
+NOTE_SHOP_ITEM_STORAGE_NAME = "Almacenamiento de artículos";
+NOTE_SHOP_ITEM_STORAGE_BODY = "Doctor,\nn Siéntase libre de dejar cualquier pertenencia en esta habitación.\n\nEstarán a salvo en mi posesión.";
 
 NOTE_UNDERPORT_CHEM_MANIFEST_NAME    = "Manifiesto de envío de Van Der Meer";
 NOTE_UNDERPORT_CHEM_MANIFEST_BODY    = "<b>Artículos recibidos:</b>\n\n<color=#840601><alpha=#EE>[x] (1) Muestra ocular\n[x] (1) Fragmento de columna\n[x] (1) Garra de cristal\n[x] (1) Esófago de devorador\n[x] (1) Racimo de gusanos\n[ ] (1) Muestra de cerebro</color></b>\n\nFaltaba una muestra de cerebro en el palé. Probablemente los repartidores, malditos ingenuos, la dejaron caer en el camino. Debo tomar nota para contactar a su gerente. - VDM";

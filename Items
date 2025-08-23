@@ -256,8 +256,20 @@ ITEM_HARPOON_ROPE_BUNDLE_NAME = "Paquete de arpones - Cuerda";
 ITEM_HARPOON_ROPE_BUNDLE_DESC = "Un paquete de arpones.";
 
 // Junk
-ITEM_BOTTLE_1_NAME = "botella de vidrio";
-ITEM_BOTTLE_1_DESC = "Una botella de licor de vidrio vacía que es capaz de crear una fuerte distracción. La etiqueta descolorida de Ashbrew Brewery envuelve el frente.";
+ITEM_BOTTLE_NAME = "botella de vidrio";
+ITEM_BOTTLE_DESC = "Una botella de licor de vidrio vacía que es capaz de crear una fuerte distracción. La etiqueta descolorida de Ashbrew Brewery envuelve el frente.";
+
+ITEM_BOTTLE_FLASK_NAME			= "Frasco vacío";
+ITEM_BOTTLE_FLASK_DESC			= "Un frasco de vidrio vacío que se rompería fácilmente si se arrojara.";
+
+ITEM_BOTTLE_WINE_NAME			= "Botella de vino";
+ITEM_BOTTLE_WINE_DESC			= "Una botella de vino vacía que se rompería fácilmente si la lanzaras. La etiqueta está arrancada, así que no hay forma de saber cuánto disfrutaste de lo que contenía.";
+
+ITEM_BOTTLE_WHISKEY_NAME		= "botella de whisky";
+ITEM_BOTTLE_WHISKEY_DESC		= "Una botella de whisky vacía que se rompería fácilmente si la arrojaran.";
+
+ITEM_BOTTLE_MEDICAL_NAME		= "Medical Bottle";
+ITEM_BOTTLE_MEDICAL_DESC		= "Una botella de vidrio vacía que se rompería fácilmente si se arrojara.";
 
 ITEM_CAN_FISH_NAME = "lata de pescado";
 ITEM_CAN_FISH_DESC = "Una lata etiquetada con una pegatina que dice <Pesca de cereales>. Del envoltorio emana un olor salado y repugnante.";
@@ -488,6 +500,10 @@ KEY_MARKET_MANOR_2_FRONTDOOR_DESC = "Llave de la puerta de entrada de una mansi�
 KEY_MARKET_MANOR_3_FRONTDOOR_NAME = "Llave frontal de la mansión de Lord Kar";
 KEY_MARKET_MANOR_3_FRONTDOOR_DESC = "Llave de la puerta de entrada de una mansión en Market District. El nombre <Lord Kar> está inscrito en la cabeza.";
 
+KEY_MARKET_DRUNKEN_WATERFOWL_NAME       = "Clave de Drunken Waterfowl";
+KEY_MARKET_DRUNKEN_WATERFOWL_DESC       = "Llave de la taberna Drunken Waterfowl en el Distrito del Mercado.";
+
+
 KEY_UNDERPORT_ENTRANCE_NAME = "Llave de la puerta de entrada al subpuerto";
 KEY_UNDERPORT_ENTRANCE_DESC = "Llave de la puerta de entrada al puerto subterráneo en Market District.";
 
@@ -511,6 +527,9 @@ KEY_UNDERPORT_TRAM_CHEST_DESC = "Llave del cofre de la sala de descarga de tranv
 
 KEY_UNDERPORT_CASTLE_GATE_NAME = "Llave de la puerta del castillo";
 KEY_UNDERPORT_CASTLE_GATE_DESC = "Llave de la puerta del castillo de Underport.";
+
+KEY_UNDERPORT_SAFEROOM_CELLAR_NAME      = "Llave de la sala de seguridad del sótano ";
+KEY_UNDERPORT_SAFEROOM_CELLAR_DESC      = "Llave del sótano situado debajo de una de las habitaciones seguras del Underport.";
 
 KEY_HIVE_SHANTYTOWN_NAME = "Llave del barrio de chabolas";
 KEY_HIVE_SHANTYTOWN_DESC = "Llave de la puerta del barrio de chabolas de la colmena.";
