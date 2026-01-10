@@ -11,5 +11,6 @@ LEVEL_CITY_MARKET				= "Mercado";
 LEVEL_CITY_MARKET_SHOP			= "Tienda";
 LEVEL_CITY_UNDERPORT			= "Puerto Subterráneo";
 LEVEL_CITY_UNDERPORT_HIVE		= "Colmena";
+LEVEL_CITY_HIGHTOWN				= "Ciudad alta";
 LEVEL_DIMENSION_MIRROR			= "Espejo";
 

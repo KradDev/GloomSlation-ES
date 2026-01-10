@@ -2,6 +2,19 @@ NONE							= "";
 AI_STRANGER_ID					= "Extraño";
 
 //-------------------------------------------------------------
+// Doctor
+
+PLAYER_DOCTOR_ID						= "Doctor";
+PLAYER_DOCTOR_TRANSFORMED_ID			= "Doctor (Transformado)";
+SFX_DOCTOR_BEASTFORM_HUNTSMAN_ENTER		= "Arrrrghhh!";
+SFX_DOCTOR_BEASTFORM_HUNTSMAN_BARK_1	= "Ayuda...";
+SFX_DOCTOR_BEASTFORM_HUNTSMAN_BARK_2	= "Ayuda?";
+SFX_DOCTOR_BEASTFORM_HUNTSMAN_BARK_3	= "No!";
+SFX_DOCTOR_BEASTFORM_HUNTSMAN_BARK_4	= "No...";
+SFX_DOCTOR_BEASTFORM_HUNTSMAN_BARK_5	= "Forastero...";
+SFX_DOCTOR_BEASTFORM_HUNTSMAN_BARK_6	= "Forastero?";
+
+//-------------------------------------------------------------
 // Merchant 
 
 AI_MERCHANT_ID						= "Grezzo";
@@ -46,6 +59,8 @@ VO_MERCHANT_SHOP_UNDERPORT_KEY_3	= "Me han dicho que hay una foca dentro de los 
 VO_MERCHANT_SHOP_UNDERPORT_KEY_4	= "Eh... manténgase seco, Doctor.";
 VO_MERCHANT_SHOP_UNDERPORT_SEAL_1	= "Ah, eso fue un asunto muy sucio en Underport, ¿no, doctor? Espero que no se moje.";
 VO_MERCHANT_SHOP_UNDERPORT_SEAL_2	= "Pero lo más importante es que veo que conseguiste el sello. ¡Bien hecho!";
+VO_MERCHANT_SHOP_UNDERPORT_SEAL_3	= "Ahora el banco de Hightown tiene el siguiente sello que necesitas. Pero está guardado en una de las bóvedas.";
+VO_MERCHANT_SHOP_UNDERPORT_SEAL_4	= "Siga el camino de la Reina hasta Hightown. ¡Pero tenga cuidado, doctor! Los agentes están usando el banco como base de operaciones. Espere que esté fuertemente vigilado.";
 VO_MERCHANT_SHOP_SELL_FAIL_1 = "¡Saca tu basura de mi mostrador!";
 VO_MERCHANT_SHOP_SELL_START_1 = "¿Qué estás vendiendo?";
 VO_MERCHANT_SHOP_SELL_SUCCESS_1 = "Oh, esto me gusta... mejor.";
@@ -142,6 +157,49 @@ VO_OLIVER_CON_MARKET_HIVE_3			= "Quizás el ruido sea creado por el trabajo de a
 VO_OLIVER_CON_MARKET_HIVE_4			= "Pero... *tos* Esos gritos continúan resonando en mi mente cansada, donde se superponen y se fusionan...";
 VO_OLIVER_CON_MARKET_HIVE_5			= "...su coro se convierte en un zumbido siniestro, como el agudo zumbido de insectos que pululan alrededor de alguna miserable colmena.";
 VO_OLIVER_CON_MARKET_HIVE_6			= "Vaya con cuidado, doctor. Hay lugares en esta ciudad donde nacen las pesadillas.";
+
+
+//-------------------------------------------------------------
+// Ernest (Hightown)
+
+AI_ERNEST_ID						= "Ernest";
+
+VO_ERNEST_CON_HIGHTOWN_1			= "¡¿Qué crees que estás haciendo aquí?!";
+VO_ERNEST_CON_HIGHTOWN_2			= "¿Un médico, eh? Un doctor en medicina, espero.";
+VO_ERNEST_CON_HIGHTOWN_3			= "¡Aléjate de mi casa!";
+
+//-------------------------------------------------------------
+// Nigel (Hightown)
+
+AI_NIGEL_ID							= "Nigel";
+
+VO_NIGEL_CON_HIGHTOWN_1				= "Hola, ¿vienes a entregar algo? No, se nos acabó, gracias. No, no necesitamos nada, gracias.";
+VO_NIGEL_CON_HIGHTOWN_2				= "Oh, eh. No, lo siento. No estoy en casa, lo siento.";
+VO_NIGEL_CON_HIGHTOWN_3				= "Um, sí, no. No creo que vaya a abrir la puerta.";
+
+//-------------------------------------------------------------
+// Steinenfrank (Hightown)
+
+AI_STEINENFRANK_ID					= "Dr. Steinenfrank";
+
+VO_STEINENFRANK_CON_HIGHTOWN_1		= "¡¿Qué?! ¿Qué buscas aquí?";
+VO_STEINENFRANK_CON_HIGHTOWN_2		= "¡Ah sí, no, no tenemos ningún uso para ti aquí!";
+VO_STEINENFRANK_CON_HIGHTOWN_3		= "Mi trabajo no debe ser interrumpido. ¡Fuera!";
+VO_STEINENFRANK_CON_HIGHTOWN_4		= "Brunhild, pronto, cuando mis operaciones estén completas, ¡serás perfecta!";
+VO_STEINENFRANK_CON_HIGHTOWN_5		= "*risa maniaca* Lo siento, yo... solo pensé en algo gracioso...";
+
+//-------------------------------------------------------------
+// Tram Announcer (Hightown)
+
+AI_TRAMANNOUNCER_ID					= "Tram Announcer";
+VO_TRAMANNOUNCER_IDLE_1				= "¡Manténgase fuera de la pista! Los infractores serán expulsados..";
+VO_TRAMANNOUNCER_IDLE_2				= "¡No pise las barandillas! Permanezca en las zonas designadas.";
+VO_TRAMANNOUNCER_IDLE_3				= "No se permite disparar armas de fuego en el tranvía, a menos que lo solicite o lo lleve a cabo un agente de la policía..";
+VO_TRAMANNOUNCER_IDLE_4				= "La venta de queso, frijoles, pescado, fruta u otros alimentos está estrictamente prohibida en el tranvía. ¡Eso incluye a ti, Winston! ¡Mantén tu pescado lejos de mi tranvía!";
+VO_TRAMANNOUNCER_IDLE_5				= "Por favor considere hacer una donación al Fondo Bancario.";
+VO_TRAMANNOUNCER_IDLE_6				= "Esta hermosa estación de tranvía, recientemente restaurada gracias a generosas donaciones al Fondo Bancario, representa uno de los puntos más altos de la ciudad.";
+
+
 
 //-------------------------------------------------------------
 // Huntsman
@@ -424,6 +482,302 @@ VO_WOODSMAN_CON_UNDERPORT_WATCHDOG_1 = "Uh... No nos está ladrando.";
 VO_WOODSMAN_CON_UNDERPORT_WATCHDOG_2 = "Probablemente también tenga algo escondido por aquí. Deberíamos buscar en esa oficina administrativa.";
 
 //-------------------------------------------------------------
+// Constable 1
+
+AI_CONSTABLE_ID								= "Alguacil";
+SFX_CONSTABLE_1_ALERT_ZERO_1				= "Nada digno de mención, entonces.";
+SFX_CONSTABLE_1_ALERT_ZERO_2				= "Supongo que no fue nada.";
+SFX_CONSTABLE_1_ALERT_ZERO_3				= "Justo cuando pensé que las cosas se estaban poniendo emocionantes.";
+SFX_CONSTABLE_1_ALERT_ZERO_4				= "Extraño...";
+SFX_CONSTABLE_1_ALERT_ZERO_HEAR_1			= "Ya no lo oigo más";
+SFX_CONSTABLE_1_ALERT_ZERO_HEAR_2			= "Hmm. Está tranquilo ahora.";
+SFX_CONSTABLE_1_ALERT_ZERO_HEAR_3			= "Supongo que no fue nada.";
+SFX_CONSTABLE_1_ALERT_ZERO_SIGHT_1			= "Es muy difícil ver a través de esta maldita cosa.";
+SFX_CONSTABLE_1_ALERT_ZERO_SIGHT_2			= "Entonces, todo sigue como siempre.";
+SFX_CONSTABLE_1_ALERT_ZERO_SIGHT_3			= "Manteniendo la paz.";
+SFX_CONSTABLE_1_ALERT_ONE_HEAR_1			= "¿Quién hizo ese sonido?";
+SFX_CONSTABLE_1_ALERT_ONE_HEAR_2			= "Hmm. Ruido extraño.";
+SFX_CONSTABLE_1_ALERT_ONE_HEAR_3			= "No me gustó el sonido de eso.";
+SFX_CONSTABLE_1_ALERT_ONE_SIGHT_1			= "¿Qué es todo esto entonces?";
+SFX_CONSTABLE_1_ALERT_ONE_SIGHT_2			= "¿Qué está pasando allí?";
+SFX_CONSTABLE_1_ALERT_ONE_SIGHT_3			= "¿Quién anda ahí?";
+SFX_CONSTABLE_1_ALERT_ONE_SIGHT_4			= "Quien es ese";
+SFX_CONSTABLE_1_ALERT_ONE_SIGHT_5			= "¿Esa sombra simplemente se movió?";
+SFX_CONSTABLE_1_ALERT_TWO_HEAR_1			= "¡Ya lo oí! Quédate ahí.";
+SFX_CONSTABLE_1_ALERT_TWO_HEAR_2			= "¡Un ruido molesto! Lo estoy comprobando.";
+SFX_CONSTABLE_1_ALERT_TWO_HEAR_3			= "¡Sal aquí donde pueda verte!";
+SFX_CONSTABLE_1_ALERT_TWO_HEAR_4			= "Ya lo oí, rufián.";
+SFX_CONSTABLE_1_ALERT_TWO_SIGHT_1			= "¡Salid a la luz de inmediato!";
+SFX_CONSTABLE_1_ALERT_TWO_SIGHT_2			= "Tengo vista sobre un posible sospechoso.";
+SFX_CONSTABLE_1_ALERT_TWO_SIGHT_3			= "¡Levántate y reporta!";
+SFX_CONSTABLE_1_ALERT_TWO_SIGHT_4			= "¡Quédate donde estás!";
+SFX_CONSTABLE_1_ALERT_THREE_1				= "¿¡Qué!?";
+SFX_CONSTABLE_1_ALERT_THREE_2				= "¡Ay!";
+SFX_CONSTABLE_1_ALERT_THREE_3				= "¿¡De donde vienes!?";
+SFX_CONSTABLE_1_COUGH_1						= "*Tos*";
+SFX_CONSTABLE_1_COUGH_2						= "*Tos*";
+SFX_CONSTABLE_1_COUGH_3 					= "*Tos*";
+SFX_CONSTABLE_1_MUMBLE_1					= "Blegh. Mi uniforme me pica muchísimo.";
+SFX_CONSTABLE_1_MUMBLE_2					= "Demasiada espera...";
+SFX_CONSTABLE_1_MUMBLE_3					= "Demostraré que esos imbéciles de la academia están equivocados.";
+SFX_CONSTABLE_1_MUMBLE_4					= "Esta ciudad está acabada.";
+SFX_CONSTABLE_1_MUMBLE_5					= "¿Por qué siempre me toca el turno de noche?";
+SFX_CONSTABLE_1_WHISTLE						= "*Silbando mal*";
+SFX_CONSTABLE_1_GRUNT_LIGHT_1				= "Ough!";
+SFX_CONSTABLE_1_GRUNT_LIGHT_2				= "Ugh!";
+SFX_CONSTABLE_1_GRUNT_LIGHT_3				= "Eugh!";
+SFX_CONSTABLE_1_GRUNT_MEDIUM_1				= "HeHeHe!";
+SFX_CONSTABLE_1_GRUNT_MEDIUM_2				= "Ugh!";
+SFX_CONSTABLE_1_GRUNT_MEDIUM_3				= "Ugh! Ough!";
+SFX_CONSTABLE_1_GRUNT_HEAVY_1				= "Raagh!";
+SFX_CONSTABLE_1_GRUNT_HEAVY_2				= "Raaaagh!";
+SFX_CONSTABLE_1_GRUNT_HEAVY_3				= "Raaaa-agh!";
+SFX_CONSTABLE_1_REACT_MONSTER_1				= "¡Es un mutante! ¡Acaba con él!";
+SFX_CONSTABLE_1_REACT_MONSTER_2				= "¡Abran fuego! ¡Abran fuego!";
+SFX_CONSTABLE_1_REACT_VERMIN_1				= "Asquerosa alimaña...";
+SFX_CONSTABLE_1_REACT_VERMIN_2				= "¡Te aplastaré bajo mi bota, plaga!";
+SFX_CONSTABLE_1_REACT_PLAYER_1				= "Escoria criminal!";
+SFX_CONSTABLE_1_REACT_PLAYER_2				= "Es la horca para ti, malvado.";
+SFX_CONSTABLE_1_REACT_PLAYER_3				= "¡Bragh! ¡Eres mío!";
+SFX_CONSTABLE_1_REACT_PLAYER_4				= "¡Congelar!";
+SFX_CONSTABLE_1_REACT_OBSTACLE_DOOR_1		= "¡Retrocede!";
+SFX_CONSTABLE_1_REACT_OBSTACLE_DOOR_2		= "Incumplimiento!";
+SFX_CONSTABLE_1_REACT_OBSTACLE_DOOR_3		= "Limpiarlo!";
+SFX_CONSTABLE_1_REACT_CORPSE_1				= "¡Oficial caído! ¡Tengo un oficial caído aquí!";
+SFX_CONSTABLE_1_REACT_CORPSE_2				= "¡Hay un cuerpo aquí! El culpable no puede estar lejos.";
+SFX_CONSTABLE_1_REACT_CORPSE_3				= "Que alguien los recoja y le informe al capitán.";
+SFX_CONSTABLE_1_REACT_TRICKERY_1			= "¿Qué tontería es esto?";
+SFX_CONSTABLE_1_REACT_TRICKERY_2			= "¡Ohhhh, parece que tenemos un alborotador!";
+SFX_CONSTABLE_1_REACT_SUSPICIOUS_1			= "¡Intrusos! Esto no quedará impune.";
+SFX_CONSTABLE_1_REACT_SUSPICIOUS_2			= "Alguien ha estado aquí...";
+SFX_CONSTABLE_1_REACT_LIGHT_BROKEN_1		= "¿Quién está jugando con la luz?";
+SFX_CONSTABLE_1_REACT_LIGHT_BROKEN_2		= "¿Crees que la oscuridad te ocultará?";
+SFX_CONSTABLE_1_SEARCH_TAUNT_1				= "¡Sal, rata! No puedes esconderte de la ley..";
+SFX_CONSTABLE_1_SEARCH_TAUNT_2				= "*Resoplido* Sé que estás aquí. Huelo tu hedor...";
+SFX_CONSTABLE_1_SEARCH_TAUNT_3				= "¡Te subiré el volumen! *Resoplido* Ya verás.";
+SFX_CONSTABLE_1_SEARCH_TAUNT_4				= "¡Aquí voy, malhechor! Me estoy acercando a ti.";
+SFX_CONSTABLE_1_SEARCH_FAIL_1				= "¡Bah! ¡Qué pérdida de tiempo!";
+SFX_CONSTABLE_1_SEARCH_FAIL_2				= "He perdido al sospechoso. Mejor vuelvo a mi puesto.";
+SFX_CONSTABLE_1_SEARCH_FAIL_3				= "¡Se fueron!...por ahora.";
+SFX_CONSTABLE_1_SEARCH_FAIL_4				= "No os preocupéis, al final siempre atrapamos a nuestro hombre.";
+SFX_CONSTABLE_1_SEARCH_FAIL_5				= "¡Maldita sea! Necesito algo de acción.";
+SFX_CONSTABLE_1_COMBAT_TAUNT_1				= "¡Te tengo ahora!";
+SFX_CONSTABLE_1_COMBAT_TAUNT_2				= "Eres mio";
+SFX_CONSTABLE_1_COMBAT_TAUNT_3				= "Ha ha ha ha ha hahaha!";
+SFX_CONSTABLE_1_COMBAT_OUTOFREACH_1			= "¿Tienes miedo, eh? Será mejor que corras.";
+SFX_CONSTABLE_1_COMBAT_OUTOFREACH_2			= "¡Vuelve aquí, cobarde y cobarde!";
+SFX_CONSTABLE_1_COMBAT_BOMB_THROW_1			= "¡Fuego en el agujero!";
+SFX_CONSTABLE_1_COMBAT_BOMB_THROW_2			= "¡Echándolo a perder!";
+SFX_CONSTABLE_1_COMBAT_ALLY_ATTACK_1		= "¡A la carga! ¡Atropéllenlos!";
+SFX_CONSTABLE_1_COMBAT_ALLY_ATTACK_2		= "¡Guárdame un poco, jaja!";
+SFX_CONSTABLE_1_COMBAT_ALLY_FRIENDLYFIRE_1	= "¡Tienes que volver a la academia!";
+SFX_CONSTABLE_1_COMBAT_ALLY_FRIENDLYFIRE_2	= "¡Me acabas de golpear, idiota!";
+SFX_CONSTABLE_1_COMBAT_ALLY_DEATH_1			= "¡Oficial caído! ¡Pagarás por ello!";
+SFX_CONSTABLE_1_COMBAT_ALLY_DEATH_2			= "¡Esto no puede ser!";
+SFX_CONSTABLE_1_COMBAT_SNIPER_1				= "Como disparar a peces en un barril.";
+SFX_CONSTABLE_1_COMBAT_SNIPER_2				= "Haciendo la fotografía.";
+SFX_CONSTABLE_1_COMBAT_SNIPER_3				= "Los tengo en mi mira.";
+SFX_CONSTABLE_1_COMBAT_SNIPER_4				= "Etiquétalos y mételos en bolsas.";
+SFX_CONSTABLE_1_COMBAT_KILL_PLAYER_1		= "¡Es hora de un ascenso!";
+SFX_CONSTABLE_1_COMBAT_KILL_PLAYER_2		= "Me haré capitán por esto.";
+SFX_CONSTABLE_1_COMBAT_KILL_PLAYER_3		= "Je, realmente pensaste que ibas a escapar, ¿eh?";
+SFX_CONSTABLE_1_CHOKE_COUGH_1				= "*Tos*";
+SFX_CONSTABLE_1_CHOKE_COUGH_2				= "*Tos*";
+SFX_CONSTABLE_1_CHOKE_COUGH_3				= "*Tos*";
+SFX_CONSTABLE_1_CHOKE_COUGH_4				= "*Tos*";
+SFX_CONSTABLE_1_CHOKE_COUGH_5				= "*Tos*";
+SFX_CONSTABLE_1_CONDITION_BLIND_1			= "¡Blarg! ¡Hijo de... ¿dónde te metiste?!";
+SFX_CONSTABLE_1_CONDITION_BLIND_2			= "¡No los veo! ¡Que alguien me diga dónde están!";
+SFX_CONSTABLE_1_CONDITION_FIRE_1			= "¡Arde! ¡Apágalo! ¡Ah! ¡Caliente! ¡Caliente, caliente, caliente!";
+SFX_CONSTABLE_1_CONDITION_FIRE_2			= "¡Fuego! ¡Fuego! ¡Guau! ¡Agh!";
+SFX_CONSTABLE_1_CONDITION_FIRE_3			= "Argh! Oagh! Urgh!";
+SFX_CONSTABLE_1_CONDITION_TRAP_1			= "¡Bastardo! Este lugar tiene trampas.";
+SFX_CONSTABLE_1_CONDITION_TRAP_2			= "¡Trampas! ¡Cuidado con las trampas!";
+SFX_CONSTABLE_1_PAIN_LIGHT_1				= "Oof!";
+SFX_CONSTABLE_1_PAIN_LIGHT_2				= "Ough!";
+SFX_CONSTABLE_1_PAIN_LIGHT_3				= "Ow!";
+SFX_CONSTABLE_1_PAIN_LIGHT_4				= "Eugh!";
+SFX_CONSTABLE_1_PAIN_MEDIUM_1				= "Agh!";
+SFX_CONSTABLE_1_PAIN_MEDIUM_2				= "Eugh!";
+SFX_CONSTABLE_1_PAIN_MEDIUM_3				= "Ough!";
+SFX_CONSTABLE_1_PAIN_MEDIUM_4				= "Agh!";
+SFX_CONSTABLE_1_PAIN_MEDIUM_5				= "Ough!";
+SFX_CONSTABLE_1_PAIN_HEAVY_1				= "*Grito*";
+SFX_CONSTABLE_1_PAIN_HEAVY_2				= "*Grito*";
+SFX_CONSTABLE_1_PAIN_HEAVY_3				= "Argggh!";
+SFX_CONSTABLE_1_DEATH_1						= "Ugh... te alcanzaremos...";
+SFX_CONSTABLE_1_DEATH_2						= "¡Blagh! No hay redención...";
+SFX_CONSTABLE_1_DEATH_3						= "¡Ay! Este no es el final...";
+SFX_CONSTABLE_1_DEATH_4						= "Me hiciste daño...";
+SFX_CONSTABLE_1_DEATH_BACKSTAB_1			= "*Chillido de muerte*";
+SFX_CONSTABLE_1_DEATH_BACKSTAB_2			= "*Chillido de muerte*";
+SFX_CONSTABLE_1_DEATH_FALL_1				= "*Chillido de muerte*";
+SFX_CONSTABLE_1_DEATH_FALL_2				= "*Chillido de muerte*";
+SFX_CONSTABLE_1_INTIMIDATE_PICKUPTHATCAN	= "Recoge esa lata.";
+
+VO_CONSTABLE_1_HIGHTOWN_WELCOME				= "El jefe dijo que vendrías. Nos pidió a mí y a los chicos que te diéramos una cálida bienvenida, je, je, je..";
+VO_CONSTABLE_1_HIGHTOWN_ESCAPE				= "¡Está intentando escapar! ¡Agarralo!";
+VO_CONSTABLE_1_HIGHTOWN_EXECUTION_1			= "¡Huah huah!, suplicaron por sus vidas. ¡Por favor! ¡No me maten!";
+VO_CONSTABLE_1_HIGHTOWN_EXECUTION_2			= "Jejeje. ¡Ciertamente les demostramos esa vez!";
+VO_CONSTABLE_1_HIGHTOWN_SPYMASTER_1			= "El Jefe dijo que evitemos a esa comadreja por ahora. Va tras el doctor que trajeron los Cazadores.";
+VO_CONSTABLE_1_HIGHTOWN_SPYMASTER_2			= "El jefe ha estado investigando y ha descubierto algo que alguien se ha esforzado mucho por ocultar.";
+VO_CONSTABLE_1_HIGHTOWN_TRAM_1				= "Bueno... pero no voy a salir a la pasarela. No me gustan las alturas.";
+VO_CONSTABLE_1_HIGHTOWN_TRAM_2				= "¡Bah! Te digo que nada bueno sale de esos astrólogos. Son unos intrigantes, si quieres saber mi opinión.";
+VO_CONSTABLE_1_HIGHTOWN_TRAM_3				= "Grr. Oh, idiota...";
+VO_CONSTABLE_1_HIGHTOWN_TRAM_4				= "¡Ah! Eh, nada.";
+
+
+//-------------------------------------------------------------
+// Constable 2
+
+AI_CONSTABLE_2_ID							= "Alguacil";
+SFX_CONSTABLE_2_ALERT_ZERO_1				= "Supongo que no fue nada.";
+SFX_CONSTABLE_2_ALERT_ZERO_2				= "Nada destacable entonces.";
+SFX_CONSTABLE_2_ALERT_ZERO_3				= "Negocios como siempre.";
+SFX_CONSTABLE_2_ALERT_ZERO_4				= "¡Maldita sea, necesito algo de acción!";
+SFX_CONSTABLE_2_ALERT_ZERO_5				= "Manteniendo la paz...";
+SFX_CONSTABLE_2_ALERT_ZERO_6				= "Justo cuando pensé que las cosas se estaban poniendo emocionantes.";
+SFX_CONSTABLE_2_ALERT_ZERO_HEAR_1			= "Ya no lo oigo más";
+SFX_CONSTABLE_2_ALERT_ZERO_HEAR_2			= "Hmm. Está tranquilo ahora.";
+SFX_CONSTABLE_2_ALERT_ZERO_SIGHT_1			= "Ugh. Hay que dejar de saltar ante las sombras.";
+SFX_CONSTABLE_2_ALERT_ZERO_SIGHT_2			= "Es muy difícil ver a través de esta maldita cosa.";
+SFX_CONSTABLE_2_ALERT_ZERO_SIGHT_3			= "Extraño.";
+SFX_CONSTABLE_2_ALERT_ONE_HEAR_1			= "¿Quién hizo ese sonido?";
+SFX_CONSTABLE_2_ALERT_ONE_HEAR_2			= "Qué?!";
+SFX_CONSTABLE_2_ALERT_ONE_HEAR_3			= "Hmmm...";
+SFX_CONSTABLE_2_ALERT_ONE_HEAR_4			= "No me gustó el sonido de eso.";
+SFX_CONSTABLE_2_ALERT_ONE_SIGHT_1			= "Bueno, ¿qué es todo esto entonces?";
+SFX_CONSTABLE_2_ALERT_ONE_SIGHT_2			= "¿Quién va allí?";
+SFX_CONSTABLE_2_ALERT_ONE_SIGHT_3			= "¿Quién es ese?";
+SFX_CONSTABLE_2_ALERT_ONE_SIGHT_4			= "¿Esa sombra acaba de moverse?";
+SFX_CONSTABLE_2_ALERT_TWO_HEAR_1			= "¡Ven aquí donde pueda verte!";
+SFX_CONSTABLE_2_ALERT_TWO_HEAR_2			= "Estás pisoteando como un elefante.";
+SFX_CONSTABLE_2_ALERT_TWO_HEAR_3			= "¡Muéstrate, cabrón!";
+SFX_CONSTABLE_2_ALERT_TWO_HEAR_4			= "He oído eso, rufián.";
+SFX_CONSTABLE_2_ALERT_TWO_SIGHT_1			= "¡Salgan a la luz inmediatamente!";
+SFX_CONSTABLE_2_ALERT_TWO_SIGHT_2			= "Tengo vista a un sospechoso.";
+SFX_CONSTABLE_2_ALERT_TWO_SIGHT_3			= "¡Levántate e informa!";
+SFX_CONSTABLE_2_ALERT_TWO_SIGHT_4			= "¡Quédate donde estás!";
+SFX_CONSTABLE_2_ALERT_TWO_SIGHT_5			= "¡Congelar!";
+SFX_CONSTABLE_2_ALERT_THREE_1				= "¿¡De dónde vienes!?";
+SFX_CONSTABLE_2_ALERT_THREE_2				= "¿¡Qué!?";
+SFX_CONSTABLE_2_ALERT_THREE_3				= "*resoplido* ¡Nngh!";
+SFX_CONSTABLE_2_COUGH_1						= "*tos*";
+SFX_CONSTABLE_2_COUGH_2						= "*tos*";
+SFX_CONSTABLE_2_COUGH_3 					= "*tos*";
+SFX_CONSTABLE_2_MUMBLE_1					= "Gah, me pica mucho el uniforme.";
+SFX_CONSTABLE_2_MUMBLE_2					= "Mi uniforme me pica tanto.";
+SFX_CONSTABLE_2_MUMBLE_3					= "Demasiada espera...";
+SFX_CONSTABLE_2_MUMBLE_4					= "Les demostraré a esos idiotas de la academia que están equivocados.";
+SFX_CONSTABLE_2_MUMBLE_5					= "Esta ciudad está acabada.";
+SFX_CONSTABLE_2_WHISTLE						= "*Silbido*";
+SFX_CONSTABLE_2_GRUNT_LIGHT_1				= "Raaaagh";
+SFX_CONSTABLE_2_GRUNT_LIGHT_2				= "¡Euf!";
+SFX_CONSTABLE_2_GRUNT_LIGHT_3				= "¡Weurgh!";
+SFX_CONSTABLE_2_GRUNT_LIGHT_4				= "¡Euf! Grrr...";
+SFX_CONSTABLE_2_GRUNT_MEDIUM_1				= "¡Raagh!";
+SFX_CONSTABLE_2_GRUNT_MEDIUM_2				= "¡Ruuuuu!";
+SFX_CONSTABLE_2_GRUNT_MEDIUM_3				= "¡Puaj!";
+SFX_CONSTABLE_2_GRUNT_HEAVY_1				= "¡Bastardo!";
+SFX_CONSTABLE_2_GRUNT_HEAVY_2				= "Mmm jejeje!";
+SFX_CONSTABLE_2_GRUNT_HEAVY_3				= "¡Je, je, je, je!";
+SFX_CONSTABLE_2_REACT_MONSTER_1				= "¡Haz añicos a ese monstruo!";
+SFX_CONSTABLE_2_REACT_MONSTER_2				= "¡Es una de las bestias! ¡Llénalo de plomo!";
+SFX_CONSTABLE_2_REACT_VERMIN_1				= "Siente la parte inferior de mi bota.";
+SFX_CONSTABLE_2_REACT_VERMIN_2				= "¡Blech! Los de tu calaña no pertenecen aquí.";
+SFX_CONSTABLE_2_REACT_PLAYER_1				= "¡Escoria criminal!";
+SFX_CONSTABLE_2_REACT_PLAYER_2				= "Deja tus armas, vagabundo.";
+SFX_CONSTABLE_2_REACT_PLAYER_3				= "¡Tú! El jefe te quitará el pellejo.";
+SFX_CONSTABLE_2_REACT_OBSTACLE_DOOR_1		= "¡Retroceder!";
+SFX_CONSTABLE_2_REACT_OBSTACLE_DOOR_2		= "¡Tomando punto!";
+SFX_CONSTABLE_2_REACT_OBSTACLE_DOOR_3		= "¡Cuidado con esos rincones!";
+SFX_CONSTABLE_2_REACT_DOOR_1				= "¡Se ordenó que este pedido permaneciera cerrado!";
+SFX_CONSTABLE_2_REACT_DOOR_2				= "¡Qué novato ha dejado esto abierto!";
+SFX_CONSTABLE_2_REACT_CORPSE_1				= "Ha habido un oficial abatido aquí.";
+SFX_CONSTABLE_2_REACT_CORPSE_2				= "¡Ayuda! Tenemos un patrullero masacrado por aquí.";
+SFX_CONSTABLE_2_REACT_TRICKERY_1			= "¿Qué tontería es esta?";
+SFX_CONSTABLE_2_REACT_TRICKERY_2			= "¡Ohhhh, parece que tenemos un alborotador!";
+SFX_CONSTABLE_2_REACT_SUSPICIOUS_1			= "Algo está mal... ¿quién ha estado merodeando por aquí?";
+SFX_CONSTABLE_2_REACT_SUSPICIOUS_2			= "Joder... algo no está bien aquí.";
+SFX_CONSTABLE_2_REACT_SUSPICIOUS_3			= "Hmm... algún alborotador ha estado aquí.";
+SFX_CONSTABLE_2_REACT_LIGHT_BROKEN_1		= "Algún bribón lo ha manipulado.";
+SFX_CONSTABLE_2_REACT_LIGHT_BROKEN_2		= "Jugando con las luces, ¿eh? Lo lamentará.";
+SFX_CONSTABLE_2_REACT_DEVICEBROKEN_1		= "Informar de una perturbación eléctrica.";
+SFX_CONSTABLE_2_REACT_DEVICEBROKEN_2		= "Tendremos que traer a uno de los ingenieros aquí para que mire esto...";
+SFX_CONSTABLE_2_SEARCH_TAUNT_1				= "¡Te subiré! *Resopla* Sólo espera.";
+SFX_CONSTABLE_2_SEARCH_TAUNT_2				= "Jejejejejejeje, esconderse lo hace más divertido.";
+SFX_CONSTABLE_2_SEARCH_TAUNT_3				= "Déjalo criminal. Ambos sabemos que te encontraré.";
+SFX_CONSTABLE_2_SEARCH_TAUNT_4				= "¡Allá voy, sinvergüenza! Me estoy acercando a ti.";
+SFX_CONSTABLE_2_SEARCH_FAIL_1				= "¡Maldita sea, me escapé! El jefe me informará sobre esto...";
+SFX_CONSTABLE_2_SEARCH_FAIL_2				= "La próxima vez no seré tan fácil contigo.";
+SFX_CONSTABLE_2_SEARCH_FAIL_3				= "Claro por ahora. Volviendo a mi patrulla.";
+SFX_CONSTABLE_2_COMBAT_TAUNT_1				= "Te voy a descuartizar, delincuente.";
+SFX_CONSTABLE_2_COMBAT_TAUNT_2				= "Ríndete y haré esto rápido.";
+SFX_CONSTABLE_2_COMBAT_TAUNT_3				= "¡Ja, ja, ja, ja, ja, jajaja!";
+SFX_CONSTABLE_2_COMBAT_TAUNT_3				= "¡Jejejejejejejejejejeje!";
+SFX_CONSTABLE_2_COMBAT_OUTOFREACH_1			= "Así es, escápate como el cobarde que eres.";
+SFX_CONSTABLE_2_COMBAT_OUTOFREACH_2			= "¡Vuelve aquí y enfrenta tus crímenes!";
+SFX_CONSTABLE_2_COMBAT_OUTOFREACH_3			= "El sospechoso intenta escapar. ¡Córtalo!";
+SFX_CONSTABLE_2_COMBAT_BOMB_THROW_1			= "¡Fuego en el hoyo!";
+SFX_CONSTABLE_2_COMBAT_BOMB_THROW_2			= "¡Sacándolo!";
+SFX_CONSTABLE_2_COMBAT_ALLY_ATTACK_1		= "¡Cargar! Atropellarlos.";
+SFX_CONSTABLE_2_COMBAT_ALLY_ATTACK_2		= "Guárdame un poco, ¡ja!";
+SFX_CONSTABLE_2_COMBAT_ALLY_FRIENDLYFIRE_1	= "¡Ay! ¡Tienes que volver a la academia!";
+SFX_CONSTABLE_2_COMBAT_ALLY_DEATH_1			= "*Jadea* ¡Te colgarán por eso!";
+SFX_CONSTABLE_2_COMBAT_ALLY_DEATH_2			= "¡Oficial caído!";
+SFX_CONSTABLE_2_COMBAT_SNIPER_1				= "Como dispararle a un pez en un barril.";
+SFX_CONSTABLE_2_COMBAT_SNIPER_2				= "Tomando la foto.";
+SFX_CONSTABLE_2_COMBAT_SNIPER_3				= "Los tengo en la mira.";
+SFX_CONSTABLE_2_COMBAT_SNIPER_4				= "Etiquétalos y embolsalos.";
+SFX_CONSTABLE_2_COMBAT_KILL_PLAYER_1		= "Un criminal menos del que preocuparse en este pueblo.";
+SFX_CONSTABLE_2_COMBAT_KILL_PLAYER_2		= "Se ha hecho justicia.";
+SFX_CONSTABLE_2_COMBAT_KILL_PLAYER_3		= "Je je, acéptalo. Nunca tuviste una oportunidad contra los mejores de la ciudad.";
+SFX_CONSTABLE_2_CHOKE_COUGH_1				= "*tos*";
+SFX_CONSTABLE_2_CHOKE_COUGH_2				= "*tos*";
+SFX_CONSTABLE_2_CONDITION_BLIND_1			= "¡Ay! *Tose* No puedo ver... ¡alguien me dice dónde están!";
+SFX_CONSTABLE_2_CONDITION_BLIND_2			= "¡Bastardo! ¿A dónde fueron?";
+SFX_CONSTABLE_2_CONDITION_FIRE_1			= "¡Arde! ¡Apágalo! ¡Ah! ¡Caliente! ¡Hurra!";
+SFX_CONSTABLE_2_CONDITION_FIRE_2			= "¡Fuego! ¡Fuego! ¡Ay!";
+SFX_CONSTABLE_2_CONDITION_FIRE_3			= "¡Ay! ¡Urgh!";
+SFX_CONSTABLE_2_CONDITION_TRAP_1			= "¡Míralo! Hay trampas aquí.";
+SFX_CONSTABLE_2_CONDITION_TRAP_2			= "¡Ay! Joder, hay trampas.";
+SFX_CONSTABLE_2_PAIN_LIGHT_1				= "¡Ay!";
+SFX_CONSTABLE_2_PAIN_LIGHT_2				= "¡Ah!";
+SFX_CONSTABLE_2_PAIN_LIGHT_3				= "¡Euf!";
+SFX_CONSTABLE_2_PAIN_LIGHT_4				= "¡Ay!";
+SFX_CONSTABLE_2_PAIN_MEDIUM_1				= "¡Guau!";
+SFX_CONSTABLE_2_PAIN_MEDIUM_2				= "¡Ay!";
+SFX_CONSTABLE_2_PAIN_MEDIUM_3				= "¡Ay!";
+SFX_CONSTABLE_2_PAIN_MEDIUM_4				= "¡Euf!";
+SFX_CONSTABLE_2_PAIN_HEAVY_1				= "*gruñidos*";
+SFX_CONSTABLE_2_PAIN_HEAVY_2				= "*Grito*";
+SFX_CONSTABLE_2_PAIN_HEAVY_3				= "Argggh!";
+SFX_CONSTABLE_2_DEATH_1						= "La ley... te alcanzará...";
+SFX_CONSTABLE_2_DEATH_2						= "¡Blargh! No hay redención...";
+SFX_CONSTABLE_2_DEATH_3						= "Tu culpa te pesará...";
+SFX_CONSTABLE_2_DEATH_4						= "El jefe atrapará a su hombre... siempre lo hace...";
+SFX_CONSTABLE_2_DEATH_5						= "Me hizo mal...";
+SFX_CONSTABLE_2_DEATH_BACKSTAB_1			= "La ley... te alcanzará...";
+SFX_CONSTABLE_2_DEATH_BACKSTAB_2			= "¡Blargh! No hay redención...";
+SFX_CONSTABLE_2_DEATH_BACKSTAB_3			= "Tu culpa te pesará...";
+SFX_CONSTABLE_2_DEATH_BACKSTAB_4			= "El jefe atrapará a su hombre... siempre lo hace...";
+SFX_CONSTABLE_2_DEATH_BACKSTAB_5			= "Me hizo mal...";
+SFX_CONSTABLE_2_DEATH_FALL_1				= "¡Nooooo!";
+SFX_CONSTABLE_2_DEATH_FALL_2				= "¡Nooooo!";
+SFX_CONSTABLE_2_COMMAND_INFORMINTRUDER_1	= "Mantén los ojos bien abiertos, no hace mucho descubrieron a un criminal.";
+SFX_CONSTABLE_2_COMMAND_INFORMINTRUDER_2	= "¡Manténgase en guardia! Hay un intruso acechando.";
+SFX_CONSTABLE_2_INTIMIDATE_PICKUPTHATCAN	= "Recoge esa lata.";
+
+VO_CONSTABLE_2_HIGHTOWN_EXECUTION_1			= "Ladrones y bribones, todos ellos. No bajo nuestra vigilancia.";
+VO_CONSTABLE_2_HIGHTOWN_EXECUTION_2			= "Ja, ja, ja... ¡está bien! ¡Muy bien, cállate! Ve a buscar al Doctor.";
+VO_CONSTABLE_2_HIGHTOWN_SPYMASTER_1			= "Alguien de la guardia nocturna afirmó haber visto al Spymaster en los tejados.";
+VO_CONSTABLE_2_HIGHTOWN_SPYMASTER_2			= "Extraño. ¿Cómo está conectado con este lío?";
+VO_CONSTABLE_2_HIGHTOWN_TRAM_1				= "Parece que uno de los engranajes del tranvía está defectuoso. Tenemos órdenes de reemplazarlo.";
+VO_CONSTABLE_2_HIGHTOWN_TRAM_2				= "Bien, pero entonces eres tú quien tiene que ir al Observatorio Glaswell para conseguir un equipo de repuesto.";
+VO_CONSTABLE_2_HIGHTOWN_TRAM_3				= "No estaba preguntando. Ve a ver si el equipo de ahí abajo sabe dónde está uno.";
+VO_CONSTABLE_2_HIGHTOWN_TRAM_4				= "¿Qué fue eso?";
+
+//-------------------------------------------------------------
 // Fishdog
 
 AI_FISHDOG_ID				= "Perro pescador";
@@ -477,3 +831,27 @@ SFX_BATBARBER_DEATH_LOUD	= "*Grito*";
 
 AI_CROWMAN_ID				= "Hombre cuervo";
 
+//-------------------------------------------------------------
+// Crowcritters
+
+AI_CROWCRITTER_ID			= "Cuervo";
+SFX_CROWCRITTER_CAW_1		= "*Graznar*";
+SFX_CROWCRITTER_CAW_2		= "*Graznar*";
+SFX_CROWCRITTER_CAW_3		= "*Graznar*";
+SFX_CROWCRITTER_CLICK_1		= "*clic*";
+SFX_CROWCRITTER_CLICK_2		= "*clic*";
+SFX_CROWCRITTER_CLICK_3		= "*clic*";
+SFX_CROWCRITTER_CLICK_4		= "*clic*";
+SFX_CROWCRITTER_CLICK_5		= "*clic*";
+SFX_CROWCRITTER_CLICK_6		= "*clic*";
+SFX_CROWCRITTER_PANIC_CAW_1	= "*Grito*";
+SFX_CROWCRITTER_PANIC_CAW_2	= "*Grito*";
+SFX_CROWCRITTER_PANIC_CAW_3	= "*Grito*";
+SFX_CROWCRITTER_PANIC_CAW_4	= "*Grito*";
+SFX_CROWCRITTER_PANIC_CAW_5	= "*Grito*";
+SFX_CROWCRITTER_PANIC_CAW_6	= "*Grito*";
+SFX_CROWCRITTER_TAKEOFF_1	= "*Caw* *Caw* *Caw*";
+SFX_CROWCRITTER_TAKEOFF_2	= "*Caw* *Caw* *Caw*";
+SFX_CROWCRITTER_TAKEOFF_3	= "*Caw* *Caw* *Caw*";
+SFX_CROWCRITTER_DEATH_1		= "*Raspar*";
+SFX_CROWCRITTER_DEATH_2		= "*Raspar*";

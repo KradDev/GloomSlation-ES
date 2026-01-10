@@ -125,6 +125,13 @@ OPTION_AA_2X = "2X";
 OPTION_AA_4X = "4X";
 OPTION_AA_8X = "8X";
 OPTION_LIGHTFLARES = "Habilitar destellos de luz";
+OPTION_WEATHERQ		    = "Weather Particles Quality";
+OPTION_WEATHERQ_NORMAL		= "Normal";
+OPTION_WEATHERQ_LOW			= "Bajo";
+OPTION_WEATHERQ_VERYLOW		= "Muy bajo";
+
+//Audio Options
+
 OPTION_SPEAKER_MODE = "Modo altavoz";
 OPTION_SM_STEREO = "Estéreo";
 OPTION_SM_QUAD = "<size=90%>Cuadrafónico";
@@ -173,7 +180,7 @@ INPUT_HOLSTER_WEAPON = "Arma en funda";
 INPUT_RELOAD_WEAPON = "Recargar arma";
 INPUT_CHANGE_AMMO_TYPE = "Cambiar tipo de munición";
 INPUT_PRIMARY_FIRE = "Fuego primario";
-INPUT_SECONDARY_FIRE = "Fuego secundario";
+INPUT_ALTERNATE_FIRE = "Fuego secundario";
 INPUT_WEAPON_0 = "Arma 0";
 INPUT_WEAPON_1 = "Arma 1";
 INPUT_WEAPON_2 = "Arma 2";

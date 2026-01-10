@@ -201,6 +201,9 @@ ITEM_TOAST_1_DESC = "Una tostada rancia.";
 ITEM_TOAST_2_NAME = "Tostada";
 ITEM_TOAST_2_DESC = "Una tostada rancia partida por la mitad.";
 
+ITEM_EGG_1_NAME					= "Huevo";
+ITEM_EGG_1_DESC					= "Un huevo de cuervo.";
+
 ITEM_LEVER_HANDLE_NAME = "Manija de palanca";
 ITEM_LEVER_HANDLE_DESC = "Un mango para una palanca mecánica.";
 
@@ -271,6 +274,16 @@ ITEM_BOTTLE_WHISKEY_DESC		= "Una botella de whisky vacía que se rompería fáci
 ITEM_BOTTLE_MEDICAL_NAME		= "Medical Bottle";
 ITEM_BOTTLE_MEDICAL_DESC		= "Una botella de vidrio vacía que se rompería fácilmente si se arrojara.";
 
+ITEM_SHOTGUN_CONSTABLE_NAME		= "Escopeta del aguacil";
+ITEM_SHOTGUN_CONSTABLE_DESC		= "Una escopeta de sólida construcción. El metal empleado en su construcción es anormalmente pesado, y solo los alguaciles pueden manejarlo con su fuerza bruta.";
+
+ITEM_RIFLE_CONSTABLE_NAME		= "Constable's Rifle";
+ITEM_RIFLE_CONSTABLE_DESC		= "A sturdy rifle. The wooden stock is deceptively heavy, providing insight into just how strong the constables are.";
+
+ITEM_RIFLE_CONSTABLE_SCOPED_NAME    = "Rifle de policía (con mira telescópica)";
+ITEM_RIFLE_CONSTABLE_SCOPED_DESC	= "Un rifle robusto con mira telescópica. El retroceso por sí solo destrozaría los brazos de cualquiera, excepto los agentes, por no hablar del peso del arma.";
+
+
 ITEM_CAN_FISH_NAME = "lata de pescado";
 ITEM_CAN_FISH_DESC = "Una lata etiquetada con una pegatina que dice <Pesca de cereales>. Del envoltorio emana un olor salado y repugnante.";
 
@@ -328,6 +341,10 @@ ITEM_GOATMAN_HORN_LEFT_DESC = "(No investigado)";
 ITEM_GOATMAN_HORN_RIGHT_NAME = "Cuerno de Cabra (Derecha)";
 ITEM_GOATMAN_HORN_RIGHT_DESC = "(No investigado)";
 
+ITEM_TORCH_NAME	= "Antorcha";
+ITEM_TORCH_DESC	= "Una antorcha de madera quemada. Los cazadores han recurrido a las antorchas durante siglos, tanto para usarlas en cacerías nocturnas como contra quienes temen su llama.";
+
+
 // Weapons
 ITEM_CANESWORD_NAME = "espada de bastón";
 ITEM_CANESWORD_DESC = "Una espada de bastón duradera con mango de marfil y hoja recubierta de plata. Un ataque potente contra un enemigo inconsciente y desarmado causará un daño crítico.";
@@ -338,11 +355,14 @@ ITEM_BONESAW_DESC	= "Una sierra de hueso de acero de grado quirúrgico, con mang
 ITEM_REVOLVER_NAME = "Revólver";
 ITEM_REVOLVER_DESC = "Revólver de acción de rotura con seis recámaras. De acero fundido y con recámara para un cartucho local de la ciudad.";
 
+ITEM_REVOLVER_CARBINE_NAME			= "Carabina revólver";
+ITEM_REVOLVER_CARBINE_DESC			= "Revólver de acción reversible con mira telescópica de acero y culata de madera robusta. Útil para explorar rutas o eliminar amenazas a distancia.";
+
 ITEM_SHOTGUN_NAME = "Escopeta";
 ITEM_SHOTGUN_DESC = "Una escopeta de bomba plegable. Un favorito entre los tramperos que deseaban un arma de corto alcance fácilmente transportable para sus excursiones más allá del baluarte.";
 
-ITEM_LEGTRAP_NAME = "trampa trampa";
-ITEM_LEGTRAP_DESC = "Una trampa que se puede utilizar para atrapar la pierna del objetivo.";
+ITEM_BEARTRAP_NAME	= "Trampa para osos";
+ITEM_BEARTRAP_DESC	= "Una trampa de sujeción que puede usarse para atrapar la pierna de su víctima, causándole daño inmediato, inmovilidad y hemorragia. Los cazadores locales aprecian estas trampas por su funcionamiento sencillo pero fiable.";
 
 ITEM_FLAREGUN_NAME = "Pistola de bengalas";
 ITEM_FLAREGUN_DESC = "Una pistola personalizada de un solo tiro con silenciador. La cámara tiene una forma especial para un tipo de cerrojo. El nombre <Undertaker> está grabado en el mango.";
@@ -352,6 +372,9 @@ ITEM_FLASHBOMB_DESC = "Una bomba arrojable que emite un destello cegador, lo que
 
 ITEM_CHOKEBOMB_NAME	= "Bomba Asfixiante";
 ITEM_CHOKEBOMB_DESC	= "Una bomba arrojadiza que emite una nube de humo nocivo capaz de aturdir a las criaturas y extinguir las llamas. Una herramienta recién introducida que utiliza la policía para sofocar disturbios y protestas.";
+
+ITEM_FIREBOMB_NAME	= "Bomba incendiaria";
+ITEM_FIREBOMB_DESC	= "Una bomba arrojadiza que envuelve en llamas la zona impactada y prende fuego a materiales combustibles. Una herramienta recién introducida, utilizada por la Policía para dispersar barricadas y despejar obstrucciones.";
 
 ITEM_HARPOONGUN_NAME = "Arma de arpón";
 ITEM_HARPOONGUN_DESC = "Un cañón de arpón impulsado por un novedoso sistema de escape de vapor. Si bien esta arma generalmente se emplea con fines de pesca, se puede usar en ciertas superficies para crear una cuerda extensible.";
@@ -381,6 +404,9 @@ ITEM_CANNON_FUSE_DESC = "Una cadena de mechas para un cañón.";
 
 ITEM_POWDERFLASK_NAME = "Cuerno de frasco de pólvora";
 ITEM_POWDERFLASK_DESC = "Un pequeño recipiente hecho con el cuerno de un animal. Útil para verter pólvora en armas antiguas que se cargan por la boca, como mosquetes y cañones.";
+
+ITEM_COGWHEEL_NAME 	= "Rueda dentada";
+ITEM_COGWHEEL_DESC	= "Una rueda dentada diseñada para impulsar maquinaria compleja. Pocos dispositivos requieren tanta durabilidad.";
 
 
 //-------------------------------------------------------------
@@ -500,8 +526,8 @@ KEY_MARKET_MANOR_2_FRONTDOOR_DESC = "Llave de la puerta de entrada de una mansi�
 KEY_MARKET_MANOR_3_FRONTDOOR_NAME = "Llave frontal de la mansión de Lord Kar";
 KEY_MARKET_MANOR_3_FRONTDOOR_DESC = "Llave de la puerta de entrada de una mansión en Market District. El nombre <Lord Kar> está inscrito en la cabeza.";
 
-KEY_MARKET_DRUNKEN_WATERFOWL_NAME       = "Clave de Drunken Waterfowl";
-KEY_MARKET_DRUNKEN_WATERFOWL_DESC       = "Llave de la taberna Drunken Waterfowl en el Distrito del Mercado.";
+KEY_MARKET_DRUNKEN_WATERFOWL_NAME = "Llave de Drunken Waterfowl";
+KEY_MARKET_DRUNKEN_WATERFOWL_DESC = "Llave de la taberna Drunken Waterfowl en el Distrito del Mercado.";
 
 
 KEY_UNDERPORT_ENTRANCE_NAME = "Llave de la puerta de entrada al subpuerto";
@@ -528,8 +554,8 @@ KEY_UNDERPORT_TRAM_CHEST_DESC = "Llave del cofre de la sala de descarga de tranv
 KEY_UNDERPORT_CASTLE_GATE_NAME = "Llave de la puerta del castillo";
 KEY_UNDERPORT_CASTLE_GATE_DESC = "Llave de la puerta del castillo de Underport.";
 
-KEY_UNDERPORT_SAFEROOM_CELLAR_NAME      = "Llave de la sala de seguridad del sótano ";
-KEY_UNDERPORT_SAFEROOM_CELLAR_DESC      = "Llave del sótano situado debajo de una de las habitaciones seguras del Underport.";
+KEY_UNDERPORT_SAFEROOM_CELLAR_NAME  = "Llave de la sala de seguridad del sótano ";
+KEY_UNDERPORT_SAFEROOM_CELLAR_DESC  = "Llave del sótano situado debajo de una de las habitaciones seguras del Underport.";
 
 KEY_HIVE_SHANTYTOWN_NAME = "Llave del barrio de chabolas";
 KEY_HIVE_SHANTYTOWN_DESC = "Llave de la puerta del barrio de chabolas de la colmena.";
@@ -539,6 +565,30 @@ KEY_HIVE_ENGINEERING_DESC = "Llave del área de acceso de ingeniería de la colm
 
 KEY_HIVE_SUPERVISOR_NAME = "Llave del supervisor de alcantarillado";
 KEY_HIVE_SUPERVISOR_DESC = "Llave de la sala de control de la puerta y de los casilleros del supervisor en la colmena.";
+
+KEY_HIGHTOWN_HOTEL_RECEPTION_NAME		= "Llave de recepción del Terrace Grove Inn";
+KEY_HIGHTOWN_HOTEL_RECEPTION_DESC		= "Llave de la sala de recepción del Terrace Grove Inn en Hightown.";
+
+KEY_HIGHTOWN_MONTGOMERY_OFFICE_NAME		= "Llave de la oficina de Montgomery";
+KEY_HIGHTOWN_MONTGOMERY_OFFICE_DESC		= "Llave de la oficina en la finca de Montgomery.";
+
+KEY_HIGHTOWN_MONTGOMERY_GUNCASE_NAME	= "Llave del estuche de armas Montgomery";
+KEY_HIGHTOWN_MONTGOMERY_GUNCASE_DESC	= "Llave de la funda de la pistola en la sala de trofeos de Montgomery.";
+
+KEY_HIGHTOWN_MONTGOMERY_WATCHDOGS_NAME	= "Llave de los perros guardianes de Montgomery";
+KEY_HIGHTOWN_MONTGOMERY_WATCHDOGS_DESC	= "Llave de la sala de control de vigilancia de la propiedad de Montgomery.";
+
+KEY_HIGHTOWN_GLASWELL_STUDY_NAME		= "Llave del estudio del Observatorio Glaswell";
+KEY_HIGHTOWN_GLASWELL_STUDY_DESC		= "Llave del estudio en el Observatorio Glaswell.";
+
+KEY_HIGHTOWN_GLASWELL_BRIDGE_NAME		= "Llave del puente del Observatorio Glaswell";
+KEY_HIGHTOWN_GLASWELL_BRIDGE_DESC		= "Llave del puente que conecta el Observatorio Glaswell y la finca de Burtwistle.";
+
+KEY_HIGHTOWN_GLASWELL_POWER_NAME		= "Llave del sótano del Observatorio Glaswell";
+KEY_HIGHTOWN_GLASWELL_POWER_DESC		= "Llave de la sala de energía del sótano del Observatorio Glaswell.";
+
+KEY_HIGHTOWN_TRAMSTATION_MAINTENANCE_NAME	= "Llave de mantenimiento de la estación de tranvía";
+KEY_HIGHTOWN_TRAMSTATION_MAINTENANCE_DESC	= "Llave del área de mantenimiento de la estación Queen's Cross.";
 
 // Currency
 CURRENCY_GOLD_NAME					= "Oro";
@@ -566,11 +616,26 @@ ITEM_GEM_EMERALD_LARGE_DESC = "Una gema esmeralda grande y reluciente. Se puede 
 ITEM_HORN_ULMAR_NAME = "Cuerno de Ulmar";
 ITEM_HORN_ULMAR_DESC = "Un preciado cuerno de marfil del Reino Antiguo. Se dice que estos cuernos alguna vez pudieron cantar en reinos enteros, pero su poder hace mucho que se desvaneció.";
 
+ITEM_HORN_IVORY_NAME = "Cuerno de Marfil";
+ITEM_HORN_IVORY_DESC = "Un cuerno de marfil decorado procedente de las altas hierbas kuljarianas en las tierras salvajes del sur. Un lugar popular entre los cazadores, pero en los últimos años sus legendarias manadas han disminuido drásticamente.";
+
 ITEM_RING_EMERALD_NAME = "Anillo Esmeralda";
 ITEM_RING_EMERALD_DESC = "Un anillo con una gema esmeralda. Se rumorea que las esmeraldas son la piedra preciosa del loco, lo que induce a abrazar el caos y el furor.";
 
 ITEM_CHALICE_1_GOLD_NAME = "Cáliz de oro";
 ITEM_CHALICE_1_GOLD_DESC = "Un cáliz dorado ornamentado, adornado con adornos grabados y engastado con piedras preciosas de color rojo sangre.";
+
+ITEM_POCKETWATCH_1_GOLD_NAME = "Reloj de bolsillo de oro";
+ITEM_POCKETWATCH_1_GOLD_DESC = "Un reloj de bolsillo de oro fabricado por los mejores relojeros de la ciudad.";
+
+ITEM_CANOPIC_JAR_CROW_NAME = "Jar Canópico (Cuervo)";
+ITEM_CANOPIC_JAR_CROW_DESC = "Un antiguo recipiente utilizado para conservar órganos para el más allá. La tapa forma la cabeza de un cuervo con ojos penetrantes y un pico amenazante y afilado, que simboliza la muerte.";
+
+ITEM_CANOPIC_JAR_GOAT_NAME = "Jar Canópico (Cabra)";
+ITEM_CANOPIC_JAR_GOAT_DESC = "Un antiguo recipiente utilizado para conservar órganos para el más allá. Un artesano experto ha esculpido una cabra en la cabeza de piedra del recipiente, símbolo de virilidad.";
+
+ITEM_CANOPIC_JAR_LION_NAME = "Jar Canópico (León)";
+ITEM_CANOPIC_JAR_LION_DESC = "Un antiguo jarro utilizado para conservar órganos para el más allá. La tapa de piedra tiene forma de león, evocando la fuerza y ​​la valentía de aquel cuyos órganos contiene.";
 
 ITEM_POCKETWATCH_1_GOLD_NAME = "Reloj de bolsillo dorado";
 ITEM_POCKETWATCH_1_GOLD_DESC = "Un reloj de bolsillo dorado elaborado por los mejores relojeros de la ciudad.";
@@ -592,6 +657,28 @@ ITEM_CANOPIC_JAR_LION_DESC = "Un antiguo tarro utilizado para conservar órganos
 
 ITEM_COIN_ANCIENT_NAME = "Moneda antigua";
 ITEM_COIN_ANCIENT_DESC = "Una antigua moneda de bronce martillado. El anverso presenta un relieve de un hombre desconocido y en el reverso una extraña figura sin rostro y runas indescifrables.";
+
+ITEM_KEY_MOLD_NAME	= "Molde clave";
+ITEM_KEY_MOLD_DESC	= "Un molde antiguo utilizado para hacer una llave con un propósito desconocido. Cabe preguntarse si este molde se utilizó para fabricar varias llaves o para elaborar una llave compleja para un propósito específico.";
+
+ITEM_INGOT_IRON_NAME    = "Lingote de hierro";
+ITEM_INGOT_IRON_DESC	= "Una pesada barra hecha de hierro. Es poco probable que encuentre un herrero que se lo lleve, pero es posible que un comerciante aún esté interesado en comprarlo.";
+
+ITEM_NECKLACE_1_TURQUOISE_NAME	= "Collar Turquesa";
+ITEM_NECKLACE_1_TURQUOISE_DESC	= "Un collar con una rara piedra preciosa de turquesa. Las facetas brillantes parecen olas turbulentas en la luz.";
+
+ITEM_NECKLACE_1_AMETHYST_NAME	= "Collar de amatista";
+ITEM_NECKLACE_1_AMETHYST_DESC	= "Un collar con una rara piedra preciosa de amatista. Incluso cuando la luz brilla sobre ella, la gema evoca la belleza del cielo nocturno.";
+
+ITEM_NECKLACE_1_RUBY_NAME	= "Collar de rubíes";
+ITEM_NECKLACE_1_RUBY_DESC	= "Un collar con una rara piedra preciosa de rubí. Se dice que es un símbolo de los reyes del pasado, que usaban la piedra preciosa como conducto para recolectar la esencia vital.";
+
+ITEM_WAX_SEAL_NAME	= "Sello de cera";
+ITEM_WAX_SEAL_DESC  = "Un sello de cera grabado en oro que se utiliza para autenticar cartas. El sello significa el vínculo más elevado de la lealtad de uno, ya que imparte la reputación de la casa de uno.";
+
+ITEM_EGG_GOLD_NAME	= "huevo de oro";
+ITEM_EGG_GOLD_DESC  = "Un huevo de oro, ya sea recogido por un pájaro o milagrosamente puesto por uno. Un raro deleite.";
+
 
 //-------------------------------------------------------------
 // Research
@@ -776,6 +863,23 @@ ITEM_FISHDOG_LEG_RIGHT_NAME			= "Pierna Derecha de Perropez";
 ITEM_FISHDOG_LEG_RIGHT_DESC			= "La pierna derecha de un Perropez muerto.";
 
 //-------------------------------------------------------------
+// Giblets - Fishdog Cursed
+
+ITEM_FISHDOG_CURSED_HEAD_NAME				= "Cabeza de perro pez";
+ITEM_FISHDOG_CURSED_HEAD_DESC				= "La cabeza de un perro pez muerto corrompida por alguna fuente misteriosa.";
+ITEM_FISHDOG_CURSED_TORSO_NAME				= "Torso de perro pez";
+ITEM_FISHDOG_CURSED_TORSO_DESC				= "El torso de un perro pez muerto corrompido por alguna fuente misteriosa.";
+ITEM_FISHDOG_CURSED_ARM_LEFT_NAME			= "Brazo izquierdo del perro pez";
+ITEM_FISHDOG_CURSED_ARM_LEFT_DESC			= "El brazo izquierdo de un perro pez muerto corrompido por alguna fuente misteriosa.";
+ITEM_FISHDOG_CURSED_ARM_RIGHT_NAME			= "Brazo derecho del perro pez";
+ITEM_FISHDOG_CURSED_ARM_RIGHT_DESC			= "El brazo derecho de un perro pez muerto corrompido por alguna fuente misteriosa.";
+ITEM_FISHDOG_CURSED_LEG_LEFT_NAME			= "Pierna izquierda del perro pez";
+ITEM_FISHDOG_CURSED_LEG_LEFT_DESC			= "La pierna izquierda de un perro pez muerto corrompida por alguna fuente misteriosa.";
+ITEM_FISHDOG_CURSED_LEG_RIGHT_NAME			= "Pierna derecha del perro pez";
+ITEM_FISHDOG_CURSED_LEG_RIGHT_DESC			= "La pierna derecha de un perro pez muerto corrompida por alguna fuente misteriosa.";
+
+
+//-------------------------------------------------------------
 // Giblets - Goatman
 
 ITEM_GOATMAN_HEAD_NAME				= "Cabeza de Hombre Cabra";
@@ -817,6 +921,26 @@ ITEM_BATBARBER_LEG_RIGHT_NAME		= "Pierna Derecha de Murcibarbero";
 ITEM_BATBARBER_LEG_RIGHT_DESC		= "La pierna derecha de un Murcibarbero muerto.";
 ITEM_BATBARBER_HAND_RIGHT_NAME		= "Mano Derecha de Murcibarbero";
 ITEM_BATBARBER_HAND_RIGHT_DESC		= "La mano derecha de un Murcibarbero muerto.";
+
+//-------------------------------------------------------------
+// Giblets - Constable
+
+ITEM_CONSTABLE_HEAD_NAME				= "Jefe de policía";
+ITEM_CONSTABLE_HEAD_DESC				= "La cabeza de un agente muerto.";
+ITEM_CONSTABLE_TORSO_NAME				= "Torso de agente";
+ITEM_CONSTABLE_TORSO_DESC				= "El torso de un agente muerto.";
+ITEM_CONSTABLE_PELVIS_NAME				= "Pelvis del agente";
+ITEM_CONSTABLE_PELVIS_DESC				= "La pelvis de un agente muerto.";
+ITEM_CONSTABLE_ARM_LEFT_NAME			= "Brazo izquierdo del agente";
+ITEM_CONSTABLE_ARM_LEFT_DESC			= "El brazo izquierdo de un agente muerto.";
+ITEM_CONSTABLE_ARM_RIGHT_NAME			= "Brazo derecho del agente";
+ITEM_CONSTABLE_ARM_RIGHT_DESC			= "El brazo derecho de un agente muerto.";
+ITEM_CONSTABLE_LEG_LEFT_NAME			= "Pierna izquierda del agente";
+ITEM_CONSTABLE_LEG_LEFT_DESC			= "La pierna izquierda de un agente muerto.";
+ITEM_CONSTABLE_LEG_RIGHT_NAME			= "Pierna derecha del agente";
+ITEM_CONSTABLE_LEG_RIGHT_DESC			= "La pierna derecha de un agente muerto.";
+ITEM_CONSTABLE_HAT_NAME					= "Casco de policía";
+ITEM_CONSTABLE_HAT_DESC					= "Un casco de custodio usado por los agentes.";
 
 
 //-------------------------------------------------------------

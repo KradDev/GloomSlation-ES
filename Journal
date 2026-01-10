@@ -129,3 +129,31 @@ ENTRY_CROWMAN_PASSIVE_DESC		= "Aumento de la velocidad de carrera enfundada.";
 RESEARCH_CROWMAN_1			= "El espécimen 'Corvus Orthograde' es un híbrido humano-cuervo de más de dos metros, con un gran pico óseo sobresaliente.";
 RESEARCH_CROWMAN_2			= "La infección ha formado una estructura ósea endurecida alrededor de la columna vertebral, protegiéndola del daño físico.";
 RESEARCH_CROWMAN_3			= "El espécimen parece vestir algún tipo de ropa. Se desconoce si fue encontrada o formaba parte del cuerpo original.";
+
+//-------------------------------------------------------------
+// Research - Rat
+
+ENTRY_RAT					= "Rata";
+ENTRY_RAT_SPECIES			= "Rodere";
+ENTRY_RAT_SERUM_NAME		= "Cepa Rodere";
+ENTRY_RAT_SERUM_DESC		= "Reduce tamaño y gana capacidad para colarse en pequeños rincones.";
+ENTRY_RAT_PASSIVE_NAME		= "PARA SER ESCRITO";
+ENTRY_RAT_PASSIVE_DESC		= "PARA SER ESCRITO";
+
+RESEARCH_RAT_1				= "PARA SER ESCRITO";
+RESEARCH_RAT_2				= "PARA SER ESCRITO";
+RESEARCH_RAT_3				= "PARA SER ESCRITO";
+
+//-------------------------------------------------------------
+// Research - Fishdog
+
+ENTRY_FISHDOG					= "perro pez";
+ENTRY_FISHDOG_SPECIES			= "Canis acuático";
+ENTRY_FISHDOG_SERUM_NAME		= "Cepa del perro";
+ENTRY_FISHDOG_SERUM_DESC		= "PARA SER ESCRITO";
+ENTRY_FISHDOG_PASSIVE_NAME		= "PARA SER ESCRITO";
+ENTRY_FISHDOG_PASSIVE_DESC		= "PARA SER ESCRITO";
+
+RESEARCH_FISHDOG_1				= "PARA SER ESCRITO";
+RESEARCH_FISHDOG_2				= "PARA SER ESCRITO";
+RESEARCH_FISHDOG_3				= "PARA SER ESCRITO";
