@@ -82,7 +82,7 @@ ENTRY_HUNTSMAN_SPECIES			= "Homo Venatores";
 ENTRY_HUNTSMAN_SERUM_NAME		= "Homo Venatores Cepa";
 ENTRY_HUNTSMAN_SERUM_DESC		= "Mejora la percepción sensorial de todas las formas de vida infectadas cercanas (incluso a través de paredes sólidas) y permite el parentesco con otros cazadores por un tiempo.";
 ENTRY_HUNTSMAN_PASSIVE_NAME		= "Marca del cazador";
-ENTRY_HUNTSMAN_PASSIVE_DESC		= "Se aumentó el daño físico y el daño balístico por disparo a la cabeza contra todas las variantes de cazadores.";
+ENTRY_HUNTSMAN_PASSIVE_DESC		= "Se aumentó el daño físico contra las variantes de cazadores y el daño balístico por disparo a la cabeza contra las variantes de cazadores y alguaciles.";
 
 RESEARCH_HUNTSMAN_1				= "El espécimen 'Homo Venatores' es un antiguo miembro humano del Gremio de Cazadores local. Lleva una túnica de cuero, un sombrero de ala ancha y una máscara con gafas protectoras para expediciones de exploración.";
 RESEARCH_HUNTSMAN_2				= "La infección ha aumentado la agresividad del espécimen, reducido su inteligencia y mejorado su percepción sensorial de otras formas de vida portadoras del contagio.";

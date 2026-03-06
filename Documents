@@ -158,6 +158,11 @@ NOTE_RESEARCH_INSTRUCTION_BODY	= "Doctor, un compañero mío escribió estas ins
 //-------------------------------------------------------------
 // Market
 
+MAPSET_MARKET_NAME	= "Mapa del distrito del mercado";
+MAP_MARKET_FULL_NAME    = "Mapa del distrito del mercado";
+MAP_MARKET_1_NAME       = "Mapa del distrito del mercado";
+MAP_MARKET_2_NAME       = "Mapa de la plaza del mercado";
+
 NOTE_MARKET_CONSTABLE_ORDER_1_NAME = "Orden de policía n.° 1";
 NOTE_MARKET_CONSTABLE_ORDER_1_BODY = "Orden directa del jefe de policía Harland:\n\nSegunda Brigada:\nMantenga las posiciones de la puerta sur hasta las tres campanadas.\n\nTercera Brigada:\nRefuerce las guarniciones de la plaza central y cubra la retirada de la segunda brigada.\n\nLa División Taller tiene N.B. manipulado y preparado.\n\nDestruya este mensaje al leerlo.";
 
@@ -252,6 +257,9 @@ NOTE_UNDERPORT_HIVE_SAFEROOM_BODY = "Estoy empezando a preguntarme si fue un err
 MAPSET_HIGHTOWN_NAME	= "Mapa del distrito de Ciudad Alta";
 MAP_HIGHTOWN_1_NAME		= "Mapa del distrito de Ciudad Alta";
 
+NOTE_HIGHTOWN_SNIPERS_NAME	= "¡Advertencia a mis hermanos!";
+NOTE_HIGHTOWN_SNIPERS_BODY	= "¡Atención, hermanos!\n\nLos malditos cerdos tienen francotiradores vigilando todas las calles principales.\n\nManténgase a cubierto y permanezca en las sombras.\n\n¡Escuche de donde vienen los disparos!\n\nEl primer francotirador está justo por delante, en el";
+
 NOTE_HIGHTOWN_HOTEL_NAME = "Asesinato en el Terrace Grove Inn";
 NOTE_HIGHTOWN_HOTEL_BODY = "¡Estos malditos agentes se creen que pueden controlar a cualquiera!\n\nDijeron que estaban investigando un asesinato en la habitación de arriba. ¡¿Un asesinato?! ¡Totalmente absurdo! Exigí ver una orden judicial, y se rieron entre dientes al mostrarme una que sus propios magistrados corruptos del Casco Viejo habían urdido.\n\nAhora, nadie se atreverá a cruzar la puerta. ¿Quién quiere quedarse en un hotel con estos matones rondando? ¡Malditos cabrones!\n\nSé que es una estratagema. Están planeando algo. Solo necesito averiguar qué. O acabaré pasando el resto de mis días en el Drunken Waterfowl..";
 
@@ -265,7 +273,7 @@ NOTE_HIGHTOWN_MONTGOMERY_MANIFEST_NAME = "Lista de ingredientes en el congelador
 NOTE_HIGHTOWN_MONTGOMERY_MANIFEST_BODY = "Percy,\n\nPor favor, asegúrense de tener los siguientes ingredientes en stock. Mi viaje del próximo mes para escalar las cimas de las montañas Vulmarianas requerirá un brebaje que resista las temperaturas y la presión extremas.<color=#840601><alpha=#EE><b>\n\nOrejas recogidas - 1\n\nPorción de la columna vertebral - 1\n\nBuque de cola de rata - 1\n\nSapo hipnótico - 1\n\nGel dentado - 1</color></b>\n\n\n-Montgomery";
 
 NOTE_HIGHTOWN_WRENBROOK_NAME = "Advertencia sobre Wrenbrook Manor";
-NOTE_HIGHTOWN_WRENBROOK_BODY = "Para la seguridad de la comunidad, la entrada principal y de servicio a Wrenbrook Manor han sido selladas.\n\nMúltiples informes de personas desaparecidas y avistamientos de actividades diabólicas han llevado a la Policía a creer que se han producido actividades prohibidas por el derecho consuetudinario en sus terrenos.\n\nHasta que las autoridades correspondientes puedan abordar estos crímenes atroces, hemos condenado a Wrenbrook Manor.\n\nSi usted o alguien que conoce tiene conocimiento de dónde se rumorea la entrada del techo, por favor avise al agente de patrulla más cercano.";
+NOTE_HIGHTOWN_WRENBROOK_BODY = "Para la seguridad de la comunidad, la entrada principal y la de servicio a Wrenbrook Manor han sido selladas.\n\nMúltiples informes de personas desaparecidas y avistamientos de actividades diabólicas han llevado a la Policía a creer que en sus terrenos se han producido actividades prohibidas por el derecho consuetudinario.\n\nHasta que las autoridades correspondientes puedan abordar estos crímenes atroces, hemos condenado Wrenbrook Manor.\n\nSi usted o alguien que conoce tiene algún conocimiento de dónde se rumorea que se encuentra la entrada del campanario, por favor avise al agente de patrulla más cercano.";
 
 NOTE_HIGHTOWN_GLASWELL_BEDROOM_NAME = "El diario de Lady Glaswell";
 NOTE_HIGHTOWN_GLASWELL_BEDROOM_BODY = "Esperaba que el interés de Burtwistle por mis estudios fuera auténtico, pero parece que solo era una treta. Cuando cree que no estoy mirando, lo veo buscando algo.\n\nEl puente que conecta nuestras fincas se ha convertido en una verdadera molestia. Sorprendí a Burtwistle en mi estudio. Tendré que reforzar mi seguridad allí arriba.\n\nHuxley cree que es un cazador de artefactos de la liga, pero eso parece improbable. Mientras tanto, me ayudará a hacer una barricada en el puente. Le diré a Burtwistle que estamos planeando algunas renovaciones.\n\nOjalá no haga ninguna estupidez.";
@@ -284,6 +292,9 @@ NOTE_HIGHTOWN_GLASWELL_MADNESS_BODY = "LAS ESTRELLAS NOS MIENTEN\n\nNOS TRAICION
 
 NOTE_HIGHTOWN_GLASWELL_POEM_NAME = "El llamado del cielo violeta";
 NOTE_HIGHTOWN_GLASWELL_POEM_BODY = "Oh estrellas de arriba\ncaos abajo\nYa no hay ningún lugar adonde ir\n\nLa luna todavía brilla\nA medida que las noches se hacen más largas\necos de una canción interminable\n\nella me llama\ndesde cielos violetas\npor favor oh condesa\nescucha nuestros gritos";
+
+NOTE_HIGHTOWN_TRAMSTATION_GEAR_NAME	= "Informe de mantenimiento del tranvía";
+NOTE_HIGHTOWN_TRAMSTATION_GEAR_BODY = "Los ingenieros finalizaron la inspección del dársena del tranvía. Observaron los siguientes problemas:<color=#840601><alpha=#EE>\n\n\t1.</color> Los soportes de la pasarela externa se instalaron incorrectamente en la sección 3 y requieren reinstalación.<color=#840601><alpha=#EE>\n\n\t2.</color> El engranaje de la ranura eléctrica es del tipo incorrecto y se ha dañado debido a la diferencia de resistencia de voltaje. Se requiere una rueda dentada especializada para manejar la carga eléctrica.\n\nHablaremos con la Autoridad Bancaria sobre la posibilidad de reemplazar la pasarela y el equipo, pero será necesario obtener aprobación.\n\nGracias por su continuo patrocinio.";
 
 
 

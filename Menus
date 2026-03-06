@@ -5,6 +5,7 @@ TITLE_SETTINGS = "Ajustes";
 TITLE_QUIT = "Salir";
 TITLE_STARTGAME = "Embarcar";
 MENU_NEWGAME_TITLE = "<size=80%>Nueva Partida";
+MENU_NEWGAME_OPTIONS_TITLE    = "¿Habilitar guardado rápido?";
 DIFFICULTY_SELECT = "\nSelecciona una dificultad";
 DIFFICULTY_NAME_EASY = "Creciente";
 DIFFICULTY_NAME_MEDIUM = "medialuna";

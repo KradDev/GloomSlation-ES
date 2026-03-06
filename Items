@@ -258,6 +258,9 @@ ITEM_HARPOON_ROPE_DESC			= "Un arpón que puede clavarse en ciertas superficies.
 ITEM_HARPOON_ROPE_BUNDLE_NAME = "Paquete de arpones - Cuerda";
 ITEM_HARPOON_ROPE_BUNDLE_DESC = "Un paquete de arpones.";
 
+ITEM_CORPSE_CROWCRITTER_NAME = "Cuervo";
+ITEM_CORPSE_CROWCRITTER_DESC = "Un cuervo muerto.";
+
 // Junk
 ITEM_BOTTLE_NAME = "botella de vidrio";
 ITEM_BOTTLE_DESC = "Una botella de licor de vidrio vacía que es capaz de crear una fuerte distracción. La etiqueta descolorida de Ashbrew Brewery envuelve el frente.";
@@ -496,6 +499,9 @@ KEY_COAST_GUARDTOWER_DESC = "Llave de la torre de vigilancia costera fuera de la
 KEY_COAST_GATEHOUSE_STORAGE_NAME = "Llave de almacenamiento de la puerta de entrada de la ciudad";
 KEY_COAST_GATEHOUSE_STORAGE_DESC = "Llave del trastero de la puerta de entrada de la ciudad.";
 
+KEY_MARKET_DRUGSHOP_BACKDOOR_NAME	= "Llave de la puerta trasera del Dr. Thatherson";
+KEY_MARKET_DRUGSHOP_BACKDOOR_DESC	= "Llave de la puerta trasera de la farmacia del Dr. Thatherson en el Distrito del Mercado.";
+
 KEY_MARKET_SHACK_1_NAME = "Llave de la puerta de la cabaña de pesca";
 KEY_MARKET_SHACK_1_DESC = "Llave de la puerta de una cabaña de pescadores cerrada con llave en el Market District.";
 
@@ -577,6 +583,9 @@ KEY_HIGHTOWN_MONTGOMERY_GUNCASE_DESC	= "Llave de la funda de la pistola en la sa
 
 KEY_HIGHTOWN_MONTGOMERY_WATCHDOGS_NAME	= "Llave de los perros guardianes de Montgomery";
 KEY_HIGHTOWN_MONTGOMERY_WATCHDOGS_DESC	= "Llave de la sala de control de vigilancia de la propiedad de Montgomery.";
+
+KEY_HIGHTOWN_WRENBROOK_FRONT_NAME		= "Llave de entrada de Wrenbrook";
+KEY_HIGHTOWN_WRENBROOK_FRONT_DESC		= "Llave de la puerta principal de Wrenbrook Manor.";
 
 KEY_HIGHTOWN_GLASWELL_STUDY_NAME		= "Llave del estudio del Observatorio Glaswell";
 KEY_HIGHTOWN_GLASWELL_STUDY_DESC		= "Llave del estudio en el Observatorio Glaswell.";

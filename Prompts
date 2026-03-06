@@ -16,6 +16,10 @@ ACTIONLOG_RESEARCH_PASSIVE			= "Rasgo desbloqueado {ITEM}";
 ACTIONLOG_DROP_ITEM					= "Inventario lleno - {ITEM} descartado";
 ACTIONLOG_BEASTFORM_INVALIDUSE		= "No se puede usar mientras está transformado";
 ACTIONLOG_CANNOT_USE_ITEM			= "No se puede usar el artículo";
+ACTIONLOG_RESEARCH_TABLE_MISSING_RESEARCH_SUBSTANCE = "La destilación requiere 3 sustancias de investigación";
+ACTIONLOG_RESEARCH_TABLE_MISSING_RESEARCH_ITEM = "Se requiere una parte del cuerpo válida para comenzar la destilación.";
+ACTIONLOG_RESEARCH_TABLE_NOT_READY  = "La mesa de investigación no está lista";
+ACTIONLOG_SAVING_INVENTORY_OPEN     = "No se puede guardar mientras el inventario está abierto";
 
 //-------------------------------------------------------------
 // Tutorial
