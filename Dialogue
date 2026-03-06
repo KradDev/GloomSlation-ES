@@ -191,7 +191,7 @@ VO_STEINENFRANK_CON_HIGHTOWN_5		= "*risa maniaca* Lo siento, yo... solo pensé e
 //-------------------------------------------------------------
 // Tram Announcer (Hightown)
 
-AI_TRAMANNOUNCER_ID					= "Tram Announcer";
+AI_TRAMANNOUNCER_ID					= "Locutor del tranvía";
 VO_TRAMANNOUNCER_IDLE_1				= "¡Manténgase fuera de la pista! Los infractores serán expulsados..";
 VO_TRAMANNOUNCER_IDLE_2				= "¡No pise las barandillas! Permanezca en las zonas designadas.";
 VO_TRAMANNOUNCER_IDLE_3				= "No se permite disparar armas de fuego en el tranvía, a menos que lo solicite o lo lleve a cabo un agente de la policía..";
