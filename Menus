@@ -1,13 +1,15 @@
 NONE					= "";
 TITLE_NEWGAME = "Nueva Partida";
-TITLE_LOAD = "Cargar";
+TITLE_LOADGAME = "Cargar";
 TITLE_SETTINGS = "Ajustes";
-TITLE_QUIT = "Salir";
-TITLE_STARTGAME = "Embarcar";
+TITLE_QUITGAME = "Salir";
 
 // New Game Menu
 MENU_NEWGAME_TITLE = "<size=80%>Nueva Partida";
 MENU_NEWGAME_OPTIONS_TITLE    = "<size=80%>¿Habilitar guardado rápido?";
+MENU_NEWGAME_QUICKSAVE		= "Habilitar Guardado Rápido";
+MENU_NEWGAME_SKIPINTRO		= "Saltar Intro";
+MENU_NEWGAME_PLAY			= "Embarcar";
 DIFFICULTY_SELECT = "\nSelecciona una dificultad";
 DIFFICULTY_NAME_EASY = "Creciente";
 DIFFICULTY_NAME_MEDIUM = "medialuna";
@@ -51,12 +53,36 @@ MENU_SAVE_MODAL_DESC = "¡Esta acción no se puede deshacer!";
 MENU_SAVE_DELETE_MODAL_TITLE = "¿Eliminar esto? ¿Guardar?";
 MENU_SAVE_OVERWRITE_MODAL_TITLE = "¿Sobrescribir esto? ¿Guardar?";
 
+// Save Slot Menu
+MENU_SAVESLOT_SAVE_TITLE			= "Menú Guardar partida";
+MENU_SAVESLOT_LOAD_TITLE			= "Menú Cargar partida";
+MENU_SAVESLOT_SAVE					= "Guardar";
+MENU_SAVESLOT_LOAD					= "Cargar";
+MENU_SAVESLOT_DELETE				= "Eliminar";
+MENU_SAVESLOT_FILE					= "Archivo";
+MENU_SAVESLOT_EMPTY					= "Sin Datos";
+MENU_SAVESLOT_TYPE_AUTOSAVE			= "Auto\nGuardado";
+MENU_SAVESLOT_TYPE_QUICKSAVE		= "Guardado\nRápido";
+MENU_SAVESLOT_TYPE_STANDARD			= "Normal";
+MENU_SAVESLOT_LOAD_OLD_TEXT_TOP		= "¿Cargar este guardado?";
+MENU_SAVESLOT_LOAD_OLD_TEXT_BOTTOM	= "La partida guardada procede de una versión anterior del juego y es posible que algunos objetos se carguen de forma incorrecta.";
+MENU_SAVESLOT_VERSION_SAVE			= "Versión guardada:";
+MENU_SAVESLOT_VERSION_GAME			= "Versión del juego:";
+MENU_SAVESLOT_OVERWRITE_TOP			= "¿Sobrescribir este guardado?";
+MENU_SAVESLOT_OVERWRITE_BOTTOM		= "Esta acción es legalmente vinculante.\nNo somos responsables de accidentes.";
+MENU_SAVESLOT_DELETE_TEXT_TOP		= "¿Eliminar este guardado?";
+MENU_SAVESLOT_DELETE_TEXT_BOTTOM	= "Esta acción es legalmente vinculante.\nNo somos responsables de accidentes.";
+
+
+
 // Pause Menu
 MENU_PAUSE_RESUME = "Reanudar";
 MENU_PAUSE_LOAD = "     Cargar";
 MENU_PAUSE_SETTINGS = "Ajustes";
 MENU_PAUSE_TITLE = "      Menú de título";
 MENU_PAUSE_QUIT = "         Salir del juego";
+MENU_PAUSE_QUICKSAVE = "Guardado rápido: ";
+MENU_PAUSE_QUICKLOAD = "Carga rápida: ";
 
 
 // Settings Menu
