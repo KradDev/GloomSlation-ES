@@ -38,6 +38,9 @@ ITEM_DROP						= "Dejar";
 ITEM_QUANTITY					= "Cantidad";
 ITEM_LOADEDTYPE					= "Tipo de munición";
 ITEM_LOADEDQUANTITY				= "Conteo de munición";
+ITEM_DETACH						= "Separar";
+ITEM_BIND						= "Unir";
+
 
 // Item Action Names
 ITEM_INJECT						= "Inyectar";
@@ -247,16 +250,20 @@ ITEM_GUNPOWDER_NAME = "Pólvora";
 ITEM_GUNPOWDER_DESC				= "";
 
 ITEM_HARPOON_NAME = "Arpón - Phineas Spike";
-ITEM_HARPOON_DESC = "Un arpón afilado que puede clavarse en ciertas superficies. Particularmente eficaz para el daño cerebral.";
+ITEM_HARPOON_DESC = "Un clavo de ferrocarril afilado utilizado por la Compañía Ferroviaria Phineas. Puede clavarse en determinadas superficies. Especialmente eficaz para causar daño cerebral.";
 
-ITEM_HARPOON_BUNDLE_NAME		= "Paquete de arpón - Phineas Spikes";
+ITEM_HARPOON_BUNDLE_NAME		= "Paquete de arpón - Spikes";
 ITEM_HARPOON_BUNDLE_DESC		= "Un paquete de arpones de punta.";
 
 ITEM_HARPOON_ROPE_NAME			= "Arpón - Cuerda";
-ITEM_HARPOON_ROPE_DESC			= "Un arpón que puede clavarse en ciertas superficies. Se puede conectar a una cuerda.";
+ITEM_HARPOON_ROPE_DESC			= "Un arpón capaz de clavarse en determinadas superficies y que despliega una cuerda por la que se puede trepar.";
 
 ITEM_HARPOON_ROPE_BUNDLE_NAME = "Paquete de arpones - Cuerda";
-ITEM_HARPOON_ROPE_BUNDLE_DESC = "Un paquete de arpones.";
+ITEM_HARPOON_ROPE_BUNDLE_DESC = "Un paquete de arpones de cuerda.";
+
+ITEM_HARPOON_FRAG_NAME	= "Arpón - Frag";
+ITEM_HARPOON_FRAG_DESC	= "Un arpón al que va acoplada una especie de erizo de mar que lanza violentamente sus púas cuando se le agita. Puede fijarse a determinadas superficies para provocar un efecto retardado.";
+
 
 ITEM_CORPSE_CROWCRITTER_NAME = "Cuervo";
 ITEM_CORPSE_CROWCRITTER_DESC = "Un cuervo muerto.";
@@ -358,7 +365,14 @@ ITEM_BONESAW_DESC	= "Una sierra de hueso de acero de grado quirúrgico, con mang
 ITEM_REVOLVER_NAME = "Revólver";
 ITEM_REVOLVER_DESC = "Revólver de acción de rotura con seis recámaras. De acero fundido y con recámara para un cartucho local de la ciudad.";
 
-ITEM_REVOLVER_CARBINE_NAME			= "Carabina revólver";
+ITEM_REVOLVER_SCOPE_NAME = "Revólver (con mira telescópica)";
+ITEM_REVOLVER_SCOPE_DESC = "Revólver de doble acción equipado con una mira telescópica con montura de acero. Útil para explorar rutas o eliminar amenazas desde lejos.";
+
+ITEM_REVOLVER_STOCK_NAME = "Carabina revólver";
+ITEM_REVOLVER_STOCK_DESC = "Revólver de apertura lateral provisto de una culata de madera resistente. Capaz de disparar de forma continua con una dispersión mínima.";
+
+
+ITEM_REVOLVER_CARBINE_NAME			= "Carabina revólver (con mira telescópica)";
 ITEM_REVOLVER_CARBINE_DESC			= "Revólver de acción reversible con mira telescópica de acero y culata de madera robusta. Útil para explorar rutas o eliminar amenazas a distancia.";
 
 ITEM_SHOTGUN_NAME = "Escopeta";
@@ -381,6 +395,16 @@ ITEM_FIREBOMB_DESC	= "Una bomba arrojadiza que envuelve en llamas la zona impact
 
 ITEM_HARPOONGUN_NAME = "Arma de arpón";
 ITEM_HARPOONGUN_DESC = "Un cañón de arpón impulsado por un novedoso sistema de escape de vapor. Si bien esta arma generalmente se emplea con fines de pesca, se puede usar en ciertas superficies para crear una cuerda extensible.";
+
+//-------------------------------------------------------------
+// Attachments
+
+ITEM_ATTACHMENT_STOCK_NAME			= "Culata";
+ITEM_ATTACHMENT_STOCK_DESC			= "Una culata compatible con el revólver. Cuando se acopla, minimiza la dispersión del revólver durante el fuego continuo.";
+
+ITEM_ATTACHMENT_SCOPE_NAME			= "Visor";
+ITEM_ATTACHMENT_SCOPE_DESC			= "Un visor con montura de acero compatible con el revólver. Cuando se acopla, permite eliminar objetivos desde lejos.";
+
 
 
 // Tools
@@ -535,10 +559,12 @@ KEY_MARKET_MANOR_3_FRONTDOOR_DESC = "Llave de la puerta de entrada de una mansi�
 KEY_MARKET_DRUNKEN_WATERFOWL_NAME = "Llave de Drunken Waterfowl";
 KEY_MARKET_DRUNKEN_WATERFOWL_DESC = "Llave de la taberna Drunken Waterfowl en el Distrito del Mercado.";
 
+KEY_MARKET_DRESSSHOP_FRONTDOOR_NAME		= "Llave de la tienda de vestidos de Willoughby";
+KEY_MARKET_DRESSSHOP_FRONTDOOR_DESC		= "Llave de la tienda de vestidos de Willoughby en el Distrito del Mercado.";
 
 KEY_UNDERPORT_ENTRANCE_NAME = "Llave de la puerta de entrada al subpuerto";
 KEY_UNDERPORT_ENTRANCE_DESC = "Llave de la puerta de entrada al puerto subterráneo en Market District.";
-
+    
 KEY_UNDERPORT_PUMPSTATION_MAIN_NAME = "Llave de la estación de bombeo bajo puerto";
 KEY_UNDERPORT_PUMPSTATION_MAIN_DESC = "Llave de la estación de bombeo pública en el puerto subterráneo.";
 
@@ -950,6 +976,40 @@ ITEM_CONSTABLE_LEG_RIGHT_NAME			= "Pierna derecha del agente";
 ITEM_CONSTABLE_LEG_RIGHT_DESC			= "La pierna derecha de un agente muerto.";
 ITEM_CONSTABLE_HAT_NAME					= "Casco de policía";
 ITEM_CONSTABLE_HAT_DESC					= "Un casco de custodio usado por los agentes.";
+
+
+
+
+
+
+//-------------------------------------------------------------
+// Giblets - Agente blindado
+
+ITEM_CONSTABLE_ARMORED_TORSO_NAME                = "Torso de un agente acorazado";
+ITEM_CONSTABLE_ARMORED_TORSO_DESC                = "El torso de un agente acorazado muerto.";
+ITEM_CONSTABLE_ARMORED_PELVIS_NAME                = "Pelvis de un agente acorazado";
+ITEM_CONSTABLE_ARMORED_PELVIS_DESC                = "La pelvis de un agente acorazado muerto.";
+ITEM_CONSTABLE_ARMORED_ARM_LEFT_NAME            = "Brazo izquierdo de un agente acorazado";
+ITEM_CONSTABLE_ARMORED_ARM_LEFT_DESC			= "El brazo izquierdo de un agente acorazado muerto.";
+ITEM_CONSTABLE_ARMORED_ARM_RIGHT_NAME            = "Brazo derecho de un agente acorazado";
+ITEM_CONSTABLE_ARMORED_ARM_RIGHT_DESC            = "El brazo derecho de un agente acorazado muerto.";
+ITEM_CONSTABLE_ARMORED_LEG_LEFT_NAME            = "Pierna izquierda de un agente acorazado";
+ITEM_CONSTABLE_ARMORED_LEG_LEFT_DESC            = "La pierna izquierda de un agente acorazado muerto.";
+ITEM_CONSTABLE_ARMORED_LEG_RIGHT_NAME			= "Pierna derecha de un agente acorazado";
+ITEM_CONSTABLE_ARMORED_LEG_RIGHT_DESC            = "La pierna derecha de un agente acorazado muerto.";
+ITEM_CONSTABLE_ARMORED_HELM_NAME                = "Casco de agente acorazado";
+ITEM_CONSTABLE_ARMORED_HELM_DESC				= "Un casco reforzado que llevan los agentes acorazados.";
+ITEM_CONSTABLE_ARMORED_GORGET_NAME                = "Gorget de agente acorazado";
+ITEM_CONSTABLE_ARMORED_GORGET_DESC                = "Un gorget reforzado que llevan los agentes acorazados.";
+ITEM_CONSTABLE_ARMORED_PAULDRON_LEFT_NAME        = "Hombrera izquierda del agente acorazado";
+ITEM_CONSTABLE_ARMORED_PAULDRON_LEFT_DESC        = "Una hombrera izquierda reforzada que llevan los alguaciles acorazados.";
+ITEM_CONSTABLE_ARMORED_PAULDRON_RIGHT_NAME        = "Hombrera derecha de alguacil acorazado";
+ITEM_CONSTABLE_ARMORED_PAULDRON_RIGHT_DESC		= "Una hombrera derecha reforzada que llevan los agentes acorazados.";
+ITEM_CONSTABLE_ARMORED_TASSET_LEFT_NAME            = "Tasset izquierdo de agente acorazado";
+ITEM_CONSTABLE_ARMORED_TASSET_LEFT_DESC            = "Un tasset izquierdo reforzado que llevan los agentes acorazados.";
+ITEM_CONSTABLE_ARMORED_TASSET_RIGHT_NAME        = "Tasset derecho de los agentes acorazados";
+ITEM_CONSTABLE_ARMORED_TASSET_RIGHT_DESC        = "Un tasset derecho reforzado que llevan los agentes acorazados.";
+
 
 
 //-------------------------------------------------------------

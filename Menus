@@ -4,6 +4,8 @@ TITLE_LOAD = "Cargar";
 TITLE_SETTINGS = "Ajustes";
 TITLE_QUIT = "Salir";
 TITLE_STARTGAME = "Embarcar";
+
+// New Game Menu
 MENU_NEWGAME_TITLE = "<size=80%>Nueva Partida";
 MENU_NEWGAME_OPTIONS_TITLE    = "<size=80%>¿Habilitar guardado rápido?";
 DIFFICULTY_SELECT = "\nSelecciona una dificultad";
@@ -20,29 +22,44 @@ DIFFICULTY_FEAT_EASY = "\n -Abundantes recursos -Baja presencia de enemigos\n-Da
 DIFFICULTY_FEAT_MEDIUM = "\n-Recursos estándar -Presencia enemiga estándar\n-Daño, velocidad y sentidos enemigos estándar\n-Solo se puede guardar en fonógrafos";
 DIFFICULTY_FEAT_HARD = "\n-Pocos recursos -Alta presencia de enemigos\n-Daño, velocidad y sentidos del enemigo Altos\n-Solo se puede guardar en Fonógrafos";
 DIFFICULTY_FEAT_EXPERT = "\n-Recursos escasos -Presencia enemiga muy alta\n-Daño, velocidad y sentidos del enemigo muy altos\n-Solo se puede guardar en fonógrafos con cilindros de cera";
+
+// Saved Game Message
 UI_SAVEMESSAGE = "Juego guardado";
 UI_QUICKSAVE_DISALLOW = "Guardado rápido no permitido";
 UI_AUTOSAVE = "Guardado automáticamente";
+
+// Brightness Menu
 MENU_BRIGHTNESS_TITLE = "Brillo";
 MENU_BRIGHTNESS_PROMPT = "Ajuste los controles deslizantes hasta que la imagen de la izquierda no sea visible";
+
+// Generic
 MENU_CONFIRM = "Sí";
 MENU_CANCEL = "No";
 MENU_YES = "Sí";
 MENU_NO = "No";
 MENU_NEXT = "<size=85%>Siguiente";
 MENU_BACK = "<size=85%>ATRÁS";
+
+// Load Game Menu
 MENU_LOAD_TITLE = "Cargar juego";
 MENU_LOAD_FILE = "<size=90%>Archivo";
 MENU_LOAD_QUICKSAVE = "Guardado rápido";
+
+// Save Game Menu
 MENU_SAVE_TITLE = "Elija una ranura para guardar";
 MENU_SAVE_MODAL_DESC = "¡Esta acción no se puede deshacer!";
 MENU_SAVE_DELETE_MODAL_TITLE = "¿Eliminar esto? ¿Guardar?";
 MENU_SAVE_OVERWRITE_MODAL_TITLE = "¿Sobrescribir esto? ¿Guardar?";
+
+// Pause Menu
 MENU_PAUSE_RESUME = "Reanudar";
 MENU_PAUSE_LOAD = "     Cargar";
 MENU_PAUSE_SETTINGS = "Ajustes";
 MENU_PAUSE_TITLE = "      Menú de título";
 MENU_PAUSE_QUIT = "         Salir del juego";
+
+
+// Settings Menu
 MENU_SETTINGS_TITLE = "AJUSTES";
 MENU_SETTINGS_GAMEPLAY = "JUEGO";
 MENU_SETTINGS_CAMERA = "CÁMARA";
@@ -52,6 +69,8 @@ MENU_SETTINGS_CONTROLS = "CONTROLES";
 MENU_SETTINGS_INPUT = "APORTE";
 MENU_BCG_BRIGHTNESS = "BRILLO / GAMMA";
 MENU_BCG_CONTRAST = "CONTRASTE";
+
+// Settings Gameplay Menu
 OPTION_FORMAT_BULLET = "{0}:";
 OPTION_FORMAT_COLON = "{0}:";
 OPTION_ENABLED = "en";
@@ -89,12 +108,16 @@ OPTION_ACTLOG_OFF = "Desactivado";
 OPTION_ACTLOG_ON = "Activado";
 OPTION_SEASONALCONTENT = "Habilitar contenido estacional";
 OPTION_DEVCONSOLE = "Habilitar la consola de desarrollador";
+
+// Settings Camera Menu
 OPTION_VIEW_FOV = "Campo de visión horizontal";
 OPTION_VIEW_SENSITIVITY = "Sensibilidad de la cámara";
 OPTION_VIEW_SMOOTHING = "Suavizado de la cámara";
 OPTION_VIEW_INVERT_Y = "Invertir eje Y de la vista";
 OPTION_VIEW_BOB = "Balanceo de la vista";
 OPTION_VIEW_SWAY = "Balanceo de la cámara";
+
+// Settings Video Menu
 OPTION_DISPLAY = "Pantalla";
 OPTION_RESOLUTION = "Resolución";
 OPTION_FULLSCREEN = "Pantalla completa";
@@ -133,8 +156,7 @@ OPTION_WEATHERQ_NORMAL		= "Normal";
 OPTION_WEATHERQ_LOW			= "Bajo";
 OPTION_WEATHERQ_VERYLOW		= "Muy bajo";
 
-//Audio Options
-
+// Settings Audio Menu
 OPTION_SPEAKER_MODE = "Modo altavoz";
 OPTION_SM_STEREO = "Estéreo";
 OPTION_SM_QUAD = "<size=90%>Cuadrafónico";
@@ -150,13 +172,28 @@ OPTION_SUB_MODE = "Modo de subtítulos";
 OPTION_SUB_MODE_NONE = "Ninguno";
 OPTION_SUB_MODE_SUB = "Diálogo";
 OPTION_SUB_MODE_FULL = "General";
+
+// Settings Controls Menu
 OPTION_BINDINGS = "TECLAS";
-OPTION_GAMEPAD = "Mando (pronto)";
+OPTION_GAMEPAD = "Mando";
 OPTION_SNEAK = "Alternar sigilo";
 OPTION_CROUCH = "Alternar agacharse";
 OPTION_SWITCHDRAW = "Desenfundar el arma al seleccionarla";
+OPTION_VIEW_STICK_SENSITIVITY = "Sensibilidad del joystick de vista";
+OPTION_MENU_STICK_SENSITIVITY = "Sensibilidad del joystick de menú";
+OPTION_RIGHT_STICK_DEADZONE = "Zona muerta del joystick derecho";
+OPTION_LEFT_STICK_DEADZONE = "Zona muerta del joystick izquierdo";
+OPTION_INVERT_RIGHT_STICK_X    = "Invertir el eje X del joystick derecho";
+OPTION_INVERT_RIGHT_STICK_Y    = "Invertir el eje Y del joystick derecho";
+OPTION_INVERT_LEFT_STICK_X    = "Invertir el eje X del joystick izquierdo";
+OPTION_INVERT_LEFT_STICK_Y    = "Invertir el eje Y del joystick izquierdo";
+
+
+// Brightness Menu
 OPTION_BRIGHT_PROMPT = "Ajuste el brillo hasta que la luna de la izquierda ya no sea visible.\nSi es necesario, ajuste la gamma hasta que la luna de la derecha no sea demasiado tenue ni brillante.";
 OPTION_CONTRAST_PROMPT = "Ajuste el contraste hasta que los colores sean ricos pero no demasiado vívidos.";
+
+// Bindings Menu
 BINDINGS_PROMPT = "Presione cualquier tecla para vincular";
 BINDINGS_RESET = "Los enlaces se han configurado por defecto";
 BINDINGS_BIND = "ha estado obligado a";
@@ -184,6 +221,7 @@ INPUT_RELOAD_WEAPON = "Recargar arma";
 INPUT_CHANGE_AMMO_TYPE = "Cambiar tipo de munición";
 INPUT_PRIMARY_FIRE = "Fuego primario";
 INPUT_ALTERNATE_FIRE = "Fuego secundario";
+INPUT_ACTION_MODIFIER	= "Modificador de acción";
 INPUT_WEAPON_0 = "Arma 0";
 INPUT_WEAPON_1 = "Arma 1";
 INPUT_WEAPON_2 = "Arma 2";
@@ -201,12 +239,20 @@ INPUT_MOUSE_BUTTON_0 = "Botón izquierdo del ratón";
 INPUT_MOUSE_BUTTON_1 = "Botón derecho del ratón";
 INPUT_MOUSE_WHEEL_UP = "Rueda del mouse hacia arriba";
 INPUT_MOUSE_WHEEL_DOWN = "Rueda del ratón hacia abajo";
+
+// Title Confirm
 MENU_TITLE_PROMPT = "VOLVER al MENÚ DE TÍTULO";
+
+// Quit Confirm
 MENU_QUIT_PROMPT = "¿Abandonar esta miserable ciudad?";
+
+// Modifiers
 KEY_NONE = "None";
 KEY_SHIFT = "Shift";
 KEY_ALT = "Alt";
 KEY_CONTROL = "Ctrl";
+
+// Mouse
 KEY_MOUSE = "Ratón";
 KEY_MOUSE_X = "Ratón X";
 KEY_MOUSE_Y = "Ratón Y";
@@ -220,6 +266,8 @@ KEY_MOUSE3 = "MB3";
 KEY_MOUSE4 = "MB4";
 KEY_MOUSE5 = "MB5";
 KEY_MOUSE6 = "MB6";
+
+// Keyboard
 KEY_BACKSPACE = "Retroceso";
 KEY_DELETE = "Borrar";
 KEY_TAB = "Tab";

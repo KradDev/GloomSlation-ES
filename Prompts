@@ -1,4 +1,8 @@
 NOTE_INVENTORY_MANUAL_BODY = "¡Gracias por comprar el estuche para caballeros!\nTenga en cuenta estos importantes consejos de uso:\n <font=\"Postamt SDF\"> \nFlip Equipment and Storage:<color=#840601> {INPUT:SNEAK}</color >\n\nCerrar inventario: <color=#840601> {INPUT:INVENTORY}</color>\n\n\n\SELECCIONAR MODO \n\nArma de tecla de acceso rápido: <color=#840601>{INPUT:SLOT_0}-{INPUT:SLOT_9}</color>\n\nRecoger artículo: <color=#840601>{INPUT:LMB}</color> o <color=#840601>{INPUT:RELOAD}</color>\n\nArtículo Menú de acción: <color=#840601>{INPUT:INTERACT}</color> o <color=#840601>{INPUT:RMB}</color>\n\nExaminar elemento: <color=#840601>{INPUT:LASTWEAPON}</color>\n\nEnvío rápido: <color=#840601>{INPUT:ZOOM}</color>\n\n\nMODO DE LUGAR \n\nColocar elemento: <color=#840601>{INPUT:LMB} </color>, <color=#840601>{INPUT:INTERACT}</color> o <color=#840601>{INPUT:RELOAD}</color>\n\nMover elemento: <color=#840601>{INPUT:MOVEFORWARD}</color>, <color=#840601>{INPUT:MOVELEFT}</color>, <color=#840601>{INPUT:MOVEBACKWARD}</color>, <color=#840601>{INPUT:MOVERIGHT}</color>\n\nGirar elemento (izquierda): <color=#840601>{INPUT:LEANLEFT}</color>\n\nGirar elemento (derecha): <color=#840601>{INPUT:LEANRIGHT}</color>\n\nTransporte rápido: <color=#840601>{INPUT:INVENTORY}</color></font>";
+NOTE_INVENTORY_MANUAL_BODY_GAMEPAD		= "¡Gracias por comprar el estuche «Gentleman's Case»!\nTen en cuenta estos importantes consejos de uso:\n <font=\"Postamt SDF\"> \nEquipos y almacenamiento de Flip: {INPUT:NEXTSUBCATEGORY} o {INPUT:LASTSUBCATEGORY}\n\n\nCerrar inventario: {INPUT:INVENTORY} o {INPUT:CANCEL}\n\n\nMover el cursor: {INPUT:RIGHTSTICK}\n\n\n\SELECCIONAR MODO \n\nMover selección: {INPUT:DPAD} o {INPUT:LEFTSTICK}\n\n\nTecla de acceso rápido para un arma: configura la tecla de acceso rápido de un objeto a través del menú de acciones del objeto.\n\n\nRecoger artículo: {INPUT:ALTSELECT}\n\n\nMenú de acciones del elemento: {INPUT:SELECT}\n\n\nExaminar Elemento: {INPUT:INSPECT}\n\n\nResumen rápido:  {INPUT:DROPITEM}\n\n\nMODO DE UBICACIÓN \n\nUbicación del artículo: {INPUT:SELECT} o {INPUT:ALTSELECT}\n\n\nMover Artículo: {INPUT:DPAD} o {INPUT:LEFTSTICK} \n\n\nRotar Artículo (izquierda): {INPUT:LASTCATEGORY}\n\n\nRotar Artículo (derecha): {INPUT:NEXTCATEGORY}\n\n\nTransporte rápido: {INPUT:INVENTORY} o {INPUT:CANCEL}</font>";
+NOTE_RIGHTSTICK = "<sprite index=8>";
+NOTE_LEFTSTICK = "<sprite index=0>";
+NOTE_DPAD = "<sprite index=40>";
 
 //-------------------------------------------------------------
 // Action Log
@@ -28,7 +32,8 @@ TUTORIAL_USE = "Usar";
 TUTORIAL_HOLD = "Sostener";
 TUTORIAL_RELEASE = "Liberar";
 TUTORIAL_INPUT = "[{0}]";
-TUTORIAL_MOVEMENT = "Utilice {MOVEFORWARD} {MOVELEFT} {MOVEBACKWARD} {MOVERIGHT} para mover personaje";
+TUTORIAL_INPUT_GAMEPAD = "{0}";
+TUTORIAL_MOVEMENT = "Utilice {MOVEFORWARD} {MOVELEFT} {MOVEBACKWARD} {MOVERIGHT}  para mover personaje";
 TUTORIAL_CAMERA = "Utilice {MOVECAMERA} para mover la cámara";
 TUTORIAL_MANTLE = "Mantén presionado {JUMP} para saltar y subir a las repisas.";
 TUTORIAL_STAND = "Utilice {CROUCH} para ponerse de pie";
@@ -41,12 +46,17 @@ TUTORIAL_LANDING = "Pisar y aterrizar sobre una superficie blanda es más silenc
 TUTORIAL_INVENTORY_PICKUP = "Utilice {INTERACT} para recoger su maleta de equipaje";
 TUTORIAL_INVENTORY_OPEN = "Utilice {INVENTORY} para abrir su maleta de equipaje";
 TUTORIAL_INVENTORY_EQUIPMENT = "Utilice {FLIP} para pasar al panel de equipamiento";
+TUTORIAL_INVENTORY_EQUIPMENT_GAMEPAD= "Utiliza {FLIP_LEFT_TRIGGER} o {FLIP_RIGHT_TRIGGER} para pasar al panel de equipamiento.";
 TUTORIAL_INVENTORY_STORAGE = "Utilice {FLIP} para volver al Panel de almacenamiento";
+TUTORIAL_INVENTORY_STORAGE_GAMEPAD = "Utiliza {FLIP_LEFT_TRIGGER} o {FLIP_RIGHT_TRIGGER} para volver al panel de almacenamiento.";
 TUTORIAL_INVENTORY_INSPECT = "Utilice {ALTFIRE} para inspeccionar el anillo de gemas de luz";
 TUTORIAL_INVENTORY_DRAG = "Utilice {PRIMARYFIRE} para recoger artículos y entrar y salir del equipaje";
+TUTORIAL_INVENTORY_DRAG_GAMEPAD = "Utiliza {ALTSELECT} para recoger el objeto y {RIGHTSTICK} para meterlo y sacarlo del equipaje.";
 TUTORIAL_INVENTORY_FLIP = "Utilice {FLIP} para cambiar el inventario entre equipo y almacenamiento";
 TUTORIAL_INVENTORY_CLOSE = "Utilice {INVENTORY} para cerrar la maleta del equipaje";
+TUTORIAL_INVENTORY_CLOSE_GAMEPAD = "Utiliza {CANCEL} para cerrar la maleta del equipaje";
 TUTORIAL_JOURNAL = "Utilice {JOURNAL} para abrir su diario";
+TUTORIAL_JOURNAL_GAMEPAD = "Mantenga presionado {INVENTORY} para abrir su diario";
 TUTORIAL_DOOR_OPEN_1 = "Utilice {INTERACT} para abrir la puerta";
 TUTORIAL_DOOR_OPEN_2 = "Mantenga presionado {INTERACT} para abrirlo lenta (y silenciosamente)";
 TUTORIAL_PICKPOCKET = "Usa {INTERACT} para robar la {KEY} del guardia";

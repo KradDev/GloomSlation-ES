@@ -193,6 +193,8 @@ NOTE_MARKET_MANOR_KITCHEN_2_BODY = "Personal,\n\nUn intruso fue atrapado en mi s
 NOTE_MARKET_CHEM_MANIFEST_NAME = "Inventario Diario del Boticario";
 NOTE_MARKET_CHEM_MANIFEST_BODY = "Inventario del martes después del cierre: <color=#840601><alpha=#EE><b>\n\nBote de lenguas - 1\nSapo hipnótico - 1\nGel dentado - 1\nRelicario de palma - 1\nGarra de cristal - 1</color><\b>\n\n-----\n\nVendido: <color=#840601><alpha=#EE><b>\n\nOrejas recolectadas - 1\nVaso de cola de rata - 1</color><\b>\n\nAmbas vendidas al dueño de la barbería. Un tipo desagradable. Muy grosero. No me imagino qué podría necesitar un barbero con estos artículos. Nada bueno, estoy seguro.\n\nAdemás, ¿dónde está nuestro próximo envío de Van Der Meer? ¡Me prometieron una muestra rara de cerebro y aún no ha llegado! Enviaré a mi asistente al Underport de inmediato.";
 
+NOTE_MARKET_DRESS_SHOP_NAME = "Almacenamiento de objetos valiosos de una tienda de ropa"
+NOTE_MARKET_DRESS_SHOP_BODY = "Sr. Willoughby,\n\nHe cerrado con llave por la noche, tal como me indicaron. Todos los objetos de valor y monedas están guardados a buen recaudo en la caja fuerte. También he cambiado el código de la caja fuerte para esta semana a 416.\n\nHoy fue un día tranquilo, pero le vendimos un par de vestidos a una mujer bastante desagradable. Si no necesitáramos cada venta, tal vez me habría planteado no atenderla. Tosía sin parar, apenas cubriéndose con el pañuelo, y tenía unas llagas y forúnculos repugnantes en la piel que se notaban por mucho maquillaje que se pusiera. Espero que nadie la haya visto en el local. Imagínense los chismes. Bueno, como dicen, sus monedas tintinean igual de fuerte.\n\n--Carlos";
 
 //-------------------------------------------------------------
 // Underport
