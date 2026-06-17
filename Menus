@@ -6,7 +6,6 @@ TITLE_QUITGAME = "Salir";
 
 // New Game Menu
 MENU_NEWGAME_TITLE = "<size=80%>Nueva Partida";
-MENU_NEWGAME_OPTIONS_TITLE    = "<size=80%>¿Habilitar guardado rápido?";
 MENU_NEWGAME_QUICKSAVE		= "Habilitar Guardado Rápido";
 MENU_NEWGAME_SKIPINTRO		= "Saltar Intro";
 MENU_NEWGAME_PLAY			= "Embarcar";
@@ -37,10 +36,14 @@ MENU_BRIGHTNESS_PROMPT = "Ajuste los controles deslizantes hasta que la imagen d
 // Generic
 MENU_CONFIRM = "Sí";
 MENU_CANCEL = "No";
-MENU_YES = "Sí";
-MENU_NO = "No";
 MENU_NEXT = "<size=85%>Siguiente";
 MENU_BACK = "<size=85%>ATRÁS";
+MENU_YES = "Sí";
+MENU_NO = "No";
+MENU_ACCEPT	= "Aceptar";
+MENU_APPLY	= "Aplicar";
+MENU_RESET	= "Reiniciar";
+MENU_EXIT	= "Salir";
 
 // Load Game Menu
 MENU_LOAD_TITLE = "Cargar juego";
@@ -50,7 +53,7 @@ MENU_LOAD_QUICKSAVE = "Guardado rápido";
 // Save Game Menu
 MENU_SAVE_TITLE = "Elija una ranura para guardar";
 MENU_SAVE_MODAL_DESC = "¡Esta acción no se puede deshacer!";
-MENU_SAVE_DELETE_MODAL_TITLE = "¿Eliminar esto? ¿Guardar?";
+MENU_SAVE_DELETE_MODAL_TITLE = "¿Eliminar esto?";
 MENU_SAVE_OVERWRITE_MODAL_TITLE = "¿Sobrescribir esto? ¿Guardar?";
 
 // Save Slot Menu
@@ -74,7 +77,6 @@ MENU_SAVESLOT_DELETE_TEXT_TOP		= "¿Eliminar este guardado?";
 MENU_SAVESLOT_DELETE_TEXT_BOTTOM	= "Esta acción es legalmente vinculante.\nNo somos responsables de accidentes.";
 
 
-
 // Pause Menu
 MENU_PAUSE_RESUME = "Reanudar";
 MENU_PAUSE_LOAD = "     Cargar";
@@ -92,9 +94,13 @@ MENU_SETTINGS_CAMERA = "CÁMARA";
 MENU_SETTINGS_VIDEO = "VIDEO";
 MENU_SETTINGS_AUDIO = "AUDIO";
 MENU_SETTINGS_CONTROLS = "CONTROLES";
-MENU_SETTINGS_INPUT = "APORTE";
+MENU_SETTINGS_INPUT = "ENTRADA";
+MENU_SETTINGS_GAMEPAD = "MANDO";
+MENU_SETTINGS_BRIGHTNESS = "CALIBRAR BRILLO";
 MENU_BCG_BRIGHTNESS = "BRILLO / GAMMA";
 MENU_BCG_CONTRAST = "CONTRASTE";
+MENU_RESET_DEFAULTS	= "Restablecer valores";
+MENU_INPUT_TITLE	= "Menú de asignación de entradas";
 
 // Settings Gameplay Menu
 OPTION_FORMAT_BULLET = "{0}:";
@@ -111,6 +117,9 @@ OPTION_LOW = "Bajo";
 OPTION_MEDIUM = "Medio";
 OPTION_HIGH = "Alto";
 OPTION_ULTRA = "Ultra";
+OPTION_NEAR	= "Cerca";
+OPTION_FAR	= "Lejos";
+OPTION_ACCEPT	= "Aceptar";
 OPTION_APPLY = "Aplicar";
 OPTION_RESET = "reiniciar";
 OPTION_BACK = "atrás";
@@ -121,13 +130,14 @@ OPTION_VISIONCONES = "Mostrar conos de visión";
 OPTION_VC_OFF = "Apagado";
 OPTION_VC_MONO = "Monocromo";
 OPTION_VC_COLORED = "Color";
+OPTION_SWITCHDRAW	= "Cambio de arma al desenfundar";
 OPTION_HIGHLIGHTS = "Habilitar resaltado de interacciones";
 OPTION_HL_BRIGHTNESS = "Brillo";
 OPTION_HL_COLOR = "Color";
 OPTION_HL_COLOR_R = "Rojo";
 OPTION_HL_COLOR_G = "Verde";
 OPTION_HL_COLOR_B = "Azul";
-OPTION_INV_GR_OPACITY = "<size=90%>Opacidad cuadrícula inventario";
+OPTION_INV_GR_OPACITY = "<size=85%>Opacidad cuadrícula inventario";
 OPTION_INV_HL_OPACITY = "<size=90%>Opacidad selección inventario";
 OPTION_ACTIONLOG = "Habilitar registro de acciones";
 OPTION_ACTLOG_OFF = "Desactivado";
@@ -137,9 +147,6 @@ OPTION_DEVCONSOLE = "Habilitar la consola de desarrollador";
 
 // Settings Camera Menu
 OPTION_VIEW_FOV = "Campo de visión horizontal";
-OPTION_VIEW_SENSITIVITY = "Sensibilidad de la cámara";
-OPTION_VIEW_SMOOTHING = "Suavizado de la cámara";
-OPTION_VIEW_INVERT_Y = "Invertir eje Y de la vista";
 OPTION_VIEW_BOB = "Balanceo de la vista";
 OPTION_VIEW_SWAY = "Balanceo de la cámara";
 
@@ -157,11 +164,8 @@ OPTION_BRIGHTNESS = "Brillo";
 OPTION_CONTRAST = "Contraste";
 OPTION_GAMMA = "Gama";
 OPTION_DYNSHAD = "Calidad de sombra dinámica";
-OPTION_PROJSHAD_QUALITY = "Calidad de la sombra proyectada";
+OPTION_PROJSHAD_QUAL = "Calidad de la sombra proyectada";
 OPTION_PROJSHAD_DIST = "Distancia de sombra proyectada";
-OPTION_PROJSHAD_OFF = "off";
-OPTION_PROJSHAD_NEAR = "Cerca";
-OPTION_PROJSHAD_FAR = "Lejos";
 OPTION_TF = "Filtrado de texturas";
 OPTION_TF_POINT = "Punto";
 OPTION_TF_BILINEAR = "bilineal";
@@ -177,7 +181,7 @@ OPTION_AA_2X = "2X";
 OPTION_AA_4X = "4X";
 OPTION_AA_8X = "8X";
 OPTION_LIGHTFLARES = "Habilitar destellos de luz";
-OPTION_WEATHERQ		    = "Weather Particles Quality";
+OPTION_WEATHERQ		    = "Calidad de las partículas";
 OPTION_WEATHERQ_NORMAL		= "Normal";
 OPTION_WEATHERQ_LOW			= "Bajo";
 OPTION_WEATHERQ_VERYLOW		= "Muy bajo";
@@ -190,7 +194,7 @@ OPTION_SM_SURROUND = "Envolvente";
 OPTION_SM_5point1 = "<size=90%>Envolvente 5.1";
 OPTION_SM_7point1 = "<size=90%>Envolvente 7.1";
 OPTION_VOL_MASTER = "Volumen maestro";
-OPTION_VOL_SFX = "Volumen de efectos especiales";
+OPTION_VOL_SFX = "<size=80%>Volumen de efectos especiales";
 OPTION_VOL_VOC = "volumen vocal";
 OPTION_VOL_AMB = "Volumen ambiental";
 OPTION_VOL_MUSIC = "Volumen de música";
@@ -200,26 +204,33 @@ OPTION_SUB_MODE_SUB = "Diálogo";
 OPTION_SUB_MODE_FULL = "General";
 
 // Settings Controls Menu
+OPTION_INPUT_MAPPING = "Asignación de entradas";
 OPTION_BINDINGS = "TECLAS";
-OPTION_GAMEPAD = "Mando";
+OPTION_GAMEPAD = "Habilitar Mando";
 OPTION_SNEAK = "Alternar sigilo";
 OPTION_CROUCH = "Alternar agacharse";
-OPTION_SWITCHDRAW = "Desenfundar el arma al seleccionarla";
-OPTION_VIEW_STICK_SENSITIVITY = "Sensibilidad del joystick de vista";
-OPTION_MENU_STICK_SENSITIVITY = "Sensibilidad del joystick de menú";
-OPTION_RIGHT_STICK_DEADZONE = "Zona muerta del joystick derecho";
-OPTION_LEFT_STICK_DEADZONE = "Zona muerta del joystick izquierdo";
-OPTION_INVERT_RIGHT_STICK_X    = "Invertir el eje X del joystick derecho";
-OPTION_INVERT_RIGHT_STICK_Y    = "Invertir el eje Y del joystick derecho";
-OPTION_INVERT_LEFT_STICK_X    = "Invertir el eje X del joystick izquierdo";
-OPTION_INVERT_LEFT_STICK_Y    = "Invertir el eje Y del joystick izquierdo";
+OPTION_DOUBLE_TAP_THRESHOLD			= "Umbral de doble toque";
+OPTION_LOOK_SENSITIVITY				= "Sensibilidad de la vista";
+OPTION_GAMEPAD_LOOK_SENSITIVITY		= "<size=78%>Sensibilidad de la vista del mando";
+OPTION_LOOK_SMOOTHING				= "Suavizado de la vista";
+OPTION_LOOK_INVERT_Y				= "Invertir eje Y de la vista";
+OPTION_AIM_DOWN_SIGHT_SENSITIVITY	= "Sensibilidad del apuntado";
+OPTION_MENU_STICK_SENSITIVITY		= "<size=80%>Sensibilidad del stick de menú";
+OPTION_RIGHT_STICK_DEADZONE			= "<size=80%>Zona muerta del joystick derecho";
+OPTION_LEFT_STICK_DEADZONE			= "<size=77%>Zona muerta del joystick izquierdo";
+OPTION_INVERT_RIGHT_STICK_X			= "Invertir el joystick derecho X";
+OPTION_INVERT_RIGHT_STICK_Y			= "Invertir el joystick derecho Y";
+OPTION_INVERT_LEFT_STICK_X			= "Invertir el joystick izquierdo X";
+OPTION_INVERT_LEFT_STICK_Y			= "Invertir el joystick izquierdo Y";
 
 
 // Brightness Menu
-OPTION_BRIGHT_PROMPT = "Ajuste el brillo hasta que la luna de la izquierda ya no sea visible.\nSi es necesario, ajuste la gamma hasta que la luna de la derecha no sea demasiado tenue ni brillante.";
+OPTION_BRIGHT_PROMPT = "<size=80%>Ajuste el brillo hasta que la luna de la izquierda ya no sea visible.\nSi es necesario, ajuste la gamma hasta que la luna de la derecha no sea demasiado tenue ni brillante.";
 OPTION_CONTRAST_PROMPT = "Ajuste el contraste hasta que los colores sean ricos pero no demasiado vívidos.";
 
 // Bindings Menu
+BINDINGS_HEADER	= "Reasignación de teclas";
+BINDINGS_SELECT	= "Pulsa una tecla";
 BINDINGS_PROMPT = "Presione cualquier tecla para vincular";
 BINDINGS_RESET = "Los enlaces se han configurado por defecto";
 BINDINGS_BIND = "ha estado obligado a";
@@ -270,7 +281,16 @@ INPUT_MOUSE_WHEEL_DOWN = "Rueda del ratón hacia abajo";
 MENU_TITLE_PROMPT = "VOLVER al MENÚ DE TÍTULO";
 
 // Quit Confirm
+MENU_QUIT_PROMPT_TOP    = "¿Una discusión con un vecino? 
+¿Tu mujer te ha pillado con una amiga?
+¿Estás huyendo de la policía?
+Si por cualquier motivo sientes que debes...";
 MENU_QUIT_PROMPT = "¿Abandonar esta miserable ciudad?";
+MENU_QUIT_PROMPT_BOTTOM = "¡No te preocupes! Solo tienes que marcar la casilla que dice \"sí\" y dejar
+la tarjeta al señor que te la ha ofrecido.
+Si prefieres rechazar nuestros servicios, marca \"no\".
+
+Deja el resto en nuestras manos.";
 
 // Modifiers
 KEY_NONE = "None";
@@ -444,6 +464,8 @@ KEY_PRINT = "Imprimir";
 KEY_SYSREQ = "Solicitud de sistema";
 KEY_BREAK = "Romper";
 KEY_MENU = "Menú";
+
+//INTRO
 INTRO_NEWBLOOD = "New Blood Interactive\npresenta";
 INTRO_DEVELOPERS = "Un juego de\nDillon Rogers y David Szymanski";
 
