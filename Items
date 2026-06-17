@@ -9,6 +9,17 @@ SLOT_EYE						= "Ojo";
 SLOT_RING						= "Anillo";
 SLOT_CURRENCY					= "Oro";
 SLOT_JOURNAL					= "Diario";
+SLOT_0							= "Ranura 0";
+SLOT_1							= "Ranura 1";
+SLOT_2							= "Ranura 2";
+SLOT_3							= "Ranura 3";
+SLOT_4							= "Ranura 4";
+SLOT_5							= "Ranura 5";
+SLOT_6							= "Ranura 6";
+SLOT_7							= "Ranura 7";
+SLOT_8							= "Ranura 8";
+SLOT_9							= "Ranura 9";
+SLOT_UNBIND						= "Desasignar";
 
 // Condition
 CONDITION						= "Condición";
@@ -39,7 +50,7 @@ ITEM_QUANTITY					= "Cantidad";
 ITEM_LOADEDTYPE					= "Tipo de munición";
 ITEM_LOADEDQUANTITY				= "Conteo de munición";
 ITEM_DETACH						= "Separar";
-ITEM_BIND						= "Unir";
+ITEM_SHORTCUT					= "Atajo";
 
 
 // Item Action Names
@@ -262,7 +273,7 @@ ITEM_HARPOON_ROPE_BUNDLE_NAME = "Paquete de arpones - Cuerda";
 ITEM_HARPOON_ROPE_BUNDLE_DESC = "Un paquete de arpones de cuerda.";
 
 ITEM_HARPOON_FRAG_NAME	= "Arpón - Frag";
-ITEM_HARPOON_FRAG_DESC	= "Un arpón al que va acoplada una especie de erizo de mar que lanza violentamente sus púas cuando se le agita. Puede fijarse a determinadas superficies para provocar un efecto retardado.";
+ITEM_HARPOON_FRAG_DESC	= "Un arpón con una punta en forma de erizo de mar que, al agitarse, hace estallar violentamente sus púas. Se puede disparar contra superficies blandas para que actúe como trampa de proximidad, o contra superficies más duras para obtener un efecto inmediato.";
 
 
 ITEM_CORPSE_CROWCRITTER_NAME = "Cuervo";
@@ -698,6 +709,9 @@ ITEM_KEY_MOLD_DESC	= "Un molde antiguo utilizado para hacer una llave con un pro
 
 ITEM_INGOT_IRON_NAME    = "Lingote de hierro";
 ITEM_INGOT_IRON_DESC	= "Una pesada barra hecha de hierro. Es poco probable que encuentre un herrero que se lo lleve, pero es posible que un comerciante aún esté interesado en comprarlo.";
+
+ITEM_NECKLACE_1_NAME		= "Collar";
+ITEM_NECKLACE_1_DESC		= "Un collar con una ranura vacía. Quizá quepa una pequeña piedra preciosa en él";
 
 ITEM_NECKLACE_1_TURQUOISE_NAME	= "Collar Turquesa";
 ITEM_NECKLACE_1_TURQUOISE_DESC	= "Un collar con una rara piedra preciosa de turquesa. Las facetas brillantes parecen olas turbulentas en la luz.";
